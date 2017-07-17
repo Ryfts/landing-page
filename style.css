@@ -697,6 +697,7 @@ background: -webkit-linear-gradient(top right,#643cc1,#ff3196); /*Safari 5.1-6*/
 background: -o-linear-gradient(top right,#643cc1,#ff3196); /*Opera 11.1-12*/
 background: -moz-linear-gradient(top right,#643cc1,#ff3196); /*Fx 3.6-15*/
 background: linear-gradient(top right, #643cc1, #ff3196); /*Standard*/
+padding-top: 48px;
 }
 
 /*********

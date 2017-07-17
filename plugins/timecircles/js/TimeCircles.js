@@ -402,7 +402,7 @@
             this.data.attributes.line_width = this.data.attributes.item_size * this.config.fg_width;
             this.data.attributes.radius = ((this.data.attributes.item_size * 0.8) - this.data.attributes.line_width) / 2;
         } else {
-            this.data.attributes.line_width = 40;
+            this.data.attributes.line_width = 50;
             this.data.attributes.radius = 0;
         }
 

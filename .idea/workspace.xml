@@ -2,342 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9251bb98-6f00-48d2-a8ad-10ea57a6b631" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/song.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3d/3d-box-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3d/3d-box-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3d/3d-box-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3d/3d-box-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/author_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/author_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/author_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/back-to-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog/img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog/img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog/img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog/img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dummy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logos/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logos/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logos/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logos/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logos/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/slide-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/slide-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/widget_gallery/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/images/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/images/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/images/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/images/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/images/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_large_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_large_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_left2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrow_right2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrowleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrowright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/arrows.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/black50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/boxed_bgtile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/bullet_boxed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/bullets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/bullets.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/bullets2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/coloredbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/grain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/gridtile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/gridtile_3x3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/gridtile_3x3_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/gridtile_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/large_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/large_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/loader2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/navigdots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/navigdots_bgtile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/shadow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/shadow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/shadow3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/small_arrows.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/small_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/small_left_boxed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/small_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/small_right_boxed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/timerdot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/transparent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/assets/white50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/font/revicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/font/revicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/font/revicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/images/decor_inside.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/images/decor_inside_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/images/decor_testimonial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/images/gradient/g30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/images/gradient/g40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/button-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/cover-grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/icon-link32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/icon-play32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/icon-zoom32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/lightbox-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/lightbox-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/lightbox-icon-close-compact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/lightbox-icon-close-compact2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/lightbox-icon-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-black7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader-white7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader_bright.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/loader_skype_trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/not_loaded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/play-button-round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/play-button-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/images/transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/arrows_strip_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/arrows_strip_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/button_fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/button_playpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/button_zoom_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/button_zoom_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/button_zoom_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_left_hortype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_right_hortype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_handle_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_handle_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_handle_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/grid_handle_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/slider_arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/slider_arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/images/slider_bullets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrow_grid_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrow_grid_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrows_strip_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrows_strip_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrows_strip_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/arrows_strip_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/button_fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/button_playpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_handle_black_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_handle_black_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_handle_black_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/grid_handle_black_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/icon_zoom_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/icon_zoom_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/icon_zoom_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/slider_arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/slider_arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/slider_bullets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_bullets_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_bullets_brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_bullets_gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_bullets_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_bullets_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_button_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_button_play_pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/default/tile_button_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/arrow_down_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/arrows_strip_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/arrows_strip_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/button_fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/button_fullscreen_single.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/button_playpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/images/button_playpause_single.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/images/arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/images/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ryfts-landing-page.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-full-width.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/careers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coming-soon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content-boxes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/blog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/content-boxes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ico.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/widget.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.inview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/smoothscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/animate/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/counterup/jquery.counterup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/counterup/waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/css/isotope.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/css/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/js/isotope-main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/js/isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/isotope-portfolio/js/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jquery.transform.js-master/jquery.transform2d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jquery.transform.js-master/jquery.transform3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/lightbox-master/dist/ekko-lightbox.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/nouislider/css/nouislider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/nouislider/css/nouislider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/nouislider/js/nouislider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/nouislider/js/nouislider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/parallax/js/jquery-2.1.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/parallax/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/parallax/js/jquery.parallax-scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/css/extralayers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/css/settings-ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/css/settings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/font/revicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/timecircles/css/TimeCircles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/css/unite-gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/js/jquery-11.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/js/unitegallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/js/unitegallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/skins/alexis/alexis.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/ug-theme-default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/default/ug-theme-default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/grid/ug-theme-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/slider/ug-theme-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/tiles/ug-theme-tiles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/skin-bottom-text.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/skin-right-no-thumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/skin-right-thumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/skin-right-title-only.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/unitegallery-master/package/unitegallery/themes/video/ug-theme-video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolios.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortcodes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-portfolio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/team.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/particles.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ico.css" afterPath="$PROJECT_DIR$/css/ico.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js" afterPath="$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -355,13 +26,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="219" column="104" lean-forward="false" selection-start-line="219" selection-start-column="104" selection-end-line="219" selection-end-column="104" />
+            <state relative-caret-position="260">
+              <caret line="70" column="73" lean-forward="false" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#11020#11026#1" expanded="true" />
+                <element signature="e#8648#8654#1" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -369,11 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ico.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="particles.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/particles.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2004">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ico.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/ico.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+            <state relative-caret-position="518">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/carlos-html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="678" column="4" lean-forward="true" selection-start-line="678" selection-start-column="4" selection-end-line="678" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -382,21 +74,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="223" column="39" lean-forward="true" selection-start-line="223" selection-start-column="39" selection-end-line="229" selection-end-column="10" />
+            <state relative-caret-position="-3955">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeCircles.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="405" column="44" lean-forward="false" selection-start-line="405" selection-start-column="44" selection-end-line="405" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -412,23 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>date-</find>
-      <find>token</find>
-      <find>progre</find>
-      <find>curs</find>
-      <find>.pad</find>
-      <find>.padding</find>
-      <find>circle</find>
-      <find>bg_</find>
-      <find>circle_bg_color</find>
-      <find>this.data.att</find>
-      <find>TC_Instance</find>
-      <find>radius</find>
-      <find>row</find>
-      <find>this.data.attributes.item_size)</find>
-      <find>date</find>
-      <find>ico.c</find>
-      <find>time</find>
       <find>displa</find>
       <find>number_size</find>
       <find>text_elem</find>
@@ -442,6 +107,23 @@
       <find>default</find>
       <find>.default</find>
       <find>&quot;left</find>
+      <find>you can</find>
+      <find>slider</find>
+      <find>\&lt;div class\=\&quot;tp\-banner\-container\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;tp\-banner\&quot; \&gt;</find>
+      <find>ti</find>
+      <find>tip-</find>
+      <find>tp</find>
+      <find>tp-b</find>
+      <find>tp-banne</find>
+      <find>tp-banner</find>
+      <find>.tp-banner</find>
+      <find>hover</find>
+      <find>width</find>
+      <find>carlos</find>
+      <find>navbar</find>
+      <find>main-slider</find>
+      <find>footer</find>
+      <find>&lt;foo</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -454,11 +136,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/ico.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/assets/particles.json" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/ico.css" />
       </list>
     </option>
   </component>
@@ -571,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,12 +377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500224607331</updated>
-      <workItem from="1500224608693" duration="14786000" />
+      <workItem from="1500224608693" duration="20522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14786000" />
+    <option name="totallyTimeSpent" value="20522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="0" />
@@ -758,37 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/carlos-html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="513" column="26" lean-forward="true" selection-start-line="511" selection-start-column="20" selection-end-line="513" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="295" column="9" lean-forward="false" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="219" column="104" lean-forward="false" selection-start-line="219" selection-start-column="104" selection-end-line="219" selection-end-column="104" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#11020#11026#1" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/timecircles/css/TimeCircles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -797,28 +449,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ico.css">
+    <entry file="file://$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="511">
+          <caret line="404" column="47" lean-forward="false" selection-start-line="404" selection-start-column="47" selection-end-line="404" selection-end-column="47" />
+          <folding>
+            <marker date="1500239533693" expanded="true" signature="719:33962" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="699" column="15" lean-forward="false" selection-start-line="699" selection-start-column="15" selection-end-line="699" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/carlos-html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="678" column="4" lean-forward="true" selection-start-line="678" selection-start-column="4" selection-end-line="678" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="223" column="39" lean-forward="true" selection-start-line="223" selection-start-column="39" selection-end-line="229" selection-end-column="10" />
+        <state relative-caret-position="-3955">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/timecircles/js/TimeCircles.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="405" column="44" lean-forward="false" selection-start-line="405" selection-start-column="44" selection-end-line="405" selection-end-column="44" />
+        <state relative-caret-position="260">
+          <caret line="70" column="73" lean-forward="false" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8648#8654#1" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2004">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ico.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
       </provider>

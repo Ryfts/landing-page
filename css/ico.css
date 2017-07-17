@@ -6,10 +6,21 @@
 .no-circles .time_circles{position:relative;width:100%;height:100%;margin:0 auto}
 .no-circles .time_circles>div>h4{margin:-20px 0;padding:0;text-align:center;line-height:1;font-size:11px!important;font-weight:500;text-transform:lowercase;position:absolute;top:43px;width:100%}
 .no-circles .time_circles>div>span{font-weight:700;font-size:21px!important;}
-.no-circles .time_circles .textDiv_Hours:after, .textDiv_Minutes:after{
+.no-circles .textDiv_Hours:after, .no-circles .textDiv_Minutes:after{
     content: ":";
     position: absolute;
     top: 0px;
     right: -2px;
     color: #ff3196;
 }
+
+.banner-container {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1.25;
+    position: absolute;
+    top: 10%;
+}
+
+.banner-container h2, .banner-container h4 { color: #FFFFFF; }
