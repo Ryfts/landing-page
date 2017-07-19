@@ -142,18 +142,11 @@ $(document).ready(function() {
             Hours: {show: !0, text: "Hours", color: "#f6b559"},
             Minutes: {show: !0, text: "Minutes", color: "#f6b559"},
             Seconds: {show: !0, text: "Seconds", color: "#f6b559"}
-        },
+        }
 	});
 
-    $(".bonus-timer").TimeCircles({
-        count_past_zero: false,
-        time: {
-            Days: {show: false, text: "Days", color: "#f6b559"},
-            Hours: {show: true, text: "Hours", color: "#f6b559"},
-            Minutes: {show: true, text: "Minutes", color: "#f6b559"},
-            Seconds: {show: true, text: "Seconds", color: "#f6b559"}
-        },
-        display_circles: false,
+    $('.bonus-timer').countdown('2017-08-17', function(event) {
+        $(this).html(event.strftime('%-H hours %-M minutes and %-S seconds'));
     });
 
 /////////////////////////////////////////////////////////////////

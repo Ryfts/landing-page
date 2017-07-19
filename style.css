@@ -718,7 +718,7 @@ Timeline
 	min-height: 1px;
 	width: 100%;
 }
-.timeline-section:nth-child(even) .timeline-section-detail {
+.timeline-section:nth-child(even) .timeline-section-detail, .go-right {
 	float: right;
 }
 .timeline-section:nth-child(odd) .timgline-img {
