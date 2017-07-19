@@ -1,7 +1,38 @@
-.slider { cursor: default !important; }
-.slider .noUi-handle { cursor: default !important; }
-.noUi-connect { background: #3FB8AF !important; }
-.slider .noUi-handle { display: none; }
+.ico-progress { background: #cccccc; height: 20px; padding-left: 0;}
+.ico-progress li {
+    width: 20%;
+    position: relative;
+    height: 100%;
+    display: inline-block;
+}
+.ico-progress li.markdown:after {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    display: block;
+    border: 4px solid #645d6d;
+    background-color: #3c3549;
+    border-radius: 50%;
+    z-index: 9;
+    content: "";
+}
+.ico-progress li.progress-bar {
+    position: absolute;
+    height: 20px;
+    background: #5cb85c;
+}
+.ico-progress li .up {
+    position: absolute;
+    bottom: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 80px;
+    letter-spacing: .5px;
+    line-height: 1.75;
+    font-size: 15px;
+    text-align: left;
+}
+
 
 .no-circles .time_circles{position:relative;width:100%;height:100%;margin:0 auto}
 .no-circles .time_circles>div>h4{margin:-20px 0;padding:0;text-align:center;line-height:1;font-size:11px!important;font-weight:500;text-transform:lowercase;position:absolute;top:43px;width:100%}
@@ -13,6 +44,8 @@
     right: -2px;
     color: #ff3196;
 }
+
+#particles-js canvas { height: 450px !important; }
 
 .banner-container {
     text-align: center;

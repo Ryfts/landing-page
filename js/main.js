@@ -156,30 +156,6 @@ $(document).ready(function() {
         display_circles: false,
     });
 
-    var rangeSlider = document.getElementById('sale-slider');
-    noUiSlider.create(rangeSlider, {
-        start: [ 1500 ],
-        range: {
-            'min': [ 0 ],
-            'max': [ 3000 ]
-        },
-		tooltips: true,
-        format: {
-            to: function ( value ) {
-                return value + ' BTC';
-            },
-            from: function ( value ) {
-                return value.replace(',-', '');
-            }
-        },
-        pips: {
-            mode: 'values',
-            values: [0, 1000, 2000, 3000],
-            density: 999
-        },
-		connect: 'lower'
-    });
-
 /////////////////////////////////////////////////////////////////
 // Particles (animated background)
 /////////////////////////////////////////////////////////////////
