@@ -1,32 +1,31 @@
-.ico-progress { background: #cccccc; height: 20px; padding-left: 0;}
+.ico-progress { background: #cccccc; height: 20px; padding-left: 0; position: relative;}
 .ico-progress li {
-    width: 20%;
+    width: 10%;
     position: relative;
     height: 100%;
     display: inline-block;
 }
 .ico-progress li.markdown:after {
     position: absolute;
-    height: 14px;
+    height: 32px;
     width: 14px;
     display: block;
-    border: 4px solid #645d6d;
-    background-color: #3c3549;
-    border-radius: 50%;
-    z-index: 9;
+    border-left: dashed 2px darkred;
     content: "";
+    top: -32px;
+    left: 35px;
 }
 .ico-progress li.progress-bar {
     position: absolute;
     height: 20px;
-    background: #5cb85c;
+    background: #ff3196;
 }
 .ico-progress li .up {
     position: absolute;
     bottom: 20px;
     font-weight: 500;
     color: #000;
-    width: 80px;
+    width: 50px;
     letter-spacing: .5px;
     line-height: 1.75;
     font-size: 15px;
@@ -45,7 +44,7 @@
     color: #ff3196;
 }
 
-#particles-js canvas { height: 450px !important; }
+#particles-js canvas { height: 520px !important; }
 
 .banner-container {
     text-align: center;
@@ -53,7 +52,7 @@
     display: inline-block;
     line-height: 1.25;
     position: absolute;
-    top: 10%;
+    top: 20%;
 }
 
 .banner-container h2, .banner-container h4 { color: #FFFFFF; }

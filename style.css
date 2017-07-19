@@ -696,10 +696,14 @@ Header
 }
 #main-slider {
 background: #643cc1; /* Old Browsers */
-background: -webkit-linear-gradient(top right,#643cc1,#ff3196); /*Safari 5.1-6*/
-background: -o-linear-gradient(top right,#643cc1,#ff3196); /*Opera 11.1-12*/
-background: -moz-linear-gradient(top right,#643cc1,#ff3196); /*Fx 3.6-15*/
-background: linear-gradient(top right, #643cc1, #ff3196); /*Standard*/
+background: -webkit-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
+background: -o-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
+background: -moz-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
+background: radial-gradient(circle at bottom center,#ff3196,#643cc1);
+/*background: -webkit-linear-gradient(top right,#643cc1,#ff3196); /*Safari 5.1-6*/
+/*background: -o-linear-gradient(top right,#643cc1,#ff3196); /*Opera 11.1-12*/
+/*background: -moz-linear-gradient(top right,#643cc1,#ff3196); /*Fx 3.6-15*/
+/*background: linear-gradient(top right, #643cc1, #ff3196); /*Standard*/
 padding-top: 48px;
 }
 
