@@ -78,8 +78,53 @@ $(document).ready(function() {
 // Particles (animated background)
 /////////////////////////////////////////////////////////////////
 
-    particlesJS.load('particles-js', '../assets/particles.json', function() {
-        console.log('callback - particles.js config loaded');
+    particlesJS.load('particles-js', '../assets/particles.json');
+
+/////////////////////////////////////////////////////////////////
+// High charts
+/////////////////////////////////////////////////////////////////
+    Highcharts.chart('distribution', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'Token distribution'
+        },
+        tooltip: {
+            pointFormat: '<b>{point.percentage}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage}%',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            colorByPoint: true,
+            data: [{
+                name: 'Marketing',
+                y: 40
+            }, {
+                name: 'Research & Development',
+                y: 35
+            }, {
+                name: 'Freerolls and bounties',
+                y: 25
+            }]
+        }],
+        credits: {
+            enabled: false
+        }
     });
 
 }); // Close Function
