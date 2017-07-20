@@ -298,6 +298,10 @@ ul.nostyle i {
 .pt100 {
 	padding-top: 100px !important;
 }
+.shrink {
+	margin-right: 35px;
+	margin-left: 35px;
+}
 .padding.no-title {
 	padding: 70px 0;
 }
