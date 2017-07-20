@@ -26,6 +26,7 @@ Author URL: http://themeforest.net/user/yasirzia
 html, body {
 	height: 100%;
 	margin: 0;
+	background: #232328;
 }
 body {
 	padding-top: 0;
@@ -288,6 +289,9 @@ ul.nostyle i {
 .align-center {
 	margin: 0 auto;
 }
+.align-text-center {
+	text-align: center;
+}
 .padding {
 	padding: 80px 0;
 	/*padding: 80px 0 60px;*/
@@ -338,6 +342,11 @@ ul.nostyle i {
 .dark, .dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark a, .dark li, .dark span, .dark .content-box p, .dark .content-box i, #main-slider .dark h2, .dark address {
 	color: #ffffff;
 }
+
+.style-three:hover i, .style-three:hover h4 {
+	color: #ff3196;
+}
+
 .themecolor {
 	color: #643cc1 !important;
 }
@@ -421,7 +430,7 @@ ul.nostyle i {
   position: relative;
   -webkit-transition: color 2s;
   transition: color 2s;
-  box-shadow: inset 0 0 0 5px #ff3196;
+  box-shadow: inset 0 0 0 5px #FFFFFF; /*#ff3196;*/
 }
 
 .effect-border::before, .effect-border::after {
@@ -451,15 +460,15 @@ ul.nostyle i {
 .effect-border:hover::before , .effect-border.active::before {
   -webkit-transition: width .25s ease-out, height .25s ease-out .25s;
   transition: width .25s ease-out, height .25s ease-out .25s;
-  border-top-color: #643cc1;
-  border-right-color: #643cc1;
+  border-top-color: #ff3196;/*#643cc1;*/
+  border-right-color: #ff3196;/*#643cc1;*/
 }
 
 .effect-border:hover::after , .effect-border.active::after {
   -webkit-transition: border-color 0s ease-out .5s, width .25s ease-out .5s, height .25s ease-out .75s;
   transition: border-color 0s ease-out .5s, width .25s ease-out .5s, height .25s ease-out .75s;
-  border-bottom-color: #643cc1;
-  border-left-color: #643cc1;
+  border-bottom-color: #ff3196;
+  border-left-color: #ff3196;
 }
 ::selection {
 	background: #ff3196;
@@ -795,8 +804,8 @@ Portfolio Section Home
 Single Portfolio
 ******/
 .portfolio-details-list {
-    padding: 0;
-    margin: 0;
+    padding: 10% 0 0;
+    margin: 0 0 0 10%;
 }
 .portfolio-details-list li {
     list-style: none;
@@ -807,12 +816,12 @@ Single Portfolio
 .portfolio-details-list li h4 {
     clear: none;
     float: left;
-    width: 130px;
+    width: 145px;
     margin-top: 10px;
 }
 .portfolio-details-list li p {
     clear: none;
-    float: left;
+    /*float: left;*/
     margin: 10px;
 }
 
@@ -827,7 +836,7 @@ CTA
 	background: -moz-linear-gradient(bottom left,#643cc1,#ff3196); /*Fx 3.6-15*/
 	background: linear-gradient(bottom left, #643cc1, #ff3196); /*Standard*/
 }
-.cta.style-one .btn {
+.cta.style-one .btn, .mt-15 {
 	margin-top: 15px;
 }
 

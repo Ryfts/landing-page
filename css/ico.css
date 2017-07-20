@@ -1,3 +1,5 @@
+#particles-js canvas { height: 520px !important; }
+
 .timer .time_circles span { color: #ffffff; }
 .ico-progress { background: #cccccc; height: 20px; padding-left: 0; position: relative; margin-top: 40px;}
 .ico-progress li {
@@ -45,8 +47,6 @@ p.label-2 { margin-top: 10px; }
     color: #ff3196;
 }
 
-#particles-js canvas { height: 520px !important; }
-
 .banner-container {
     text-align: center;
     vertical-align: middle;
@@ -56,6 +56,10 @@ p.label-2 { margin-top: 10px; }
     top: 20%;
 }
 .banner-container h2, .banner-container h4 { color: #FFFFFF; }
+
+.icon.past {
+    border-color: #E0E0E0;
+}
 
 .coin-stats { display: inherit; }
 .coin { margin-top: 10px; }
