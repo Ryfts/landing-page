@@ -1,78 +1,15 @@
-/*
-| ----------------------------------------------------------------------------------
-| TABLE OF CONTENT
-| ----------------------------------------------------------------------------------
--Revolution Slider
--Unit Gallery
--Skills
--Progress Bar Percentage
--Search Popup
--Smooth Scrolling
--Parallax
--Lightbox
--Wow
-*/
 $(document).ready(function() {
 	'use strict';
-	
 
-/////////////////////////////////////////////////////////////////
-// Skills
-/////////////////////////////////////////////////////////////////
-
-        $('.skills').on('inview', function() {
-            $('.progress .progress-bar').css("width", function() {
-                return $(this).attr("aria-valuenow") + "%";
-            })
-		});
-
-/////////////////////////////////////////////////////////////////
-// Progress Bar Percentage
-/////////////////////////////////////////////////////////////////
-
-		
-			$('.progress-bar-percent').counterUp({
-				delay: 10,
-				time: 2000
-			});
-		 
-
-/////////////////////////////////////////////////////////////////
-// Search Popup
-/////////////////////////////////////////////////////////////////
-
-
-	$('a[href="#search"]').on('click', function(event) {
-        event.preventDefault();
-        $('#search').addClass('open');
-        $('#search > form > input[type="search"]').focus();
-    });
-    
-    $('#search, #search button.close').on('click keyup', function(event) {
-        if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
-            $(this).removeClass('open');
-        }
-    });
-    
-    $('form').submit(function(event) {
-        event.preventDefault();
-        return false;
-    })
-
-
-		
 /////////////////////////////////////////////////////////////////
 // Smooth Scrolling
 /////////////////////////////////////////////////////////////////
-
-
-
-
 	// Add scrollspy to <body>
 	$('body').scrollspy({
 		target: ".navbar",
 		offset: 50
 	});
+
 	// Add smooth scrolling on all links inside the navbar
 	$("#main-menu a").on('click', function(event) {
 		// Make sure this.hash has a value before overriding default behavior
@@ -110,18 +47,6 @@ $(document).ready(function() {
         simpleParallax();
     });	
 	
-	
-	
-	
-/////////////////////////////////////////////////////////////////
-// Lightbox 
-/////////////////////////////////////////////////////////////////		
-	
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-	});
-
 
 /////////////////////////////////////////////////////////////////
 // Wow 
