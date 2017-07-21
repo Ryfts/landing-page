@@ -171,13 +171,55 @@
             </div>
 
             <div class="row flex-row">
-                <div class="col-md-12">
+                <div class="col-md-4">
+                    <canvas id="triangles" resize></canvas>
+                </div>
+
+                <div class="col-md-8">
+                    <h4>Total distributed:</h4>
                     <ul class="ico-progress">
                         <li class="progress-bar progress-bar-success" style="width: 46%; margin-right: 15px;">46%</li>
                         <li><div class="up">0%</div></li>
                         <li class="markdown triangle-markdown"><div class="up" style="color: darkred">10%</div></li>
                         <li style="width: 0%; float: right;"><div class="up">100%</div></li>
                     </ul>
+
+                    <div class="row flex-row stats-row">
+                        <div class="col-md-6 no-padding">
+                            <div class="col-md-6">
+                                <h4>Total sold:</h4>
+                                <div class="textDiv_Days">
+                                    <span style="font-size: 36px">3,454,789</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4>Total investors:</h4>
+                                <div class="textDiv_Days">
+                                    <span style="font-size: 36px">4,789</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 coin-stats">
+                            <div class="coin center-block text-center">
+                                <img src="img/btc.png" alt="bitcoin" />
+                                <span>128</span>
+                            </div>
+                            <div class="coin center-block text-center">
+                                <img src="img/eth.png" alt="ethereum" />
+                                <span>128</span>
+                            </div>
+                            <div class="coin center-block text-center">
+                                <img src="img/ltc.png" alt="litecoin" />
+                                <span>128</span>
+                            </div>
+                            <div class="coin center-block text-center">
+                                <img src="img/dash.png" alt="dash" />
+                                <span>128</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -197,43 +239,6 @@
             </div>
 
             <br /><br />
-
-            <div class="row flex-row">
-                <div class="col-md-6">
-                    <div class="col-md-6">
-                        <h4>Total tokens sold:</h4>
-                        <div class="textDiv_Days">
-                            <span style="font-size: 36px">3,454,789</span>&nbsp;<h4 style="font-size: 16px; display: inline-block">RYF</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h4>Total investors:</h4>
-                        <div class="textDiv_Days">
-                            <span style="font-size: 36px">4,789</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 coin-stats">
-                    <div class="coin center-block text-center">
-                        <img src="img/btc.png" alt="bitcoin" />
-                        <span>128</span>
-                    </div>
-                    <div class="coin center-block text-center">
-                        <img src="img/eth.png" alt="ethereum" />
-                        <span>128</span>
-                    </div>
-                    <div class="coin center-block text-center">
-                        <img src="img/ltc.png" alt="litecoin" />
-                        <span>128</span>
-                    </div>
-                    <div class="coin center-block text-center">
-                        <img src="img/dash.png" alt="dash" />
-                        <span>128</span>
-                    </div>
-                </div>
-            </div>
 
             <div class="row">
                 <div class="col-md-12 align-text-center">
@@ -386,5 +391,8 @@
 <script type="text/javascript" src="plugins/particles/js/particles.js"></script>
 <!-- Highcharts -->
 <script type="text/javascript" src="plugins/highcharts/highcharts.js"></script>
+<!-- Paper -->
+<script type="text/javascript" src="plugins/paper/dist/paper-full.js"></script>
+<script type="text/paperscript" canvas="triangles" src="plugins/canvas/triangles.js"> </script>
 </body>
 </html>

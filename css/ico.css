@@ -71,3 +71,15 @@ p.label-2 { margin-top: 10px; }
     top: 20px;
     opacity: 0.8;
 }
+
+canvas#triangles {
+    top: -230px;
+    right: 10%;
+    width: 400px;
+    height: 310px;
+}
+
+.stats-row {
+    align-items: flex-end;
+    height: 70%;
+}
