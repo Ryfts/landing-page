@@ -65,3 +65,9 @@ p.label-2 { margin-top: 10px; }
 .coin { margin-top: 10px; }
 .coin img { margin-bottom: 10px; height: 40px; }
 .coin span { display: block; font-size: 20px; }
+
+#canvas-math {
+    position: absolute;
+    top: 20px;
+    opacity: 0.8;
+}

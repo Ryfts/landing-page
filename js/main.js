@@ -127,4 +127,9 @@ $(document).ready(function() {
         }
     });
 
+    /* Load Canvas math */
+    canvas = document.getElementById("canvas-math");
+    ctx = canvas.getContext("2d");
+    drawLines();
+
 }); // Close Function

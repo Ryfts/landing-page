@@ -28,6 +28,9 @@ html, body {
 	margin: 0;
 	background: #232328;
 }
+section {
+	background: #232328;
+}
 body {
 	padding-top: 0;
 	background: #fff;
@@ -545,6 +548,9 @@ ul.nostyle i {
 }
 .margintop-30 {
 	margin-top: 30px;
+}
+.margintop-60 {
+	margin-top: 60px;
 }
 .marginbottom-30 {
 	margin-bottom: 30px;
