@@ -224,6 +224,10 @@ transition: all .3s;
 	font-size: 30px;
 }
 
+.feature-content:hover h4 {
+	color: #ea308b;
+}
+
 
 /*Event Thumbnail*/
 .event-thumbnail img {

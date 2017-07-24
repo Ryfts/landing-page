@@ -1,5 +1,5 @@
 #particles-js canvas { height: 520px !important; }
-
+.navbar {  background: none; }
 .timer .time_circles span { color: #ffffff; }
 .ico-progress { background: #cccccc; height: 20px; padding-left: 0; position: relative; margin-top: 40px;}
 .ico-progress li {

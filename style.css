@@ -721,7 +721,7 @@ Header
 	color: #ffffff;
 }
 #main-slider {
-	background-image: url("/img/background.jpg");
+	background-image: url("img/background.jpg");
 /*background: #643cc1; !* Old Browsers *!*/
 /*background: -webkit-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
 background: -o-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
