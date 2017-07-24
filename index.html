@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="plugins/highcharts/css/highcharts.css" type="text/css" />
     <!-- Style -->
     <link href="style.css" rel="stylesheet">
+    <link href="css/particles.css" rel="stylesheet">
     <link href="css/ico.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,18 +65,21 @@
 
     <div id="main-slider">
 		<div class="container-fluid">
-            <div id="particles-js"></div>
-            <div class="banner-container col-md-6 col-md-offset-3">
-                <h2>Ryfts - Token sale live now</h2>
-                <h4>Winning against the odds</h4>
-                <span><i class="fa fa-play-circle"></i> Play explainer video</span>
+            <div class="m-intro">
+                <div class="e-text margintop-60">
+                    <h2>Ryfts - A transparent raffle <br />based on blockchain</h2>
+                    <h4>Winning against the odds</h4>
+                    <a href="#" class="btn theme"><i class="fa fa-play-circle"></i> Play explainer video</a>
 
-                <div class="col-md-12 pt-4">
-                    <h4>Token sale will end in:</h4>
-                    <div class="timer" data-date="2017-08-17 00:00:00"></div>
+                    <h4 class="padding-box-40 no-float">Built using Noize randomization engine, ryfts offers etc..</h4>
 
-                    <a href="#ico" class="btn btn-default margintop-30">Participate Now</a>
+                    <div class="margintop-60">
+                        <a href="#ico" class="btn btn-default btn-effect">Join token sale</a>
+                    </div>
+                    <div id="particleCanvas-Orange" class="e-particles-orange"></div>
                 </div>
+
+                <div id="particleCanvas-Blue" class="e-particles-blue"></div>
             </div>
         </div>
 	</div>
@@ -220,6 +224,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 pt-4">
+                    <h4>Token sale will end in:</h4>
+                    <div class="timer" data-date="2017-08-17 00:00:00"></div>
+
+                    <a href="#ico" class="btn btn-default margintop-30">Participate Now</a>
                 </div>
             </div>
 

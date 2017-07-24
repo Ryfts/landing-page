@@ -83,3 +83,7 @@ canvas#triangles {
     align-items: flex-end;
     height: 70%;
 }
+
+.m-intro a {  z-index: 800; }
+.btn.theme { font-weight: 100; }
+#main-slider h2, #main-slider h4 { color: #ffffff; }

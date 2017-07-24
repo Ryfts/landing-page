@@ -78,7 +78,8 @@ $(document).ready(function() {
 // Particles (animated background)
 /////////////////////////////////////////////////////////////////
 
-    particlesJS.load('particles-js', '../assets/particles.json');
+    particlesJS.load('particleCanvas-Orange', '../assets/particles-orange.json');
+    //particlesJS.load('particleCanvas-Blue', '../assets/particles-blue.json');
 
 /////////////////////////////////////////////////////////////////
 // High charts

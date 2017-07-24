@@ -219,7 +219,7 @@ footer {
 	position: relative;
     overflow: hidden;
 }
-.btn:hover:after {
+.btn-effect:hover:after {
   -webkit-transition: .7s linear;
   transition: .7s linear;
   background-position: 150% 0;
@@ -288,6 +288,9 @@ ul.nostyle i {
 	display: inline-block;
 	float: none;
 	margin-bottom: -5px;
+}
+.no-float {
+	float: none !important;
 }
 .align-center {
 	margin: 0 auto;
@@ -718,15 +721,16 @@ Header
 	color: #ffffff;
 }
 #main-slider {
-background: #643cc1; /* Old Browsers */
-background: -webkit-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
+	background-image: url("/img/background.jpg");
+/*background: #643cc1; !* Old Browsers *!*/
+/*background: -webkit-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
 background: -o-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
 background: -moz-radial-gradient(ellipse at bottom center,#ff3196,#643cc1);
-background: radial-gradient(circle at bottom center,#ff3196,#643cc1);
-/*background: -webkit-linear-gradient(top right,#643cc1,#ff3196); /*Safari 5.1-6*/
-/*background: -o-linear-gradient(top right,#643cc1,#ff3196); /*Opera 11.1-12*/
-/*background: -moz-linear-gradient(top right,#643cc1,#ff3196); /*Fx 3.6-15*/
-/*background: linear-gradient(top right, #643cc1, #ff3196); /*Standard*/
+background: radial-gradient(circle at bottom center,#ff3196,#643cc1);*/
+/*background: -webkit-linear-gradient(top,#ff3196,#232328); /*Safari 5.1-6*/
+/*background: -o-linear-gradient(top,#ff3196,#232328); !*Opera 11.1-12*!*/
+/*background: -moz-linear-gradient(top,#ff3196,#232328); !*Fx 3.6-15*!*/
+/*background: linear-gradient(top, #ff3196, #232328); !*Standard*!*/
 padding-top: 48px;
 }
 
