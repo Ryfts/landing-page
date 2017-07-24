@@ -56,7 +56,7 @@
     left: 50%;
 }
 .m-intro:before {
-    background-image: url("/img/circle_inner.png");
+    background-image: url("../img/circle_inner.png");
     background-size: 100% auto;
     -webkit-animation: rotate 30s infinite linear;
     -moz-animation: rotate 30s infinite linear;
@@ -65,7 +65,7 @@
     opacity: 0.8;
 }
 .m-intro:after {
-    background-image: url("/img/circle_outer.png");
+    background-image: url("../img/circle_outer.png");
     background-size: 100% auto;
     -webkit-animation: rotate 80s infinite linear;
     -moz-animation: rotate 80s infinite linear;
