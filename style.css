@@ -214,7 +214,7 @@ footer {
 	background: #f26522;
 }
 .btn {
-	border-radius: 50px;
+	/*border-radius: 50px;*/
 	margin-bottom: 20px;
 	position: relative;
     overflow: hidden;
