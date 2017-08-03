@@ -10,14 +10,16 @@
     margin-bottom: 30px;
     padding-bottom: 1px;
 }
-.widget .widget-title:after {
+/*.widget .widget-title:after {
     content: '';
     position: absolute;
     bottom: 0px;
+	left: 48%;
     width: 40px;
     height: 2px;
     background: #6f43d6;
-}
+}*/
+
 .widget .list{
 	position:relative;
 	list-style: none;
