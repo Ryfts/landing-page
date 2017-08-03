@@ -63,10 +63,10 @@ $(document).ready(function() {
 		fg_width: 0.025,
         direction: "Counter-Clockwise",
 		time: {
-            Days: {show: !0, text: "Days", color: "#f6b559"},
-            Hours: {show: !0, text: "Hours", color: "#f6b559"},
-            Minutes: {show: !0, text: "Minutes", color: "#f6b559"},
-            Seconds: {show: !0, text: "Seconds", color: "#f6b559"}
+            Days: {show: true, text: "Days", color: "#f6b559"},
+            Hours: {show: true, text: "Hours", color: "#f6b559"},
+            Minutes: {show: true, text: "Minutes", color: "#f6b559"},
+            Seconds: {show: true, text: "Seconds", color: "#f6b559"}
         }
 	});
 
