@@ -86,7 +86,6 @@ $(document).ready(function() {
 /////////////////////////////////////////////////////////////////
     Highcharts.chart('distribution', {
         chart: {
-            plotBackgroundColor: null,
             plotBorderWidth: null,
             plotShadow: false,
             type: 'pie'

@@ -47,6 +47,8 @@ p.label-2 { margin-top: 10px; }
     color: #ff3196;
 }
 
+/*.highcharts-background { fill: transparent;}*/
+
 .banner-container {
     text-align: center;
     vertical-align: middle;

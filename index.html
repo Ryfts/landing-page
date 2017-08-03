@@ -63,7 +63,7 @@
         </div>
     </nav>
 
-    <div id="main-slider">
+    <section class="cd-section" id="main-slider">
 		<div class="container-fluid">
             <div class="m-intro">
                 <div class="e-text margintop-60">
@@ -79,7 +79,7 @@
                 <div id="particleCanvas-Blue" class="e-particles-blue"></div>
             </div>
         </div>
-	</div>
+	</section>
 
     <section class="padding dark">
         <div class="container">
@@ -115,7 +115,7 @@
         </div>
     </section>
 
-    <section class="padding scroll wow fadeIn dark" id="about">
+    <section class="padding dark" id="about">
         <div class="container">
             <div class="row">
                 <div class="section-title wow zoomIn">
@@ -239,8 +239,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="row">
+    <section class="padding shrink dark">
+        <div class="container">
+            <div class="row flex-row">
                 <div class="col-md-12 pt-4">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <h4>Token sale will end in:</h4>
@@ -253,22 +257,17 @@
 
             <br />
 
-            <div class="row">
+            <div class="row flex-row">
                 <div class="col-md-10 col-md-offset-1">
-                    <p class="text-center">Minimum number of sold tokens should be 3,000,000 and maximum 33,000,000.</p>
                     <p class="text-center">At the end of the token sale the remaining unsold tokens will be burned and the share of
                         all token holders will be proportionally increased depending on the outstanding package.
-                        Bonuses are organized through hours where investors in first 3 hours get 25% of bonus,
-                        next 6 hours 15% and afterwards next 9 hours 5%.
                     </p>
                     <br />
                     <p>Current <span>5% bonus</span> finishes in: <span class="bonus-timer"></span>!</p>
                 </div>
             </div>
 
-            <br /><br />
-
-            <div class="row">
+            <div class="row flex-row">
                 <div class="col-md-12 align-text-center">
                     <a href="#" class="btn btn-default margintop-30 padding-horizontal">Join Now</a>
                 </div>
@@ -276,8 +275,28 @@
         </div>
     </section>
 
+    <section class="padding dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="distribution" style="width:100%; height:400px;"></div>
+                </div>
 
-    <section class="padding scroll dark" id="roadmap">
+                <div class="col-md-6">
+                    <ul class="portfolio-details-list">
+                        <li><h4>TOKEN NAME:</h4><p>RYF</p></li>
+                        <li><h4>TOKEN PRICE:</h4><p>0.3 USD</p></li>
+                        <li><h4>TOTAL SUPPLY:</h4><p>30,000,000</p></li>
+                        <li><h4>TOKEN EMISSION:</h4><p>10% of RYF tokens is reserved for the team and 90% goes on sale</p></li>
+                        <li><h4>REWARD FOR TOP 10 INVESTORS:</h4><p>Lifetime platinum membership which offers playing without fees and X free rolls per month.</p></li>
+                        <li><h4>WHITE PAPER:</h4><p><a href="/ryfts_whitepaper.pdf"><i class="fa fa-file"></i> Document</a></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding dark" id="roadmap">
         <div class="container">
             <div class="row">
                 <div class="section-title wow zoomIn">
@@ -324,62 +343,51 @@
         </div>
     </section>
 
-    <footer id="contact">
-        <div class="container-fluid">
-            <div class="row flex-row jetblackbg dark">
-                <div class="col-md-8 col-md-offset-2 padding-box-40">
-                    <div class="widget">
-                        <div class="widget-title text-center">
-                            <h3>Contact us</h3>
-                        </div>
-
-                        <ul class="social-network social-circle">
-                            <li><a href="#" title="Github"><i class="fa fa-github"></i></a></li>
-                            <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" title="Bitcoin Talk"><i class="fa fa-btc"></i></a></li>
-                            <li><a href="#" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
-                            <li><a href="#" title="Medium"><i class="fa fa-medium"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row flex-row blackbg dark">
-                <div class="col-md-10 col-md-offset-1 padding-box-40">
-                    <div class="widget text-center">
-                        <h3>Newsletter</h3>
-
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <h5>Join our mailing list:</h5>
-                                <input class="form-control" placeholder="Your Email Address" type="email">
-                                <button class="btn btn-default mt-15" type="submit">Subscribe</button>
+    <section class="padding">
+        <footer id="contact">
+            <div class="container-fluid">
+                <div class="row flex-row jetblackbg dark">
+                    <div class="col-md-8 col-md-offset-2 padding-box-40">
+                        <div class="widget">
+                            <div class="widget-title text-center">
+                                <h3>Contact us</h3>
                             </div>
-                        </form>
+
+                            <ul class="social-network social-circle">
+                                <li><a href="#" title="Github"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" title="Bitcoin Talk"><i class="fa fa-btc"></i></a></li>
+                                <li><a href="#" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+                                <li><a href="#" title="Medium"><i class="fa fa-medium"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row flex-row blackbg dark">
+                    <div class="col-md-10 col-md-offset-1 padding-box-40">
+                        <div class="widget text-center">
+                            <h3>Newsletter</h3>
+
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <h5>Join our mailing list:</h5>
+                                    <input class="form-control" placeholder="Your Email Address" type="email">
+                                    <button class="btn btn-default mt-15" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </section>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="plugins/canvas/math.js"></script>
-<script src="js/main.js"></script>
-<script src="js/smoothscroll.js"></script>
-<!--Video Gallery-->
-<script src="plugins/unitegallery-master/package/unitegallery/js/unitegallery.min.js" type='text/javascript'></script>
-<script src="plugins/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js" type='text/javascript'></script>
-<script src="js/wow.min.js"></script>
-<!--When Element Visible-->
- <script src="js/jquery.inview.js"></script>
-<!-- Light Box  -->
-<script src="plugins/lightbox-master/dist/ekko-lightbox.js"></script>
-<!--Parallax-->
-<script src="plugins/parallax/js/jquery.easing.1.3.js"></script>
-<script src="plugins/parallax/js/jquery.parallax-scroll.js"></script>
 <!--CounterUp-->
 <script src="plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
 <script src="plugins/counterup/waypoints.min.js" type="text/javascript"></script>
@@ -398,5 +406,6 @@
 <!-- Paper -->
 <script type="text/javascript" src="plugins/paper/dist/paper-full.js"></script>
 <script type="text/paperscript" canvas="triangles" src="plugins/canvas/triangles.js"> </script>
+<script src="js/main.js"></script>
 </body>
 </html>
