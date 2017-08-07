@@ -116,10 +116,13 @@ $(document).ready(function() {
                 y: 40
             }, {
                 name: 'Research & Development',
-                y: 35
+                y: 30
             }, {
                 name: 'Freerolls and bounties',
                 y: 25
+            }, {
+                name: 'Founders',
+                y: 5
             }]
         }],
         credits: {
