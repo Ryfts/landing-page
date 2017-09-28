@@ -11,8 +11,8 @@ function onFrame(event) {
 
     if (event.count < amount) {
         var triangle = new Path.RegularPolygon(new Point(205,190), 3 , size);
-        triangle.strokeColor = '#ff3196';
-        triangle.strokeWidth = 1;
+        triangle.strokeColor = '#5abed5';
+        triangle.strokeWidth = 1.5;
 
         triangle.scale(scale);
         triangle.rotate(angle);
@@ -24,6 +24,6 @@ function onFrame(event) {
 function rotate() {
     for (var i = 0; i < children.length; i++) {
         var path = children[i];
-        path.rotate(0.05);
+        path.rotate(0.35);
     }
 }

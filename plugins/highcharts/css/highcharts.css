@@ -33,6 +33,8 @@
 
 .highcharts-background {
   fill: #ffffff;
+  height: 100%;
+
 }
 
 .highcharts-plot-border, .highcharts-plot-background {
@@ -187,53 +189,67 @@ g.highcharts-series,
 /* Series options */
 /* Default colors */
 .highcharts-color-0 {
-  fill: #7cb5ec;
-  stroke: #7cb5ec;
+  fill: #5abed5;
+  stroke: #5abed5;
+  stroke-width: 3;
 }
 
 .highcharts-color-1 {
-  fill: #434348;
-  stroke: #434348;
+  fill: #c9c9c9;
+  stroke: #c9c9c9;
+  stroke-width: 3;
 }
 
 .highcharts-color-2 {
-  fill: #90ed7d;
+  /*linear-gradient(red, yellow); */
+  /*background: linear-gradient(135deg, red, #90ed7d 20%, #fff);
+  background: linear-gradient(to bottom right, #90ed7d, #fff);
+  background: linear-gradient(to bottom right,#90ed7d, #e1f9dc); */
+  fill: :#90ed7d;
   stroke: #90ed7d;
+  stroke-width: 3;
 }
 
 .highcharts-color-3 {
   fill: #f7a35c;
   stroke: #f7a35c;
+  stroke-width: 3;
 }
 
 .highcharts-color-4 {
   fill: #8085e9;
   stroke: #8085e9;
+  stroke-width: 3;
 }
 
 .highcharts-color-5 {
   fill: #f15c80;
   stroke: #f15c80;
+  stroke-width: 3;
 }
 
 .highcharts-color-6 {
   fill: #e4d354;
   stroke: #e4d354;
+  stroke-width: 3;
 }
 
 .highcharts-color-7 {
   fill: #2b908f;
   stroke: #2b908f;
+  stroke-width: 3;
 }
 
 .highcharts-color-8 {
   fill: #f45b5b;
   stroke: #f45b5b;
+  stroke-width: 3;
 }
 
 .highcharts-color-9 {
   fill: #91e8e1;
   stroke: #91e8e1;
+  stroke-width: 3;
 }
 
 .highcharts-area {

@@ -199,7 +199,7 @@ transition: all .3s;
 }
 .style-nine .icon i {
 	font-size: 45px;
-	color: #ff3799 !important;
+	color: #0068ff !important;
 	margin-top: 10px;
 }
 .style-nine .content-box-body {
@@ -213,7 +213,7 @@ transition: all .3s;
 	text-align: center;
 }
 .style-ten .icon {
-	border: solid 2px #ff3799;
+	border: solid 2px #0068ff;
 	border-radius: 50px;
 	width: 100px;
 	height: 100px;

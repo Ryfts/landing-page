@@ -1,6 +1,6 @@
 #particles-js canvas { height: 520px !important; }
 .navbar {  background: none; }
-.timer .time_circles span { color: #ffffff; }
+.timer .time_circles span { color: black; }
 .ico-progress { background: #cccccc; height: 20px; padding-left: 0; position: relative; margin-top: 40px;}
 .ico-progress li {
     width: 10%;
@@ -21,7 +21,7 @@
 .ico-progress li.progress-bar {
     position: absolute;
     height: 20px;
-    background: #ff3196;
+    background: #5abed5;
 }
 .ico-progress li .up {
     position: absolute;
@@ -44,7 +44,7 @@ p.label-2 { margin-top: 10px; }
     position: absolute;
     top: 0px;
     right: -2px;
-    color: #ff3196;
+    color: #5abed5;
 }
 
 /*.highcharts-background { fill: transparent;}*/
@@ -78,7 +78,7 @@ canvas#triangles {
     top: -230px;
     right: 10%;
     width: 400px;
-    height: 310px;
+    height: 335px;
 }
 
 .stats-row {

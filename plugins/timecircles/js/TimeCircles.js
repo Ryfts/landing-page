@@ -424,7 +424,7 @@
             headerElement.css("font-size", Math.round(this.config.text_size * this.data.attributes.item_size));
             headerElement.appendTo(textElement);
 
-            var numberElement = $("<span>");
+            var numberElement = $("<h4>");
             numberElement.css("font-size", Math.round(this.config.number_size * this.data.attributes.item_size));
             numberElement.appendTo(textElement);
 
@@ -820,7 +820,7 @@
         start: true,
         animation: "smooth",
         count_past_zero: true,
-        circle_bg_color: "#60686F",
+        circle_bg_color: "#bdbdbd",
         use_background: true,
         fg_width: 0.1,
         bg_width: 1.2,

@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-	<link rel='icon' href="img/favicon.png" >
+    <link rel='icon' href="img/favicon.ico" >
 
     <title>Ryfts - Where odds are in your control</title>
-	<meta name="description" content=""/>
-	<meta name="keywords" content="blockchain, gambling, raffle, ICO, ethereum" />
+    <meta name="description" content=""/>
+    <meta name="keywords" content="blockchain, gambling, raffle, ICO, ethereum" />
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,700" rel="stylesheet">
     <!-- Bootstrap -->
@@ -17,13 +17,13 @@
     <link href="css/responsive.css" rel="stylesheet">
     <!-- FontAwesome -->
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Light Box -->
-	<link href="plugins/lightbox-master/dist/ekko-lightbox.css" rel="stylesheet">
+    <!-- Light Box -->
+    <link href="plugins/lightbox-master/dist/ekko-lightbox.css" rel="stylesheet">
     <!-- AnimateCSS -->
     <link href="plugins/animate/animate.css" rel="stylesheet">
-	<!-- Isotope -->
+    <!-- Isotope -->
     <link href="plugins/isotope-portfolio/css/isotope.css" rel="stylesheet">
-	<!-- Fancy Box -->
+    <!-- Fancy Box -->
     <link href="plugins/isotope-portfolio/css/jquery.fancybox.css" rel="stylesheet">
     <!--Time Circles countdown -->
     <link rel='stylesheet' href="plugins/timecircles/css/TimeCircles.css" type='text/css' />
@@ -39,23 +39,45 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- HTML5 animation header -->
+    <link href="plugins/animation/css/main.css" rel="stylesheet">
+    <link href="plugins/animation/css/style.css" rel="stylesheet">
+    <script src="plugins/animation/js/waves.js"></script>
+    <!-- Icons roadmap -->
+    <link href="css/icons-roadmap.css" rel="stylesheet">
+    <!-- List menu styles -->
+    <link href="plugins/LineMenuStyles/css/component.css" rel="stylesheet">
+    <!-- Drawing SVG -->
+    <link href="plugins/drawing-svg/css/main.css" rel="stylesheet">
+
+
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Fixed navbar -->
-    <nav id="main-menu" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
+    <nav id="main-menu" class="navbar navbar-inverse navbar-fixed-top menu menu--shylock" data-spy="affix" data-offset-top="100">
         <div class="container">
             <div class="navbar-header">
                 <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="index.html">Ryfts</a> </div>
+                <!-- <a class="navbar-brand" href="index.html"><img src="img/small-logo.png"></a>  -->
+            </div>
+
             <div class="navbar-collapse collapse navbar-right" id="navbar">
 
-			<ul class="nav navbar-nav">
+            <!--<ul class="nav navbar-nav">
                 <li><a href="#ico">ICO</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="index.html">FAQ</a></li>
                 <li><a href="/ryfts_whitepaper.pdf">White paper</a></li>
+            </ul>-->
+            <ul class="menu__list nav navbar-nav">
+                <li class="menu__item menu__item--current"><a href="#main-slider" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#ico" class="menu__link">ICO</a></li>
+                <li class="menu__item"><a href="#roadmap" class="menu__link">Roadmap</a></li>
+                <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                <li class="menu__item"><a href="/ryfts_whitepaper.pdf" class="menu__link">White paper</a></li>
             </ul>
             </div>
 
@@ -63,8 +85,8 @@
         </div>
     </nav>
 
-    <section class="cd-section" id="main-slider">
-		<div class="container-fluid">
+    <!--<section class="cd-section" id="main-slider">
+        <div class="container-fluid">
             <div class="m-intro">
                 <div class="e-text margintop-60">
                     <h2>Ryfts - Transparent raffle <br />based on blockchain</h2>
@@ -79,119 +101,332 @@
                 <div id="particleCanvas-Blue" class="e-particles-blue"></div>
             </div>
         </div>
-	</section>
+    </section>-->
 
-    <section class="padding dark">
+    <!-- BACKGROUND CONTENT -->
+    <section class="grcs_background_content cd-section light" id="main-slider" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+
+
+        <!-- LEVEL 1 -->
+        <div class="level-1">
+            <div id="canvas" class="init">
+                <canvas class="bg-effect layer" data-depth="0.2" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(-45.5571px, -5.48239px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></canvas>
+                <div>
+                    <canvas width="2112" height="1002" style="width: 2112px; height: 1002px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- /LEVEL 1 -->
+
+
+        <!-- LEVEL 2 -->
+        <div class="level-2">
+
+            <div class="bg-image layer" data-depth="0.04" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-9.11142px, -1.09648px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></div>
+            <div class="bg-video layer" data-depth="0.04" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-9.11142px, -1.09648px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <!-- <div class="mbYTP_wrapper" id="wrapper_bg-youtube" style="position: absolute; z-index: 0; min-width: 100%; min-height: 100%; left: 0px; top: 0px; overflow: hidden; opacity: 1; transition-property: opacity; transition-duration: 2000ms;"> -->
+                <!--
+                <video width="100%" height="100%" id="bgvideo" autoplay muted loop>
+                    <source src="plugins/animation/media/Alive_4K_Motion_Background_Loop.mp4" type="video/mp4">
+                </video>
+                -->
+                <!-- </div> -->
+
+            </div>
+            <div class="bg-color layer" data-depth="0.04" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-9.11142px, -1.09648px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></div>
+
+        </div>
+        <!-- /LEVEL 2 -->
+        <a id="scroll-anchor" href="#advantages"><span></span>Scroll</a>
+        <div id="logo">
+            <img class="shadowfilter img-responsive hideme" src="plugins/animation/media/Ryfts-Sample-medium.png" />
+        </div>
+    </section>
+    <!-- /BACKGROUND CONTENT -->
+
+    <section class="padding light" id="advantages">
+        <div class="container">
+            <!--<div id="business" class="ai-icons active row ">
+                <div class="ai-icon">
+                    <svg version="1.1" id="bi-doller" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <path fill="none" d="M52.3,46.1c0,0-2.9-1.3-3.9,0.5c-1,1.8,1.1,2.9,1.8,3.2c0.7,0.3,1.9,0.7,2,2.2c0.1,1.3-1.8,3.4-4.8,1.4"/>
+                <line fill="none" x1="50.1" y1="43.7" x2="50.1" y2="45.5"/>
+                <line fill="none" x1="50.1" y1="54.5" x2="50.1" y2="56.3"/>
+                <polygon fill="none" points="50.5,34.9 78.3,34.9 78.3,65.1 21.7,65.1 21.7,34.9 "/>
+            </svg>
+                </div>
+                <div class="ai-icon">
+                    <svg version="1.1" id="bi-cup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <path fill="none" d="M50,57.7c23.7,0,22.5-34.2,22.5-34.2s-22.5,0-22.5,0H27.5C27.5,23.6,26.3,57.7,50,57.7z"/>
+                <path fill="none" d="M50,76.4h13.4c0-4.4-5.7-11.5-13.4-11.5H50c-7.6,0-13.4,7.1-13.4,11.5H50"/>
+                <path fill="none" d="M37.6,32.6c0,0,1.1,9.6,6,13.8"/>
+                <line fill="none" x1="48.5" y1="57.7" x2="48.5" y2="65"/>
+                <line fill="none" x1="51.5" y1="57.7" x2="51.5" y2="65"/>
+            </svg>
+                </div>
+                <div class="ai-icon">
+                    <svg version="1.1" id="si-diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                <polygon points="36.709,26.325 65.394,26.325 78.434,46.139 50.016,73.292 21.569,46.139 34.741,26.325 "/>
+                <polyline points="57.265,26.325 60.483,46.083 50.016,73.292 "/>
+                <polyline points="42.766,26.325 39.548,46.083 50.016,73.292 "/>
+                <line x1="78.434" y1="46.139" x2="21.569" y2="46.139"/>
+            </svg>
+                </div>
+                <div class="ai-icon">
+                    <svg version="1.1" id="si-lock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                <polygon points="31.709,42.761 31.709,74.581 49.854,74.581 50.146,74.581 68.291,74.581 68.291,42.761 "/>
+                <path d="M31.709,42.761c0,0,0.742-17.342,18.291-17.342s18.291,17.342,18.291,17.342"/>
+                <circle cx="50" cy="62.722" r="4"/>
+            </svg>
+                </div>
+            </div>-->
+            <div id="advantages">
+                <div class="section-title wow zoomIn">
+                    <h1 class="main-heading">Advantages & Blockchain</h1>
+                    <p class =" big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+
+                <div id="drawing-icons" class="row row-flex row-flex-wrap ai-icons active">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flex-col">
+                            <div class="ai-icon">
+                                <svg version="1.1" id="bi-doller" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                    <path fill="none" d="M52.3,46.1c0,0-2.9-1.3-3.9,0.5c-1,1.8,1.1,2.9,1.8,3.2c0.7,0.3,1.9,0.7,2,2.2c0.1,1.3-1.8,3.4-4.8,1.4"/>
+                                    <line fill="none" x1="50.1" y1="43.7" x2="50.1" y2="45.5"/>
+                                    <line fill="none" x1="50.1" y1="54.5" x2="50.1" y2="56.3"/>
+                                    <polygon fill="none" points="50.5,34.9 78.3,34.9 78.3,65.1 21.7,65.1 21.7,34.9 "/>
+                                </svg>
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Winning chances</h4>
+                                <p class =" big">We only care for significant prizes and that's why we offer enhanced odds (up to 1-in-5) and incredible prizes.</p>
+                            </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flex-col">
+                            <div class="ai-icon">
+                                <svg version="1.1" id="bi-cup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                    <path fill="none" d="M50,57.7c23.7,0,22.5-34.2,22.5-34.2s-22.5,0-22.5,0H27.5C27.5,23.6,26.3,57.7,50,57.7z"/>
+                                    <path fill="none" d="M50,76.4h13.4c0-4.4-5.7-11.5-13.4-11.5H50c-7.6,0-13.4,7.1-13.4,11.5H50"/>
+                                    <path fill="none" d="M37.6,32.6c0,0,1.1,9.6,6,13.8"/>
+                                    <line fill="none" x1="48.5" y1="57.7" x2="48.5" y2="65"/>
+                                    <line fill="none" x1="51.5" y1="57.7" x2="51.5" y2="65"/>
+                                </svg>
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Instant payouts</h4>
+                                <p class =" big">All winnings are guaranteed to pay out in ETH instantly after the game. Payments are also tax-free.</p>
+                            </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flex-col">
+                            <div class="ai-icon">
+                                <svg version="1.1" id="si-diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                    <polygon points="36.709,26.325 65.394,26.325 78.434,46.139 50.016,73.292 21.569,46.139 34.741,26.325 "/>
+                                    <polyline points="57.265,26.325 60.483,46.083 50.016,73.292 "/>
+                                    <polyline points="42.766,26.325 39.548,46.083 50.016,73.292 "/>
+                                    <line x1="78.434" y1="46.139" x2="21.569" y2="46.139"/>
+                                </svg>
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Automatic rewards</h4>
+                                <p class =" big">We value our frequent players so you can get a chance to gain free rolls!</p>
+                            </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 flex-col">
+                            <div class="ai-icon">
+                                <svg version="1.1" id="si-lock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                    <polygon points="31.709,42.761 31.709,74.581 49.854,74.581 50.146,74.581 68.291,74.581 68.291,42.761 "/>
+                                    <path d="M31.709,42.761c0,0,0.742-17.342,18.291-17.342s18.291,17.342,18.291,17.342"/>
+                                    <circle cx="50" cy="62.722" r="4"/>
+                                </svg>
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Privacy guaranteed</h4>
+                                <p class =" big">Public verifiability is not required for the functioning of the system. You can stay anonymous.</p>
+                            </div>
+                    </div>
+
+                    <div class="separator"></div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 flex-col">
+                            <div class="ai-icon">
+                                <img src="img/blockchain.png">
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Decentralized</h4>
+                                <p class =" big">There is no one to control the database. You can play from anywhere too.</p>
+                            </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 flex-col">
+                            <div class="ai-icon">
+                                <img src="img/identity.png">
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Transparent</h4>
+                                <p class =" big">Anyone can verify the correctness of the state of the system (bets and winnings). All code is public.</p>
+                            </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 flex-col">
+                            <div class="ai-icon">
+                                <img src="img/security.png">
+                            </div>
+
+                            <div class="feature-content text-center">
+                                <h4>Secure</h4>
+                                <p class =" big">You are always in control of your funds.They can't be stolen by game owners since no one owns the database.</p>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section1">
+        <svg id="triangle" width="100%" height="150" viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L50 90 L100 0 V100 H0" fill="#e2e2e2" />
+        </svg>
+    </section>
+
+    <!-- <section class="padding grey">
+       
         <div class="container">
             <div class="row">
                 <div class="section-title wow zoomIn">
-                    <h1>Blockchain</h1>
-                    <p>Ryfts platform is using a new technology that could revolutionize online gambling industry.</p>
+                    <h1 class="main-heading">Blockchain</h1>
+                    <p class =" big">Ryfts platform is using a new technology that could revolutionize online gambling industry.</p>
                 </div>
 
                 <div class="margintop-60">
-                    <div class="col-md-4">
-                        <div class="content-box style-seven wow fadeInLeft effect-border">
-                            <h2>Decentralized</h2>
-                            <p>There is no one to control the database. You can play from anywhere too.</p>
+                    <div class="col-lg-4 col-md-4 col-sm-8 marginbottom-40">
+                        <div class="overlay-black decentralized">
+                            <div class="content-box style-seven wow fadeInLeft effect-border">
+                                <h2>Decentralized</h2>
+                                <p>There is no one to control the database. You can play from anywhere too.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="content-box style-seven wow zoomIn effect-border">
-                            <h2>Transparent</h2>
-                            <p>Anyone can verify the correctness of the state of the system (bets and winnings). All code is public.</p>
+                    <div class="col-lg-4 col-md-4 col-sm-8 marginbottom-40">
+                        <div class="overlay-black transparent">
+                            <div class="content-box style-seven wow zoomIn effect-border">
+                                <h2>Transparent</h2>
+                                <p>Anyone can verify the correctness of the state of the system (bets and winnings). All code is public.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="content-box style-seven wow fadeInRight effect-border">
-                            <h2>Secure</h2>
-                            <p>You are always in control of your funds. They can't be stolen by game owners since no one owns the database.</p>
+                    <div class="col-lg-4 col-md-4 col-sm-8 marginbottom-40">
+                        <div class="overlay-black secure">
+                            <div class="content-box style-seven wow fadeInRight effect-border">
+                                <h2>Secure</h2>
+                                <p >You are always in control of your funds.They can't be stolen by game owners since no one owns the database.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="padding dark" id="about">
+    <section class="padding grey">
+       
         <div class="container">
             <div class="row">
                 <div class="section-title wow zoomIn">
-                    <h1>Advantages</h1>
+                    <h1 class="main-heading">About Us</h1>
+                    <!-- <p class =" big">Ryfts platform is using a new technology that could revolutionize online gambling industry.</p> -->
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="content-box">
-                        <div class="icon animate">
-                            <img src="img/icons-fin/VALUE.svg" width="100"
-                                 class="no-bottom-margin center-block" alt="Winnings chances" />
+                <div class="margintop-60">
+                    <div class="col-lg-6 col-md-6 col-sm-12 marginbottom-40">
+                                <p class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
-
-                        <div class="feature-content text-center">
-                            <h4>Winning chances</h4>
-                            <p>We only care for significant prizes and that's why we offer enhanced odds (up to 1-in-5) and incredible prizes.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 marginbottom-40">
+                        <div class="embed-container">
+                            <iframe width="945" height="532" src="https://www.youtube.com/embed/babI5wBoexg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="content-box">
-                        <div class="icon animate">
-                            <img src="img/icons-fin/PROFIT.svg" width="100"
-                                 class="no-bottom-margin center-block" alt="Instant payouts" />
+                        <!-- <div id="player"></div>
+                        <div id="thumbnail_container" class="thumbnail_container">
+                            <img class="thumbnail" id="thumbnail" />
                         </div>
-
-                        <div class="feature-content text-center">
-                            <h4>Instant payouts</h4>
-                            <p>All winnings are guaranteed to pay out in ETH instantly after the game. Payments are also tax-free.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="content-box">
-                        <div class="icon animate">
-                            <img src="img/icons-fin/SUCCESS.svg" width="100"
-                                 class="no-bottom-margin center-block" alt="Automatic rewards" />
-                        </div>
-
-                        <div class="feature-content text-center">
-                            <h4>Automatic rewards</h4>
-                            <p>We value our frequent players so you can get a chance to gain free rolls!</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="content-box">
-                        <div class="icon animate">
-                            <img src="img/icons-fin/SECURE.svg" width="100"
-                                 class="no-bottom-margin center-block" alt="Privacy guaranteed" />
-                        </div>
-
-                        <div class="feature-content text-center">
-                            <h4>Privacy guaranteed</h4>
-                            <p>Public verifiability is not required for the functioning of the system. You can stay anonymous.</p>
-                        </div>
-                    </a>
+                        <a class="start-video"><img width="64" src="http://image.flaticon.com/icons/png/512/0/375.png" style="filter: invert(100%); -webkit-filter: invert(100%);"></a> -->
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="padding pt100 shrink dark" id="ico">
-        <div class="container">
-            <div class="section-title wow zoomIn">
-                <h1>ICO progress</h1>
+    <section class="double-padding dark scroll" id="token">
+        <svg id="triangle2" width="100%" height="150" viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L50 100 L100 0 Z" fill="#e2e2e2" />
+        </svg>
+        <div class="container overlay-light" id="back-ico">
+            <div class="row flex-row">
+                <div class="col-lg-12 col-md-12 col-sm-12 pt-4">
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-md-offset-3 col-sm-offset-1 text-center">
+                        <h1 class="main-heading">Token sale will end in:</h1>
+                        <div class="timer" data-date="2017-12-24 00:00:00"></div>
+                        
+                    </div>
+                </div>
             </div>
 
+            <br />
+
             <div class="row flex-row">
+                <div class="col-lg-10 col-md-10 col-md-offset-1">
+                    <p class="text-center big">At the end of the token sale the remaining unsold tokens will be burned and the share of
+                        all token holders will be proportionally increased depending on the outstanding package.
+                    </p>
+                </div>
+            </div>
+            <br />
+             <div class="row flex-row">
+                <div class="col-lg-12 col-md-12 align-text-center">
+                    <a href="https://fb.com" class="buton btn-1 btn-1e margintop-30 padding-horizontal">Participate Now</a>
+                </div>
+            </div>
+            <!-- <br />
+            <div class="row flex-row">
+                <div class="col-lg-10 col-md-10 col-md-offset-1">   
+                    <p class ="text-center big">Current <span>5% bonus</span> finishes in: <span class="bonus-timer"></span>!</p>
+                </div>
+            </div>
+            <br />
+            <div class="row flex-row">
+                <div class="col-lg-12 col-md-12 align-text-center">
+                    <a href="https://fb.com" class="buton btn-1 btn-1e margintop-30 padding-horizontal">Join Now</a>
+                </div>
+            </div>  -->
+        </div>
+        <svg id="triangle" width="100%" height="150" viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path  d="M0 0 L50 90 L100 0 V100 H0" fill="white" />
+        </svg>
+    </section>
+
+    
+
+    <section id="ico" class="padding shrink light">
+        <div class="container">
+            <div class="section-title wow zoomIn">
+                <h1 class="main-heading">ICO progress</h1>
+            </div>
+
+            <div class="row">
                 <div class="col-lg-4 hidden-md hidden-sm hidden-xs">
                     <canvas id="triangles" resize></canvas>
                 </div>
 
-                <div class="col-md-8">
-                    <h4>Total distributed:</h4>
+                <div class="col-lg-8 col-md-8">
+                    <h3 class="total-header">Total distributed:</h3>
                     <ul class="ico-progress">
                         <li class="progress-bar progress-bar-success" style="width: 46%; margin-right: 15px;">46%</li>
                         <li><div class="up">0%</div></li>
@@ -200,87 +435,71 @@
                     </ul>
 
                     <div class="row flex-row stats-row">
-                        <div class="col-md-6 no-padding">
-                            <div class="col-md-6">
-                                <h4>Total sold:</h4>
+                        <div class="col-lg-6 col-md-6 no-padding">
+                            <div class="col-lg-6 col-md-6">
+                                <h3  class="total-header">Total sold:</h3>
                                 <div class="textDiv_Days">
                                     <span style="font-size: 36px">3,454,789</span>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <h4>Total investors:</h4>
+                            <div class="col-lg-6 col-md-6">
+                                <h3  class="total-header">Total investors:</h3>
                                 <div class="textDiv_Days">
                                     <span style="font-size: 36px">4,789</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6 coin-stats">
-                            <div class="coin center-block text-center">
-                                <img src="img/btc.png" alt="bitcoin" />
+                        <div class="col-lg-6 col-md-12 coin-stats">
+                            <div class="coin center-block text-center col-sm-4 col-md-4">
+                                <svg class="coins" width="60" height="60" viewBox="0 0 226.777 226.777"><path d="M135.715 122.244c-2.614-1.31-8.437-3.074-15.368-3.533-6.934-.458-15.828 0-15.828 0v30.02s9.287.198 15.503-.26c6.21-.458 12.621-2.027 15.826-3.795 3.203-1.766 7.063-4.513 7.063-11.379 0-6.869-4.579-9.745-7.196-11.053zm-19.555-17.465c5.104-.197 10.532-1.373 14.453-3.532 3.925-2.158 6.148-5.557 6.02-10.66-.134-5.102-3.532-9.418-9.287-11.186-5.757-1.766-9.613-1.897-13.998-1.962-4.382-.064-8.83.328-8.83.328v27.012c.001 0 6.541.197 11.642 0z"/><path d="M113.413 0C50.777 0 0 50.776 0 113.413c0 62.636 50.777 113.413 113.413 113.413s113.411-50.777 113.411-113.413C226.824 50.776 176.049 0 113.413 0zm46.178 156.777c-8.44 5.887-17.465 6.935-21.455 7.456-1.969.259-5.342.532-8.959.744v22.738h-13.998v-22.37h-10.66v22.37H90.522v-22.37H62.987l2.877-16.812h8.371c2.814 0 3.989-.261 5.166-1.372 1.177-1.113 1.439-2.812 1.439-4.188V85.057c0-3.628-.295-4.61-1.963-6.473-1.668-1.867-5.591-2.112-7.8-2.112h-8.091V61.939h27.535V39.505h13.996v22.434h10.66V39.505h13.998v22.703c10.435.647 18.203 2.635 24.983 7.645 8.766 6.475 8.306 17.724 8.11 20.406-.195 2.682-1.372 7.85-3.729 11.183-2.352 3.337-8.108 6.673-8.108 6.673s6.801 1.438 11.578 5.036c4.771 3.598 8.307 9.941 8.106 19.229-.192 9.288-2.088 18.511-10.524 24.397z"/></svg>
                                 <span>128</span>
                             </div>
-                            <div class="coin center-block text-center">
-                                <img src="img/eth.png" alt="ethereum" />
+                            <div class="coin center-block text-center col-sm-4 col-md-4">
+                                <svg class="coins" width="60" height="60" viewBox="0 0 226.8 226.8"><path class="st0" d="M113.4 0C50.8 0 0 50.8 0 113.4 0 176 50.8 226.8 113.4 226.8S226.8 176 226.8 113.4C226.8 50.8 176 0 113.4 0zm.3 38.2l43 67.8-43-19.2-44.3 18.7 44.3-67.3zM114 96l44.9 20-44.9 25.1-46.2-25.6L114 96zm.2 92.6l-44.7-62.3 44.3 25.6 45.1-25.6-44.7 62.3z"/></svg>
                                 <span>128</span>
                             </div>
-                            <div class="coin center-block text-center">
-                                <img src="img/ltc.png" alt="litecoin" />
+                            <div class="coin center-block text-center col-sm-4 col-md-4">
+                                <svg class="coins" width="60" height="60" viewBox="0 0 226.777 226.777"><path d="M113.441 0C50.789 0 0 50.79 0 113.443c0 62.654 50.789 113.441 113.441 113.441 62.654 0 113.443-50.787 113.443-113.441C226.885 50.79 176.096 0 113.441 0zm44.036 168.762H68.839l7.45-35.566-14.486 9.933 3.519-19.463 15.151-10.43 14.862-70.939h27.671l-10.232 48.71L148.8 66.213l-4.222 20.167-36.02 24.693-7.126 33.93H162.4l-4.923 23.759z"/></svg>
                                 <span>128</span>
                             </div>
-                            <div class="coin center-block text-center">
-                                <img src="img/dash.png" alt="dash" />
+                            <div class="coin center-block text-center col-sm-4 col-md-4">
+                                <svg class="coins" width="60" height="60" viewBox="0 0 226.777 226.777"><path d="M113.388 0C50.766 0 0 50.766 0 113.388c0 62.623 50.766 113.389 113.389 113.389s113.389-50.766 113.389-113.389C226.777 50.766 176.011 0 113.388 0zM56.562 104.802h45.266l-5.238 17.024H51.326l5.236-17.024zm117.268-8.029c-1.801 6.506-7.656 26.023-10.059 32.945-2.4 6.922-6.829 12.734-12.506 16.057-5.676 3.323-7.797 4.712-15.731 4.712H54.303l5.721-18.542h76.395l11.414-37.109h-75.79l5.722-18.541h84.577c3.875 0 8.996 1.792 11.488 6.639 2.491 4.841 1.799 7.333 0 13.839z"/></svg>
                                 <span>128</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="padding shrink dark">
-        <div class="container">
-            <div class="row flex-row">
-                <div class="col-md-12 pt-4">
-                    <div class="col-md-6 col-md-offset-3 text-center">
-                        <h4>Token sale will end in:</h4>
-                        <div class="timer" data-date="2017-08-17 00:00:00"></div>
-
-                        <a href="#ico" class="btn btn-default margintop-30">Participate Now</a>
+            <!-- <div class="row flex-row video-row">
+                <div class="col-lg-10 col-md-10 col-md-offset-1 col-lg-offset-1">
+                    <div class='embed-container'>
+                        <iframe width="945" height="532" src="https://www.youtube.com/embed/babI5wBoexg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
+                    <div id="player"></div>
+                    <div id="thumbnail_container" class="thumbnail_container">
+                        <img class="thumbnail" id="thumbnail" />
+                    </div>
+                    <a class="start-video"><img width="64" src="http://image.flaticon.com/icons/png/512/0/375.png" style="filter: invert(100%); -webkit-filter: invert(100%);"></a>
                 </div>
-            </div>
+            </div> -->
 
-            <br />
-
-            <div class="row flex-row">
-                <div class="col-md-10 col-md-offset-1">
-                    <p class="text-center">At the end of the token sale the remaining unsold tokens will be burned and the share of
-                        all token holders will be proportionally increased depending on the outstanding package.
-                    </p>
-                    <br />
-                    <p>Current <span>5% bonus</span> finishes in: <span class="bonus-timer"></span>!</p>
-                </div>
-            </div>
-
-            <div class="row flex-row">
-                <div class="col-md-12 align-text-center">
-                    <a href="#" class="btn btn-default margintop-30 padding-horizontal">Join Now</a>
-                </div>
-            </div>
+            
         </div>
     </section>
 
-    <section class="padding dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+    <section class=" light">
+        <div class=" padding container">
+            <!-- <div class="row"> -->
+                <div class="col-lg-6 col-md-6">
+                <!-- highcharts.css to modify the colors
+                     main.js to modify the procents and category names -->
                     <div id="distribution" style="width:100%; height:400px;"></div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="info-table col-lg-6 col-md-6">
                     <ul class="portfolio-details-list">
                         <li><h4>TOKEN NAME:</h4><p>RFT</p></li>
                         <li><h4>TOKEN PRICE:</h4><p>0.5 USD</p></li>
@@ -288,101 +507,344 @@
                         <li><h4>AVAILABLE IN SALE:</h4><p>90%</p></li>
                         <li><h4>REWARDS FOR INVESTORS:</h4><p>Jackpot game for holders of 4000+ RFT.</p></li>
                         <li><h4>REWARD FOR TOP 10 INVESTORS:</h4><p>Lifetime platinum membership which offers X free rolls per month.</p></li>
-                        <li><h4>WHITE PAPER:</h4><p><a href="/ryfts_whitepaper.pdf"><i class="fa fa-file"></i> Document</a></p></li>
+                        <li><h4>WHITE PAPER:</h4><p><a href="/ryfts_whitepaper.pdf"></i> Document</a></p></li>
                     </ul>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
+        <svg id="curveUpColor" width="100%" height="150" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 100 C 50 0 50 0 100 100 V100 H0" fill="#e2e2e2" />
+        </svg>
     </section>
 
-    <section class="padding dark" id="roadmap">
-        <div class="container">
-            <div class="row">
-                <div class="section-title wow zoomIn">
-                    <h1>Roadmap</h1>
+    
+    
+    <section id="roadmap" class=" grey" id="roadmap">
+        
+        <div class="container padding">
+            <!-- <div class="row">
+                <div class=" section-title wow zoomIn">
+                    <h1 class="main-heading">Roadmap</h1>
                 </div>
-                <div class="col-sm-2 col-md-2 style-ten-wrapper">
-                    <div class="content-box style-ten wow fadeInDown">
-                        <div class="icon past"><i class="fa fa-globe"></i> </div>
-                        <p class="label-2">1-Pre-sale token</p>
+
+                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+                    <div class="col-sm-2 col-md-2 col-md-offset-1 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon fa fa-credit-card" aria-hidden="true"><strong>1</strong><br>Pre-sale token</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon fa fa-area-chart" aria-hidden="true"><strong>2</strong><br>Marketing</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon fa fa-percent" aria-hidden="true"><strong>3</strong><br>Token sale</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon fa fa-desktop" aria-hidden="true"><strong>4</strong><br>Development and Marketing</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon fa fa-compress" aria-hidden="true"><strong>5</strong><br>Decentralized platform</a>
                     </div>
                 </div>
-                <div class="col-sm-2 col-md-2 style-ten-wrapper">
-                    <div class="content-box style-ten wow fadeInDown">
-                        <div class="icon past"><i class="fa fa-globe"></i> </div>
-                        <p class="label-2">2-Marketing</p>
+            </div> -->
+
+                <div class=" section-title wow zoomIn">
+                    <h1 class="main-heading">Roadmap</h1>
+                </div>
+
+                <div id="roadmap-icons" class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a ai-icons">
+                    <div class="col-lg-2 col-sm-2 col-md-2 col-md-offset-1 col-sm-offset-1 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon">
+                        <div class="ai-icon">
+                            <svg version="1.1" id="si-credit-card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                <polygon points="50.471,34.679 78.856,34.679 78.856,65.321 21.144,65.321 21.144,34.679 "/>
+                                <circle cx="36.445" cy="49.999" r="5.685"/>
+                                <line x1="49.737" y1="42.059" x2="63.893" y2="42.059"/>
+                                <line x1="49.737" y1="49.999" x2="70.177" y2="49.999"/>
+                                <line x1="49.737" y1="57.723" x2="66.096" y2="57.723"/>
+                            </svg>
+                        </div>
+
+                        <strong>1</strong><br>Pre-sale token</a>
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon" aria-hidden="true">
+                        <div class="ai-icon">
+                            <svg version="1.1" id="bi-summit" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <line fill="none" x1="21.4" y1="66.6" x2="78.6" y2="66.6"/>
+                                <line fill="none" x1="28.4" y1="71.2" x2="71.6" y2="71.2"/>
+                                <polyline fill="none" points="26.2,66.6 34.6,49.9 40.7,48.4 48.5,30.2 55.2,44.7 60.5,39.8 73.4,66.6 "/>
+                                <polyline fill="none" points="45.1,54.8 48.7,45.9 52,52.9 "/>
+                            </svg>
+                        </div>
+                        <strong>2</strong><br>Marketing</a>
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon" aria-hidden="true">
+                        <div class="ai-icon">
+                            <svg version="1.1" id="si-discount" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                <path d="M61.648,36.291l-34.932,11.7c0,0,3.125,8.41,10.189,5.568s3.897-9.876,3.897-9.876"/>
+                                <path d="M61.648,36.291l-34.932,11.7c0,0,3.125,8.41,10.189,5.568s3.897-9.876,3.897-9.876"/>
+                                <path d="M61.648,48.776l-34.932-11.7c0,0,3.125-8.41,10.189-5.568s3.897,9.876,3.897,9.876"/>
+                                <polyline points="32.811,61.258 32.811,69.078 73.581,69.078 73.581,42.654 57.954,42.654 "/>
+                            </svg>
+                        </div>
+                        <strong>3</strong><br>Token sale</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon" aria-hidden="true">
+                        <div class="ai-icon">
+                            <svg version="1.1" id="bi-display" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <polygon fill="none" points="50,59.8 77.6,59.8 77.6,30.3 22.4,30.3 22.4,59.8 "/>
+                                <line fill="none" x1="45" y1="59.8" x2="45" y2="69.7"/>
+                                <line fill="none" x1="55" y1="59.8" x2="55" y2="69.7"/>
+                                <line fill="none" x1="38.4" y1="69.7" x2="61.6" y2="69.7"/>
+                                <line fill="none" x1="22.4" y1="54.6" x2="77.6" y2="54.6"/>
+                            </svg>
+                        </div>
+                        <strong>4</strong><br>Development and Marketing</a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 style-ten-wrapper">
+                        <a href="#set-9" class="hi-icon" aria-hidden="true">
+                        <div class="ai-icon">
+                            <svg version="1.1" id="bi-bond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <circle fill="none" cx="42.1" cy="35.5" r="5.1"/>
+                                <circle fill="none" cx="32.2" cy="64.5" r="5.1"/>
+                                <circle fill="none" cx="26.2" cy="47.8" r="2.8"/>
+                                <circle fill="none" cx="66.7" cy="51.7" r="9.9"/>
+                                <circle fill="none" cx="45.5" cy="53.6" r="6.8"/>
+                                <line fill="none" x1="38.8" y1="51.9" x2="28.9" y2="48.8"/>
+                                <line fill="none" x1="43.1" y1="40.5" x2="44.5" y2="46.8"/>
+                                <line fill="none" x1="56.8" y1="52.2" x2="52.3" y2="53.3"/>
+                                <line fill="none" x1="36" y1="61.1" x2="40.1" y2="57.8"/>
+                            </svg>
+                        </div>
+                        <strong>5</strong><br>Decentralized platform</a>
                     </div>
                 </div>
-                <div class="col-sm-2 col-md-2 style-ten-wrapper">
-                    <div class="content-box style-ten wow fadeInDown">
-                        <div class="icon" style="border-width: 3px"><i class="fa fa-btc"></i> </div>
-                        <p class="theme label-2">3-Token sale</p>
-                    </div>
-                </div>
-                <div class="col-sm-2 col-md-2 style-ten-wrapper">
-                    <div class="content-box style-ten wow fadeInDown">
-                        <div class="icon"><i class="fa fa-users"></i></div>
-                        <p class="label-2">4-Development and Marketing</p>
-                    </div>
-                </div>
-                <div class="col-sm-2 col-md-2 style-ten-wrapper">
-                    <div class="content-box style-ten wow fadeInDown">
-                        <div class="icon"><i class="fa fa-rocket"></i> </div>
-                        <p class="label-2">5-Decentralized platform</p>
-                    </div>
-                </div>
-            </div>
         </div>
+        
     </section>
 
-    <section class="padding">
-        <footer id="contact">
-            <div class="container-fluid">
-                <div class="row flex-row jetblackbg dark">
-                    <div class="col-md-8 col-md-offset-2 padding-box-40">
+    
+
+    <section id="contact" class="light contact">
+
+        <svg id="curveDownColor"  width="100%" height="150" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 0 C 50 100 50 100 100 0 Z" fill ="#e2e2e2"  />
+        </svg>
+        <div class="container padding">
+                <div class="jetblackbg light">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="widget">
-                            <div class="widget-title text-center">
-                                <h3>Contact us</h3>
+                            <div class="widget-title text-center section-title">
+                                <h1 class="main-heading">Contact us</h1>
                             </div>
 
-                            <ul class="social-network social-circle">
-                                <li><a href="#" title="Github"><i class="fa fa-github"></i></a></li>
-                                <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#" title="Bitcoin Talk"><i class="fa fa-btc"></i></a></li>
-                                <li><a href="#" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
-                                <li><a href="#" title="Medium"><i class="fa fa-medium"></i></a></li>
+                            <ul class="social-networks round to-square rise-up">
+                                <li><a href="https://www.linkedin.com/" class="icon-github"><i href="#" class="fa fa-github" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" class="icon-twitter"><i href="#" class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" class="icon-linkedin"><i href="#" class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" class="icon-btc"><i href="#" class="fa fa-btc" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" class="icon-reddit"><i href="#" class="fa fa-reddit" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" class="icon-medium"><i href="#" class="fa fa-medium" aria-hidden="true"></i></a></li>
                             </ul>
+
+                            <span class="col-md-4 col-md-offset-4 input input--hoshi">
+                                <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                                    <span class="input__label-content input__label-content--hoshi">Email</span>
+                                </label>
+                            </span>
+                            <!-- <ul class="social-networks round to-square rise-up">
+                              <li><a href="https://www.linkedin.com/" class="icon-linkedin">LinkedIn</a></li>
+                              <li><a href="https://twitter.com/" class="icon-twitter">Twitter</a></li>
+                              <li><a href="https://www.facebook.com/" class="icon-facebook">Facebook</a></li>
+                              <li><a href="https://twitch.tv" class="icon-twitch">Twitch</a></li>
+                              <li><a href="https://github.com" class="icon-github">GitHub</a></li>
+                              <li><a href="https://pinterest.com" class="icon-pinterest">Pinterest</a></li>
+                              <li><a href="https://instagram.com" class="icon-instagram">Instagram</a></li>
+                              <li><a href="https://vimeo.com" class="icon-vimeo">Vimeo</a></li>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
-
-                <div class="row flex-row blackbg dark">
-                    <div class="col-md-10 col-md-offset-1 padding-box-40">
+            </div>
+        </section>
+        <footer class=" light" id="contact">
+            <!-- <div class="container-fluid">
+                <div class="padding row flex-row blackbg dark">
+                    <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <div class="widget text-center">
-                            <h3>Newsletter</h3>
+                            <h1 class="main-heading">Newsletter</h1>
+                            <span class="col-md-4 col-md-offset-4 input input--hoshi">
+                                <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                                    <span class="input__label-content input__label-content--hoshi">Email</span>
+                                </label>
+                            </span>
 
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <h5>Join our mailing list:</h5>
-                                    <input class="form-control" placeholder="Your Email Address" type="email">
-                                    <button class="btn btn-default mt-15" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="widget-title text-center section-title">
+                <h1 class="main-heading">FAQ</h1>
+            </div>
+            <div class="container">
+                <div class="padding row flex-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <!-- <div class="accordion">
+                        <dl>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">First Question</a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur <a href="https://www.google.com">Test</a>adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                          <dt>
+                            <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+                              Second Question</a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                          <dt>
+                            <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+                              Third Question
+                            </a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                        </dl>
+                      </div> -->
+                      <div class="panel-group accordion">
+                          <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseOne">Is account registration required?</a>
+                                    </h4>
                                 </div>
-                            </form>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Account registration at <strong>PrepBootstrap</strong> is only required if you will be selling or buying themes. 
+                                        This ensures a valid communication channel for all parties involved in any transactions. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseTwo">Can I submit my own Bootstrap templates or themes?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme 
+                                        or a free one, you are encouraged to contribute. All credits are published along with the resources. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseThree">What is the currency used for all transactions?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        All prices for themes, templates and other items, including each seller's or buyer's account balance are in <strong>USD</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <!-- <div class="accordion">
+                        <dl>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">First Question</a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur <a href="https://www.google.com">Test</a>adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                          <dt>
+                            <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+                              Second Question</a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                          <dt>
+                            <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+                              Third Question
+                            </a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          </dd>
+                        </dl>
+                      </div> -->
+                      <div class="panel-group accordion">
+                          <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseFour">Who cen sell items?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Any registed user, who presents a work, which is genuine and appealing, can post it on <strong>PrepBootstrap</strong>.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseFive">I want to sell my items - what are the steps?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        The steps involved in this process are really simple. All you need to do is:
+                                        <ul>
+                                            <li>Register an account</li>
+                                            <li>Activate your account</li>
+                                            <li>Go to the <strong>Themes</strong> section and upload your theme</li>
+                                            <li>The next step is the approval step, which usually takes about 72 hours.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent=".accordion" href="#collapseSix">How much do I get from each sale?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Here, at <strong>PrepBootstrap</strong>, we offer a great, 70% rate for each seller, regardless of any restrictions, such as volume, date of entry, etc.
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-    </section>
+
+        <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+        
+   
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="plugins/canvas/math.js"></script>
 <!--Isotope Portfolio-->
-<script src="plugins/isotope-portfolio/js/isotope.min.js"></script>
-<script src="plugins/isotope-portfolio/js/isotope-main.js"></script>
+<!-- <script src="plugins/isotope-portfolio/js/isotope.min.js"></script>
+<script src="plugins/isotope-portfolio/js/isotope-main.js"></script> -->
 <!--Fancy Box-->
 <script src="plugins/isotope-portfolio/js/jquery.fancybox.pack.js"></script>
 <!-- Countdown -->
@@ -396,5 +858,28 @@
 <script type="text/javascript" src="plugins/paper/dist/paper-full.js"></script>
 <script type="text/paperscript" canvas="triangles" src="plugins/canvas/triangles.js"> </script>
 <script src="js/main.js"></script>
+<!-- HTML5 animation header -->
+<script type="text/javascript" src="plugins/animation/js/hero.js"> </script>
+<script type="text/javascript" src="plugins/animation/js/three.min.js"> </script>
+<script type="text/javascript" src="plugins/animation/js/jquery-migrate.min.js"> </script>
+<!-- List menu scripts -->
+<script type="text/javascript" src="plugins/LineMenuStyles/js/classie.js"></script>
+<script type="text/javascript" src="plugins/LineMenuStyles/js/clipboard.min.js"></script>
+<script type="text/javascript" src="plugins/LineMenuStyles/js/menu-update.js"></script>
+<!-- Drawing icons scripts -->
+<script type="text/javascript" src="plugins/drawing-svg/js/pathformer.js"></script>
+<script type="text/javascript" src="plugins/drawing-svg/js/vivus.min.js"></script>
+<script type="text/javascript" src="plugins/drawing-svg/js/animatedIcon.js"></script>
+<script type="text/javascript" src="plugins/drawing-svg/js/main.js"></script>
+<!-- Newsletter -->
+<!-- <script type="text/javascript" src="js/newsletter.js"></script> -->
+<!-- Scroll -->
+<script type="text/javascript" src="plugins/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<!-- <script type="text/javascript" src="plugins/parallax/parallax.min.js"></script> -->
+<script type="text/javascript" src="plugins/accordion/accordion.js"></script>
+
+
+
 </body>
 </html>

@@ -31,7 +31,7 @@ function drawTimeout(a){
         ctx.strokeStyle="rgb(200,200,200)";
         ctx.lineWidth=0.5;
     } else {
-        ctx.strokeStyle="#ff3196";
+        ctx.strokeStyle="#5abed5";
         ctx.lineWidth=0.2;
     }
     ctx.stroke();
