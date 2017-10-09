@@ -1,5 +1,7 @@
+var circlesLoaded = false;
 $(document).ready(function() {
     'use strict';
+     $('.time_circles > div').css('opacity','0');
 //Scroll REveal
     window.sr = ScrollReveal({ reset: true,
                                 scale: 0.7,
@@ -31,84 +33,17 @@ $(document).ready(function() {
         $('#logo').css('visibility','visible');
     }
     fixLogo();
+   
 
-    setTimeout(function(){
+    $( window ).resize(function() {
+        fixLogo();
         var canvasTop = $('.time_circles canvas').offset().top;
-        var numbersTop = $('.time_circles div').offset().top;
+        var numbersTop = $('.time_circles > div').offset().top;
         var canvasHeight = $('.time_circles canvas').height();
-        var numbersHeight = $('.time_circles div').height();
-        $('.time_circles div').attr('style','top:-' + ( canvasHeight - canvasHeight/2 + numbersHeight*0.6 ) + 'px !important');
-    }, 500);
+        var numbersHeight = $('.time_circles > div').height();
+        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/5 ) + 'px !important');
+    });
 
-        $( window ).resize(function() {
-            fixLogo();
-            var canvasTop = $('.time_circles canvas').offset().top;
-            var numbersTop = $('.time_circles div').offset().top;
-            var canvasHeight = $('.time_circles canvas').height();
-            var numbersHeight = $('.time_circles div').height();
-            $('.time_circles div').attr('style','top:-' + ( canvasHeight - canvasHeight/2 + numbersHeight*0.6 ) + 'px !important');
-        });
-// Youtube script
-    /*var tag = document.createElement('script');
-    tag.src = "//www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-    document.body.appendChild(tag);
-
-    var player;
-
-    onYouTubeIframeAPIReady = function () {
-        player = new YT.Player('player', {
-            height: '532',
-            width: '945',
-            videoId: 'babI5wBoexg',  // youtube video id
-            playerVars: {
-                'autoplay': 0,
-                'rel': 0,
-                'showinfo': 0,
-                'controls': 0
-            },
-            events: {
-                'onStateChange': onPlayerStateChange
-            }
-        });
-    }
-
-    var p = document.getElementById ("player");
-    $(p).hide();
-
-    var t = document.getElementById ("thumbnail");
-    t.src = "https://i.ytimg.com/vi_webp/babI5wBoexg/maxresdefault.webp";
-
-    onPlayerStateChange = function (event) {
-        if (event.data == YT.PlayerState.ENDED) {
-            $('.start-video').fadeIn('normal');
-        }
-    }
-
-    $(document).on('click', '.start-video', function () {
-        $(this).hide();
-        $("#player").show();
-        $("#thumbnail_container").hide();
-        player.playVideo();
-    });*/
-/////////////////////////////////////////////////////////////////
-// Smooth Scrolling
-/////////////////////////////////////////////////////////////////
-    // Add scrollspy to <body>
-    /*$("body").niceScroll({
-    cursorcolor:"#5abed5",
-    cursorwidth:"10px"
-    });*/
-
-    /*$("html").niceScroll();
-    $('.nicescroll-rails').remove();*/
-
-    /*$('body').scrollspy({
-        target: ".navbar",
-        offset: 50
-    });*/
 
     // Add smooth scrolling on all links inside the navbar
     $("#main-menu a").on('click', function(event) {
@@ -257,9 +192,14 @@ $(document).ready(function() {
 
 
 $( window ).load(function() {
-    var canvasTop = $('.time_circles canvas').offset().top;
-    var numbersTop = $('.time_circles div').offset().top;
-    var canvasHeight = $('.time_circles canvas').height();
-    var numbersHeight = $('.time_circles div').height();
-    $('.time_circles div').attr('style','top:-' + ( canvasHeight - canvasHeight/2 + numbersHeight*0.6 ) + 'px !important');
+    setTimeout(function(){
+
+        var canvasTop = $('.time_circles canvas').offset().top;
+        var numbersTop = $('.time_circles div').offset().top;
+        var canvasHeight = $('.time_circles canvas').height();
+        var numbersHeight = $('.time_circles div').height();
+        /*$('.time_circles div').attr('style','top:-' + ( canvasHeight - canvasHeight/2 + numbersHeight*procent ) + 'px !important');*/
+        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/5 ) + 'px !important');
+        $('.time_circles > div').css('opacity','1');
+    }, 300);
 });
