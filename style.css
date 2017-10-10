@@ -5,24 +5,6 @@ Author: Yasir Zia
 Author URL: http://themeforest.net/user/yasirzia
 */
 
-@font-face {
-	font-family: 'SegoeUi';
-	src: url('/ryfts-landing-page/landing-page/fonts/segoeui.woff2');
-}
-@font-face {
-	font-family: 'SegoeUiLight';
-	src: url('/ryfts-landing-page/landing-page/fonts/segoeuil.woff2');
-}
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("/ryfts-landing-page/landing-page/fonts/fontawesome/FontAwesome.otf");
-  src: url("/ryfts-landing-page/landing-page/fonts/fontawesome/fontawesome-webfont.eot") format("embedded-opentype"), 
-  url("/ryfts-landing-page/landing-page/fonts/fontawesome/fontawesome-webfont.woff") format("woff"), 
-  url("/ryfts-landing-page/landing-page/fonts/fontawesome/fontawesome-webfont.ttf") format("truetype"), 
-  url("/ryfts-landing-page/landing-page/fonts/fontawesome/fontawesome-webfont.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /*-------------------------------------------
     
   CSS INDEX
@@ -1698,6 +1680,28 @@ body {
     z-index: -1;
     background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
 }*/
+@media (max-width: 1000px) {
+	.input__label--hoshi {
+	    top: 25px;
+	}
+	.input__field--hoshi {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		border: 0 !important;
+		padding: .85em 3em !important;
+	    width: 95%;
+	}
+	.input__label--hoshi:before, .input__label--hoshi:after {
+	    width: 80% !important;
+	    left: 10% !important;
+	}
+	.buton {
+    	padding: 25px 50px !important;
+    }
+    .main-heading {
+    	font-size: 32px !important;
+    }
+}
 @media (min-width: 960px) and (max-width: 1200px) {
 	.stat {
 		width: 100% !important;

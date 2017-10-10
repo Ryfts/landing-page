@@ -1,6 +1,30 @@
 var circlesLoaded = false;
 $(document).ready(function() {
     'use strict';
+    function iOS() {
+
+      var iDevices = [
+        'iPad Simulator',
+        'iPhone Simulator',
+        'iPod Simulator',
+        'iPad',
+        'iPhone',
+        'iPod'
+      ];
+
+      if (!!navigator.platform) {
+        while (iDevices.length) {
+          if (navigator.platform === iDevices.pop()){ return true; }
+        }
+      }
+
+      if(/blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)) return true;
+
+      return false;
+    }
+    if ( iOS() ) {
+        $(".level-1").html("");
+    }
      $('.time_circles > div').css('opacity','0');
 //Scroll REveal
     window.sr = ScrollReveal({ reset: true,
@@ -37,11 +61,18 @@ $(document).ready(function() {
 
     $( window ).resize(function() {
         fixLogo();
+        procent = 4.75;
+        if ( $(window).width() < 500 ) {
+            procent = 6;
+        }
+        if ( $(window).width() < 400 ) {
+            procent = 7.5;
+        }
         var canvasTop = $('.time_circles canvas').offset().top;
         var numbersTop = $('.time_circles > div').offset().top;
         var canvasHeight = $('.time_circles canvas').height();
         var numbersHeight = $('.time_circles > div').height();
-        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/5 ) + 'px !important');
+        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/procent ) + 'px !important');
     });
 
 
@@ -193,13 +224,19 @@ $(document).ready(function() {
 
 $( window ).load(function() {
     setTimeout(function(){
-
+        procent = 4.75;
+        if ( $(window).width() < 500 ) {
+            procent = 6;
+        }
+        if ( $(window).width() < 400 ) {
+            procent = 7.5;
+        }
         var canvasTop = $('.time_circles canvas').offset().top;
         var numbersTop = $('.time_circles div').offset().top;
         var canvasHeight = $('.time_circles canvas').height();
         var numbersHeight = $('.time_circles div').height();
         /*$('.time_circles div').attr('style','top:-' + ( canvasHeight - canvasHeight/2 + numbersHeight*procent ) + 'px !important');*/
-        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/5 ) + 'px !important');
+        $('.time_circles > div').attr('style','top:-' + ( canvasHeight - canvasHeight/procent ) + 'px !important');
         $('.time_circles > div').css('opacity','1');
-    }, 300);
+    }, 500);
 });
