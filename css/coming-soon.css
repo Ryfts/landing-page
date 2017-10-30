@@ -20,8 +20,8 @@ select, textarea {
 .button, button {
 	-webkit-appearance: none;
 	appearance: none;
-	border: 0;
-	background-color: #000;
+	border: 2px solid #FFF;
+	background-color: rgba(255,255,255,0.2);
 	color: #FFF;
 	border-radius: 3px;
 	text-transform: uppercase;
@@ -32,18 +32,38 @@ select, textarea {
 	-moz-transition: all ease .3s;
 	-o-transition: all ease .3s;
 	line-height: 40px;
+	margin-top: 5px;
+}
+.button:hover, button:hover {
+	background-color: rgba(255,255,255,.4);
+}
+.button:active, button:active,
+.button:focus, button:focus {
+	outline: 0;
+	background-color: rgba(0,0,0,.1);
 }
 
 input {
 	width: 100%;
 	display: block;
-	border: 0;
+	border: 2px solid #FFF;
 	border-radius: 3px;
-	background-color: #FFF;
+	background-color: rgba(255,255,255,.1);
 	height: 40px;
 	line-height: 40px;
 	padding: 0 10px;
 	margin: 10px 0;
+	transition: all ease .3s;
+	-webkit-transition: all ease .3s;
+	-moz-transition: all ease .3s;
+	-o-transition: all ease .3s;
+}
+input:hover {
+	background-color: rgba(255,255,255,.3);
+}
+input:focus {
+	background-color: rgba(0,0,0,.1);
+	outline: 0;
 }
 
 ::selection {
@@ -56,22 +76,22 @@ input {
 }
 
 ::-webkit-input-placeholder {
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.6);
 	font: inherit;
 	font-style: italic;
 }
 :-moz-placeholder {
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.6);
 	font: inherit;
 	font-style: italic;
 }
 ::-moz-placeholder {
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.6);
 	font: inherit;
 	font-style: italic;
 }
 :-ms-input-placeholder {
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.6);
 	font: inherit;
 	font-style: italic;
 }
@@ -137,7 +157,7 @@ input {
 			}
 				#cover .form input {
 					text-align: inherit;
-					color: #00a4e4;
+					color: #FFF;
 				}
 			#mc-subscribe-response {
 				margin-bottom: 30px;
@@ -153,8 +173,24 @@ input {
 					display: inline-block;
 					vertical-align: middle;
 					margin: 0 5px;
+					width: 40px;
+					height: 40px;
+					text-align: center;
 					font-size: 25px;
-					line-height: 30px
+					line-height: 40px;
+					border-radius: 50%;
+					transition: all ease .3s;
+					-webkit-transition: all ease .3s;
+					-moz-transition: all ease .3s;
+					-o-transition: all ease .3s;
+				}
+				#social-networks a:hover {
+					background-color: rgba(255,255,255,.3);
+				}
+				#social-networks a:active,
+				#social-networks a:focus {
+					background-color: rgba(0,0,0,.1);
+					outline: 0;
 				}
 					#social-networks a i {
 
