@@ -1,0 +1,76 @@
+html {
+	min-height: 100%;
+}
+body {
+	font-family: 'Gotham Book', Sans-serif;
+	min-height: 100%;
+}
+h1 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 50px;
+}
+h2 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 35px;
+	line-height: 45px;
+}
+h3 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 35px;
+	line-height: 45px;
+}
+h4 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 35px;
+}
+h5 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 30px;
+}
+h6 {
+	font-family: 'Gotham', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+}
+p, span, label, li,
+div, a, button, input,
+select, textarea {
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+.book {
+	font-family: 'Gotham Book', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.medium {
+	font-family: 'Gotham', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.bold {
+	font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+#wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}

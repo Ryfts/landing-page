@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "name": "Ryfts",
+    "lastOpened": 0,
+    "created": 1509440737240
+  },
+  "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 2,
+          "id": 0,
+          "name": "steemit",
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
+        }
+      ],
+      "id": 0,
+      "metadata": {
+        "name": "Untitled Set",
+        "importSize": {
+          "width": 850,
+          "height": 850
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M166.991 114.121c-10.040-5.010-137.405 100.265-137.405 177.718-0.176 105.864 148.567 345.698 173.613 438.468 21.553 79.567-36.559 175.060-20.587 179.395 14.588 9.368 153.356-131.159 158.763-191.074 6.964-95.406-162.036-373.607-175.504-445.44-15.621-83.835 12.369-157.194 1.12-159.067v0 0z",
+            "M484.887 4.597c-12.787-6.383-175.261 127.738-175.261 226.63-0.176 134.993 189.497 440.864 221.422 559.059 27.464 101.464-46.599 223.253-26.343 228.701 18.72 11.896 195.584-167.151 202.549-243.667 8.92-121.616-206.681-476.334-223.84-568.080-19.905-106.648 15.709-200.267 1.473-202.642v0 0z",
+            "M812.978 114.121c-9.954-5.012-137.406 100.265-137.406 177.718-0.154 105.864 148.567 345.698 173.635 438.468 21.531 79.567-36.559 175.060-20.608 179.395 14.676 9.368 153.466-131.159 158.783-191.074 6.943-95.406-162.034-373.607-175.526-445.44-15.6-83.835 12.37-157.194 1.121-159.067v0z"
+          ],
+          "attrs": [
+            {},
+            {},
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "steemit-logo"
+          ]
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    }
+  ],
+  "uid": -1,
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "ic-",
+      "metadata": {
+        "fontFamily": "Ryfts-Icon-Font",
+        "majorVersion": 1,
+        "minorVersion": 0,
+        "fontURL": "https://www.ryfts.io/",
+        "description": "Ryfts' Iconic Font",
+        "copyright": "Ryfts",
+        "designer": "Ryfts",
+        "designerURL": "https://www.ryfts.io/"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "showSelector": true,
+      "selector": "class",
+      "classSelector": ".ic",
+      "showMetrics": true,
+      "showMetadata": true,
+      "showVersion": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50
+  }
+}
