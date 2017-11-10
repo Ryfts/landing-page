@@ -19,7 +19,7 @@ function loading(action) {
 		//hidding $responseBox in case it was still visible
 		$responseBox.fadeOut(0);
 		//display loading text
-		$submitButton.attr('disabled', 'disabled').html('Sending data...');
+		$submitButton.attr('disabled', 'disabled').html('Sending...');
 	} else if ( action == 'stop' ) {
 		//reverting loading text
 		$submitButton.removeAttr('disabled').html(originalSubmitButtonText);
