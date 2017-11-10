@@ -6,7 +6,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 }
-	#cover>.my-container {
+	.cover-container {
 		position: relative;
 		z-index: 2;
 		margin: 0 auto;
@@ -17,6 +17,15 @@ body {
 	}
 		#logo-box {
 			position: relative;
+			background-color: #004471;
+			padding-top: 250px;
+			padding-bottom: 80px;
+		}
+		@media ( max-width: 768px ) {
+			#logo-box {
+				padding-top: 80px;
+				padding-bottom: 40px;
+			}
 		}
 			#logo {
 				width: 100%;
@@ -24,11 +33,19 @@ body {
 			#claim {
 				position: absolute;
 				bottom: 0;
-				left: 0;
+				left: 13px;
+				font-size: 16px;
 				font-style: italic;
 			}
 		#content-box {
-			margin-top: 80px;
+			padding-top: 60px;
+			padding-bottom: 30px;
+		}
+		@media ( max-width: 768px ) {
+			#content-box {
+				padding-top: 30px;
+				padding-bottom: 80px;
+			}
 		}
 			#content-box .title-box {
 				width: 100%;
@@ -53,6 +70,7 @@ body {
 					position: relative;
 					z-index: 2;
 					margin: 0;
+					max-width: 80%;
 				}
 			#content-box form {
 
@@ -107,15 +125,21 @@ body {
 						border: 0;
 						border-radius: 0;
 					}
+					@media ( max-width: 768px ) {
+						#content-box .form-box input {
+							padding-right: 20px;
+							text-align: center;
+						}
+						#content-box .form-box .button {
+							position: static;
+							margin: 0 auto;
+							display: block;
+						}
+					}
 					#mc-subscribe-response {
-						height: 20px;
 					}
 
 			#social-networks {
-				position: absolute;
-				top: 100%;
-				left: 0;
-				width: 100%;
 				margin-top: 20px;
 			}
 				#social-networks .social-networks-list {
@@ -125,37 +149,20 @@ body {
 				}
 					#social-networks .social-networks-list>li {
 						display: inline-block;
-						margin: 0 10px;
+						margin: 0 8px;
 					}
 						#social-networks .social-networks-list>li>a {
 							display: block;
-							width: 80px;
-							height: 80px;
+							width: 40px;
+							height: 40px;
 							background-color: #FFF;
-							line-height: 80px;
+							line-height: 40px;
 							border-radius: 50%;
-							font-size: 45px;
+							font-size: 20px;
 							text-align: center;
 							color: #00a4e4;
 						}
 							#social-networks .social-networks-list>li>a>i {
 								position: relative;
-								top: 4px;
+								top: 2px;
 							}
-	#cover-background {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-		background-color: #00a4e4;
-	}
-		#cover-background>.top {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 43%;
-			background-color: #004471;
-		}
