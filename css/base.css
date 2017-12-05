@@ -2,48 +2,38 @@ html {
 	min-height: 100%;
 }
 body {
-	font-family: 'Gotham Book', Sans-serif;
+	font-family: 'Gotham', Sans-serif;
+	font-style: normal;
 	min-height: 100%;
+	color: #717073;
 }
 h1 {
-	font-family: 'Gotham', sans-serif;
-	font-weight: bold;
-	font-style: normal;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 44px;
 }
 h2 {
-	font-family: 'Gotham', sans-serif;
 	font-weight: 500;
-	font-style: normal;
 	font-size: 32px;
 	line-height: 40px;
 }
 h3 {
-	font-family: 'Gotham', sans-serif;
-	font-weight: bold;
-	font-style: normal;
+	font-weight: 700;
 	font-size: 28px;
 	line-height: 36px;
 }
 h4 {
-	font-family: 'Gotham', sans-serif;
 	font-weight: 500;
-	font-style: normal;
 	font-size: 24px;
 	line-height: 32px;
 }
 h5 {
-	font-family: 'Gotham', sans-serif;
-	font-weight: bold;
-	font-style: normal;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 28px;
 }
 h6 {
-	font-family: 'Gotham', sans-serif;
 	font-weight: 500;
-	font-style: normal;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -52,25 +42,27 @@ div, a, button, input,
 select, textarea {
 	font-size: 12px;
 	line-height: 20px;
+	font-weight: 300;
 	margin-bottom: 0;
 }
-.book {
-	font-family: 'Gotham Book', sans-serif;
-	font-weight: normal;
-	font-style: normal;
+
+p + p {
+	margin-top: 8px;
 }
-.medium {
-	font-family: 'Gotham', sans-serif;
-	font-weight: 500;
-	font-style: normal;
-}
-.bold {
-	font-family: 'Gotham', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-}
+
 #wrapper {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+}
+
+.prevent-default {
+	text-decoration: none;
+	color: inherit;
+}
+
+.note {
+	font-size: 0.8em;
+	line-height: 1.4em;
+	opacity: .8;
 }

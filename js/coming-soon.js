@@ -1,42 +1,36 @@
-var $form = $('#mc-subscribe-form'),
-	$responseBox = $('#mc-subscribe-response'),
-	$loading = $('#mc-subscribe-loading'),
-	$submitButton = $('#mc-subscribe-button'),
-	originalSubmitButtonText = $submitButton.html();
+function validateEmail( string ) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test( string );
+}
 
-$submitButton.on('click', function(event) {
-	event.preventDefault();
-	loading('init');
-	var options = {
-		success: always,
-		error: always
-	};
-	$form.ajaxSubmit(options);
-});
 
-function loading(action) {
-	if ( action == 'init' ) {
-		//hidding $responseBox in case it was still visible
-		$responseBox.fadeOut(0);
-		//display loading text
-		$submitButton.attr('disabled', 'disabled').html('Sending...');
-	} else if ( action == 'stop' ) {
-		//reverting loading text
-		$submitButton.removeAttr('disabled').html(originalSubmitButtonText);
+(function SubscribeToNewsletter() {
+
+	var $form = $('#subscription-form'),
+		$subscriptionInput = $form.find('input'),
+		$subscriptionSubmit = $form.find('button');
+
+	//validation func
+	function validation() {
+		return validateEmail( $subscriptionInput.val() );
 	}
-}
 
-function always() {
-	//because of CORS, we're getting always an error, even if the form have submitted the data properly to MC
-	//so there is no way to know if it worked or not, the only thing we can do is to tell the user to check the email
-	//for a confirmation email
+	//submit button enabler
+	function submitButtonEnabler() {
+		if ( validation() ) {
+			$subscriptionSubmit.removeAttr('disabled');
+		} else {
+			$subscriptionSubmit.attr('disabled', 'disabled');
+		}
+	}
 
-	//stop loading
-	loading('stop');
 
-	//print response and show $responseBox
-	$responseBox.fadeIn(300);
-	$responseBox
-		.find('p')
-		.html('Check your inbox for a confirmation email ;)');
-}
+	//validates input on each key release event
+	$subscriptionInput.on('keyup', submitButtonEnabler);
+
+	//handles form submitting to mailchimp
+	$form.ajaxChimp();
+
+
+
+}());
