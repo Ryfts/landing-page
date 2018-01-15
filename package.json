@@ -1,0 +1,32 @@
+{
+  "name": "ryfts",
+  "version": "1.0.0",
+  "description": "ryfts",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inject": "^4.3.0",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:Guillerming/ryfts.git"
+  },
+  "author": "Guillerming for Ryfts",
+  "license": "ISC"
+}

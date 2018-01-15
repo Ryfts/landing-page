@@ -1,0 +1,99 @@
+#faq {
+
+}
+	#faq .faq-icon {
+		
+	}
+		#faq .faq-icon>img {
+			width: 100%;
+			margin-top: 20px;
+		}
+	#faq .faq-element {
+		color: #FFF;
+		margin-bottom: 15px;
+	}
+		#faq .faq-element-toggle {
+			display: block;
+			width: 100%;
+			font-size: 15px;
+			line-height: 20px;
+			text-transform: uppercase;
+			background-color: #00a4e4;
+			color: #FFF;
+			position: relative;
+			padding: 15px 25px;
+			padding-right: 70px;
+			text-decoration: none;
+			overflow: hidden;
+			transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+			-webkit-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+			-moz-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+			-o-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+		}
+			#faq .faq-element-toggle-title {
+				font: inherit;
+				font-size: 16px;
+				line-height: 20px;
+				color: inherit;
+				display: block;
+			}
+			#faq .faq-element-toggle-icon {
+				position: absolute;
+				display: block;
+				top: 50%;
+				right: 30px;
+				width: 60px;
+				height: 60px;
+				margin-top: -30px;
+				margin-right: -30px;
+				text-align: center;
+				line-height: inherit;
+				transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-webkit-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-moz-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-o-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+			}
+				#faq .faq-element-toggle-icon>i {
+					line-height: 60px;
+					font-size: 18px;
+				}
+			#faq .faq-element-content {
+				height: 0;
+				overflow: hidden;
+				background-color: #bbb8bc;
+				transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-webkit-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-moz-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+				-o-transition: all cubic-bezier(0.7, 0, 0, 1.3) .3s;
+			}
+				#faq .faq-element-content-inner {
+					padding: 20px 30px;
+					line-height: 18px;
+					font-weight: 500;
+					text-shadow: 0 0 3px rgba(0,0,0,0.1);
+				}
+					#faq .faq-element-content p {
+						font: inherit;
+						line-height: inherit;
+					}
+					#faq .faq-element-content ul {
+						margin: 10px 0;
+						padding-left: 20px;
+						font: inherit;
+						line-height: inherit;
+					}
+						#faq .faq-element-content ul>li {
+							font: inherit;
+							line-height: inherit;
+						}
+
+
+		#faq .faq-element.unfolded .faq-element-toggle {
+			background-color: #717073;
+		}
+			#faq .faq-element.unfolded .faq-element-toggle-icon {
+				transform: rotate(180deg);
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+			}

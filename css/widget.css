@@ -1,0 +1,261 @@
+#widget-section {
+    padding-bottom: 0 !important;
+}
+#widget-section h1.section-title {}
+
+/* widget styles */
+
+#widget {}
+#widget .widget-container {
+    padding: 60px 1px;
+}
+#widget .time-remain-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+#widget .contribution-box {
+    border-top: 1px solid #717073;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#widget .contribution-box .contribution-amount {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#widget .contribution-box .contribution-amount p {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#widget .contribution-box .contribution-amount span {
+    font-size: 42px;
+    line-height: 48px;
+    color: #00a4e4;
+    font-weight: 700;
+}
+#widget .resume-box {}
+#widget .resume-box-text {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#widget .resume-box-text .message {
+    font-size: 16px;
+    line-height: 22px;
+}
+#widget .resume-box-button {
+    text-align: right;
+}
+#widget .resume-box-button.left {
+    text-align: left;
+}
+#widget .resume-box-button.center {
+    text-align: center;
+}
+#widget .resume-box-button .button {
+    display: inline-block;
+}
+#widget .form {
+    position: relative;
+}
+#widget .form input {
+    width: 100%;
+    padding: 0 15px;
+    padding-right: 230px;
+    margin: 0;
+}
+#widget .form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+#widget h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#widget .countdown-container {}
+#widget .countdown-container>label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    text-transform: uppercase;
+}
+#widget .countdown-container>.countdown,
+#widget .countdown-container>.countend {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #00a4e4;
+    padding-left: 10px;
+}
+#widget .countdown-container>.countdown>span {
+    display: inline-block;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+    height: 100%;
+}
+#widget .countdown-container .countdown-element {}
+#widget .countdown-container .countdown-colon {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#widget .countdown-container .countdown-colon:last-child {
+    display: none;
+}
+#widget .progressbar-map {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+#widget .progressbar-map .init {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    height: 20px;
+    color: #00a4e4;
+}
+#widget .progressbar-map .init:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    top: 20px;
+    left: 0;
+    background-color: #00a4e4;
+}
+#widget .progressbar-map .end {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+    height: 20px;
+    color: #717073;
+}
+#widget .progressbar-map .end:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    top: 20px;
+    right: 0;
+    background-color: #717073;
+}
+#widget .progressbar {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: #717073;
+    border-radius: 0;
+    border: 0;
+    margin: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+#widget .progress {
+    background-color: #00a4e4;
+    border: 0;
+    border-radius: 0;
+    height: 100%;
+    margin: 0;
+}
+#widget .widget-consent-step .resume-box-button {
+    margin-top: 10px;
+}
+#widget .widget-consent-step .resume-box-button .button {
+    margin-right: 15px;
+}
+#widget-card-contribution-tracker {}
+#widget-card-contribution-tracker .time-remain-box {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#widget-card-contribution-tracker .contribution-box {}
+#widget-card-contribution-tracker .resume-box {}
+#widget-card-contribution-tracker .resume-box-text {
+}
+#widget-card-contribution-tracker .resume-box-text .message {
+}
+#widget-card-contribution-tracker .resume-box-button {
+}
+#widget-card-contribution-tracker .resume-box-button .button {
+}
+
+#widget-card-consent-step-3 .not-yet {
+    text-decoration: underline;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    color: #00a4e4;
+}
+
+#widget-card-consent-step-5 .message {
+    margin-top: 10px;
+}
+#widget-card-consent-step-5 .copy-container {
+    position: relative;
+}
+#widget-card-consent-step-5 .copy-container input {
+    margin: 0;
+    padding-left: 50px;
+}
+#widget-card-consent-step-5 .copy-container button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 40px;
+}
+#widget-card-consent-step-5 .qr-container {
+    margin-top: 10px;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #717073;
+    position: relative;
+}
+#widget-card-consent-step-5 .qr-container .qr {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(0,0,0,.1);
+    border: 0;
+}
+
+@media ( max-width: 768px ) {
+    #widget .widget-container {
+        padding: 30px 1px;
+    }
+    #widget .countdown-container>.countdown {
+        font-size: 25px;
+    }
+    #widget .contribution-box {
+        border-top: 0;
+        padding-top: 0;
+    }
+}

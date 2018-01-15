@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+<path id="outer" fill="none" stroke="#00A4E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M40.333,34.833h39.834l14.666,13.834L60.345,83.834L25.333,48.667L40.333,34.833z"/>
+<path id="line_left" fill="none" stroke="#00A4E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M51,34.833l-4.5,13.834l13.845,35.167"/>
+<path id="line_right" fill="none" stroke="#00A4E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M69.666,34.833l4.5,13.834L60.345,83.834"/>
+<path id="h_bar" fill="none" stroke="#00A4E4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M25.333,48.667h69.5"/>
+</svg>

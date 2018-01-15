@@ -1,0 +1,180 @@
+#token {
+
+}
+	#token .token-row {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#token .token-row + .token-row {
+		border-top: 2px solid #00a4e4;
+	}
+		#token .token-column {
+			position: relative;
+		}
+			#token .token-column-separator {
+				position: absolute;
+				top: 32px;
+				left: 0;
+				width: 2px;
+				height: calc(100% - 32px);
+				background-color: #00a4e4;
+				margin-left: -1px;
+			}
+			#token .token-column-inner {
+
+			}
+				#token .token-section-title {
+					font-size: 16px;
+					margin-top: 0;
+					line-height: 22px;
+				}
+				#token .token-specs-column p {
+				}
+				#token .token-benefits {
+					padding-top: 14px;
+					padding-bottom: 14px;
+				}
+				#token .token-benefits + .token-benefits {
+					border-top: 1px solid #00a4e4;
+				}
+		#token .token-benefits-column {
+			margin-top: -10px;
+		}
+				#token .token-benefits-title {
+					font-weight: 700;
+					color: #00a4e4;
+					text-transform: uppercase;
+					margin: 0;
+				}
+				#token .token-benefits-text {
+					font-weight: 500;
+					margin: 0;
+				}
+
+		#token-distribution-column {
+			position: relative;
+		}
+			#token .token-pie-chart {
+				position: relative;
+				width: 45%;
+				margin-left: 5%;
+			}
+				#token .token-chart-title {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					width: 48%;
+					margin: 0;
+					transform: translateX(-50%) translateY(-50%);
+					-webkit-transform: translateX(-50%) translateY(-50%);
+					-moz-transform: translateX(-50%) translateY(-50%);
+					-o-transform: translateX(-50%) translateY(-50%);
+					color: #00a4e4;
+					font-size: 12px;
+					line-height: 16px;
+					font-weight: 500;
+					text-align: center;
+				}
+			#token .token-chart-legend-box {
+				position: absolute;
+				top: 45%;
+				left: 55%;
+				width: 45%;
+				transform: translateY(-50%);
+				-webkit-transform: translateY(-50%);
+				-moz-transform: translateY(-50%);
+				-o-transform: translateY(-50%);
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+				#token .token-chart-legend-box h3 {
+					margin: 0;
+					text-transform: uppercase;
+					font-size: 12px;
+					line-height: 18px;
+					color: #333;
+				}
+				#token .token-chart-legend {
+					padding: 0;
+					margin-top: 5px;
+				}
+					#token .token-chart-legend>li {
+						line-height: 24px;
+						height: 24px;
+						display: block;
+					}
+						#token .token-chart-legend>li>span {
+							line-height: inherit;
+							height: inherit;
+							display: inline-block;
+							vertical-align: middle;
+						}
+						#token .token-chart-legend .legend-icon {
+							width: 15px;
+							height: 15px;
+							border-radius: 50%;
+							margin-right: 10px;
+						}
+						#token .token-chart-legend .legend-label {
+							color: #717073;
+						}
+
+
+@media ( max-width: 992px ) {
+	#token .token-column-separator {
+		display: none;
+	}
+	#token .token-column {
+		margin-bottom: 30px;
+	}
+}
+
+
+@media ( max-width: 768px ) {
+	#token .token-chart-legend .legend-icon {
+		margin-right: 4px;
+	}
+	#token .token-pie-chart {
+		margin-left: 1%;
+	}
+	#token .token-chart-legend {
+		left: 42%;
+	}
+	#token .token-benefits-column {
+		margin-top: 0;
+	}
+	#token .token-benefits {
+		border-top: 1px solid #00a4e4;
+	}
+	#token .token-chart-title {
+	}
+}
+
+@media ( max-width: 600px ) {
+	#token .token-chart-legend-box {
+		position: static;
+		margin: 30px auto 0;
+		text-align: center;
+		width: 100%;
+		transform: translateX(0) translateY(0);
+		-webkit-transform: translateX(0) translateY(0);
+		-moz-transform: translateX(0) translateY(0);
+		-o-transform: translateX(0) translateY(0);
+	}
+	#token .token-pie-chart {
+		margin: 10px auto;
+		width: 80%;
+		transform: translateX(0) translateY(0);
+		-webkit-transform: translateX(0) translateY(0);
+		-moz-transform: translateX(0) translateY(0);
+		-o-transform: translateX(0) translateY(0);
+	}
+	#token .token-chart-legend-box h3 {
+
+	}
+	#token .token-chart-legend {left: 0;width: auto;display: inline-block;}
+	#token .token-chart-legend>li {
+		text-align: left;
+	}
+}

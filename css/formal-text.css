@@ -1,0 +1,29 @@
+.formal-text {
+	padding-top: 42px;
+	padding-bottom: 42px;
+}
+.formal-text h1 {
+	margin-top: 35px;
+	margin-bottom: 7px;
+	text-align: center;
+}
+.formal-text h2 {
+	margin-top: 21px;
+	margin-bottom: 7px;
+	text-align: center;
+}
+.formal-text h3 {
+	margin-top: 14px;
+	margin-bottom: 7px;
+	text-align: center;
+}
+.formal-text p {
+	text-align: justify;
+}
+.formal-text ul {
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+.formal-text li {
+	
+}
