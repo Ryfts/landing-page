@@ -16,15 +16,15 @@
 									<label for="email-input"></label>
 								</form>
 							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-1">
 							<div class="social-networks-box">
 								<a class="social-network-link" href="https://medium.com/@ryfts" title="Ryfts on Medium" target="_blank" rel="nofollow"><i class="fa fa-medium"></i></a>
 								<a class="social-network-link" href="https://twitter.com/ryfts_io" title="Ryfts on Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
 								<a class="social-network-link" href="https://www.facebook.com/ryfts/" title="Ryfts on Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
 							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-1">
+							<?php /*
 							<div class="row">
-								<?php /*
 								<div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 contact-block">
 									<p class="contact-block-title">Contact</p>
 									<ul class="contact-block-list">
@@ -33,7 +33,7 @@
 										<li><span class="contact-block-list-icon location"><i class="fa fa-map-marker"></i></span> 116 st. John avenue, City, Country</li>
 									</ul>
 								</div>
-								*/ ?>
+								
 								<div id="footer-menu-box" class="col-xs-12 col-sm-6 col-md-12 col-lg-12 contact-block">
 									<p class="contact-block-title">Links</p>
 									<ul class="contact-block-list links">
@@ -43,6 +43,7 @@
 									</ul>
 								</div>
 							</div>
+							*/ ?>
 						</div>
 					</div>
 				</div>
