@@ -2,20 +2,24 @@
 	padding-top: 42px;
 	padding-bottom: 42px;
 }
+.formal-text-container {
+	display: block;
+	width: 100%;
+	max-width: 640px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
 .formal-text h1 {
 	margin-top: 35px;
 	margin-bottom: 7px;
-	text-align: center;
 }
 .formal-text h2 {
 	margin-top: 21px;
 	margin-bottom: 7px;
-	text-align: center;
 }
 .formal-text h3 {
 	margin-top: 14px;
 	margin-bottom: 7px;
-	text-align: center;
 }
 .formal-text p {
 	text-align: justify;
@@ -26,4 +30,21 @@
 }
 .formal-text li {
 	
+}
+
+.formal-text a {
+	text-decoration: underline;
+}
+
+.formal-text .header h1,
+.formal-text .header h2,
+.formal-text .header h3 {
+	text-align: center;
+}
+
+.formal-text section {
+	padding: 30px 0;
+}
+.formal-text section + section {
+	margin-top: 30px;
 }
