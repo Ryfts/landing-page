@@ -2,7 +2,7 @@
 			<a name="widget" class="local"></a>
 			<div class="section-content">
 				<div class="container">
-					<h1 class="section-title">RYFT Widget</h1>
+					<h1 class="section-title">RYFTs Widget</h1>
 
 					<div id="widget" class="slick-slider-container">
 
@@ -30,7 +30,7 @@
 							</div>
 							<div class="resume-box row">
 								<div class="col-xs-12 col-sm-7 col-md-7 col-lg-8 resume-box-text">
-									<p class="message">Any custom text goes here but we decided to notify you that there is around 10^44 stars in the world.</p>
+									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
 								</div>
 								<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 resume-box-button">
 									<a href="#" title="Buy RYFTs" class="button primary-button prevent-default">Buy RYFTs</a>
@@ -64,7 +64,7 @@
 							</div>
 							<div class="resume-box row">
 								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-6">
-									<p class="message">Any custom text goes here but we decided to notify you that there is around 10^44 stars in the world.</p>
+									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
 								</div>
 								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-6">
 									<div class="form">
@@ -101,7 +101,7 @@
 							</div>
 							<div class="resume-box row">
 								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-6">
-									<p class="message">Any custom text goes here but we decided to notify you that there is around 10^44 stars in the world.</p>
+									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
 								</div>
 								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-6">
 									<div class="form">
@@ -115,7 +115,7 @@
 						<!-- widgetcontainer start-->
 						<div id="widget-card-thank-you" class="widget-container before after">
 							<h2>Thank you for your subscription!</h2>
-							<div class="message">Any custom text goes here but we decided to notify you that there is around 10^44 stars in the world.</div>
+							<div class="message">At the end of the token sale, the remaining unsold tokens will be burned.</div>
 						</div>
 
 						<!-- widgetcontainer start-->

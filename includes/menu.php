@@ -12,8 +12,8 @@
 							<li><a href="#home" title="Ryfts home" class="prevent-default local-link">Home</a></li>
 							<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
-							<li><a href="#contact" title="Ryfts contact" class="prevent-default local-link">Contact</a></li>
-							<li><a href="assets/downloads/Ryfts-White-paper.pdf" title="Ryfts White paper">White paper</a></li>
+							<li><a href="#contact" title="Ryfts contact" class="prevent-default local-link">Contact us</a></li>
+							<li><a href="assets/downloads/Ryfts-White-paper.pdf" title="Ryfts White paper">Whitepaper</a></li>
 						</ul>
 					</div>
 					<div id="menu-button-box" class="col-xs-4 col-sm-4 hidden-md hidden-lg menu-visibility-switch">

@@ -2,7 +2,7 @@
 			<a name="advantages" class="local"></a>
 			<div class="section-content">
 				<div class="container">
-					<h1 class="section-title">Advantages & Blockchain</h1>
+					<h1 class="section-title">Advantages & Aspects of Ryfts</h1>
 					<div class="row first-line-advantages equal-height-box">
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 advantage-box equal-height-outer">
 							<div class="equal-height-inner">
