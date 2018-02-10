@@ -4,7 +4,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/hossam_tlass.jpg',
 			'name' => 'Hossam Tlass',
-			//'position' => 'Founder',
+			'position' => 'Founder',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -21,7 +21,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/belma_gutlic.jpg',
 			'name' => 'Belma Gutlic',
-			//'position' => 'Admin',
+			'position' => 'CTO',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -36,26 +36,9 @@
 			)
 		),
 		(object) array(
-			'picture' => 'assets/images/team/masato_ozaki.jpg',
-			'name' => 'Masato Ozaki',
-			//'position' => 'Unknown',
-			'links' => array(
-				(object) array(
-					'network' => 'Twitter',
-					'icon_class' => 'fa fa-twitter',
-					'link' => 'https://twitter.com/MsMasatozaki'
-				),
-				(object) array(
-					'network' => 'Linkedin',
-					'icon_class' => 'fa fa-linkedin',
-					'link' => 'https://www.linkedin.com/in/masato-ozaki-7a3657153/'
-				)
-			)
-		),
-		(object) array(
 			'picture' => 'assets/images/team/toyohiko_furukawa.jpg',
 			'name' => 'Toyohiko Furukawa',
-			//'position' => 'Unknown',
+			'position' => 'Chief Architect',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -70,9 +53,26 @@
 			)
 		),
 		(object) array(
+            'picture' => 'assets/images/team/masato_ozaki.jpg',
+            'name' => 'Masato Ozaki',
+            'position' => 'DevOps',
+            'links' => array(
+                (object) array(
+                    'network' => 'Twitter',
+                    'icon_class' => 'fa fa-twitter',
+                    'link' => 'https://twitter.com/MsMasatozaki'
+                ),
+                (object) array(
+                    'network' => 'Linkedin',
+                    'icon_class' => 'fa fa-linkedin',
+                    'link' => 'https://www.linkedin.com/in/masato-ozaki-7a3657153/'
+                )
+            )
+        ),
+		(object) array(
 			'picture' => 'assets/images/team/yoshohito_aoki.jpg',
 			'name' => 'Yoshohito Aoki',
-			//'position' => 'Unknown',
+			'position' => 'Advisor & Big data specialist',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -89,7 +89,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/samar_haddad.jpg',
 			'name' => 'Samar Haddad',
-			//'position' => 'Unknown',
+			'position' => 'Creative director',
 			'links' => array(
 				(object) array(
 					'network' => 'Linkedin',
@@ -101,7 +101,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/guillermo_siles.jpg',
 			'name' => 'Guillermo Siles',
-			//'position' => 'Unknown',
+			'position' => 'Frontend developer',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -118,7 +118,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/janica_san_juan.jpg',
 			'name' => 'Janica San Juan',
-			//'position' => 'Unknown',
+			'position' => 'Community manager',
 			'links' => array(
 				(object) array(
 					'network' => 'Linkedin',
