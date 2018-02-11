@@ -22,6 +22,7 @@
 								<a class="social-network-link" href="https://medium.com/@ryfts" title="Ryfts on Medium" target="_blank" rel="nofollow"><i class="fa fa-medium"></i></a>
 								<a class="social-network-link" href="https://twitter.com/ryfts_io" title="Ryfts on Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
 								<a class="social-network-link" href="https://www.facebook.com/ryfts/" title="Ryfts on Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+								<a class="social-network-link" href="mailto:team@ryfts.io" title="Email" target="_blank" rel="nofollow"><i class="fa fa-envelope"></i></a>
 							</div>
 							<?php /*
 							<div class="row">
