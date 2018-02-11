@@ -1,5 +1,5 @@
-		<section id="widget-section" class="section-load">
-			<a name="widget" class="local"></a>
+		<section id="ico" class="section-load">
+			<a name="ico" class="local"></a>
 			<div class="section-content">
 				<div class="container">
 					<h1 class="section-title">Token Sale</h1>

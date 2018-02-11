@@ -51,6 +51,9 @@
 					margin: 0;
 				}
 
+				#token .token-benefits a { color: #717073; }
+				#token .token-benefits a:hover { text-decoration: none !important; }
+
 		#token-distribution-column {
 			position: relative;
 		}

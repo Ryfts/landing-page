@@ -46,17 +46,19 @@
 
 									<div class="token-benefits">
 										<p class="token-benefits-title">Rewards for investors</p>
-										<p class="token-benefits-text">4 types of premium memberships which offer weekly free rolls</p>
+										<p class="token-benefits-text">4 types of premium memberships which offer weekly free rolls.</p>
 									</div>
 
 									<div class="token-benefits">
 										<p class="token-benefits-title">Reward for top 10 investors</p>
-										<p class="token-benefits-text">Lifetime platinum membership which offers X free rolls per month</p>
+										<p class="token-benefits-text">Lifetime platinum membership which offers weekly free rolls and no fees.</p>
 									</div>
 
 									<div class="token-benefits">
 										<p class="token-benefits-title">Whitepaper</p>
-										<p class="token-benefits-text">Document</p>
+                                        <a href="/assets/whitepaper.pdf">
+                                            <p class="token-benefits-text">Document</p>
+                                        </a>
 									</div>
 
 								</div>

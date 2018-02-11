@@ -1,5 +1,5 @@
-<section id="about-us" class="section-load">
-    <a name="about-ryfts" class="local"></a>
+<section id="about" class="section-load">
+    <a name="about" class="local"></a>
     <div class="section-content">
         <div class="container">
             <h1 class="section-title">About us</h1>
