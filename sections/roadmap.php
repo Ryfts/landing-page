@@ -2,33 +2,33 @@
 
 	$roadmapStops = array(
 		(object) array(
-			'date' => 'June 2017',
+			'date' => 'August 2017',
 			'description' => 'Idea Creation + Concept Development',
 			'position' => 'top'
 		),
 		(object) array(
-			'date' => 'August 2017',
-			'description' => 'Whitepaper Formalization + Landing Page Launch',
+			'date' => 'February 2018',
+			'description' => 'Going public',
 			'position' => 'bottom'
 		),
 		(object) array(
-			'date' => 'November 2017',
+			'date' => 'April 2018',
+			'description' => 'Pre Initial Coin Offering (pre-ICO)',
+			'position' => 'top'
+		),
+		(object) array(
+			'date' => 'May 2018',
 			'description' => 'Initial Coin Offering (ICO)',
-			'position' => 'top'
-		),
-		(object) array(
-			'date' => 'December 2017',
-			'description' => 'Building and Stabilizing the Platform',
 			'position' => 'bottom'
 		),
 		(object) array(
-			'date' => 'Q1 2018',
-			'description' => 'Further Development + Wide Scale Marketing',
+			'date' => 'Q3 2018',
+			'description' => 'Building and Stabilizing the Platform',
 			'position' => 'top'
 		),
 		(object) array(
-			'date' => 'Q2 2018',
-			'description' => 'Ryfts Platform Launch',
+			'date' => 'Q4 2018',
+			'description' => 'Platform Launch + Wide Scale Marketing',
 			'position' => 'bottom'
 		)
 	);
