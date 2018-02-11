@@ -15,7 +15,6 @@
 /* Video related */
 #about .video-player {
 	position: relative;
-	width: 480px;
 	background-color: #000000;
 	border-radius: 6px;
 }

@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 #press .logo:hover { opacity: 1; }

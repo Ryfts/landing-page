@@ -21,10 +21,9 @@
                     <div class="video-player">
                         <img
                                 src="assets/images/home/video-cover.png"
-                                class="js-modal-btn"
+                                class="img-responsive js-modal-btn"
                                 data-video-id="sTLiAcSKrD0"
                                 height="260"
-                                width="480"
                         />
                     </div>
                 </div>

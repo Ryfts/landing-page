@@ -46,7 +46,7 @@
 					</div>
 
                     <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
+                        <div class="col-md-2 col-md-offset-5 col-xs-6 col-xs-offset-3">
                             <button id="faq-show-more" class="circular">Show more</button>
                         </div>
                     </div>
