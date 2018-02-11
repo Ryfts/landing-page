@@ -33,8 +33,8 @@ function MultivestWidget() {
 
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1509100113;
-    var endDate = 1511481600;
+    var startDate = 1518342560;
+    var endDate = 1518442560;
     var targetDate;
 
     if (now < startDate) {
@@ -81,7 +81,8 @@ function MultivestWidget() {
 
         var str = "";
         for (var i in remainingTime) {
-            str += ~~remainingTime[i] + i + " : ";
+            var timeString = remainingTime[i] < 10 ? "0" + ~~remainingTime[i] : ~~remainingTime[i];
+            str += timeString + " : ";
         }
         // Store the result in the element
         $(".countdown").html(str.substring(0, str.length - 2));
@@ -141,7 +142,7 @@ function MultivestWidget() {
         exchange = result1;
         stats = result2;
 
-        $('.progressbar .pbaranim span').text(`${ parseInt(stats.tokensSold).toLocaleString() } RYFTs SOLD`);
+        $('.progressbar .pbaranim span').text(`${ parseInt(stats.tokensSold).toLocaleString() } RFT SOLD`);
         $('.btc span').text(stats.collected.btc);
         $('.ether span').text(stats.collected.eth);
         $('.progress').attr("aria-valuenow", (stats.soldPercentage * 100));
@@ -182,11 +183,12 @@ function MultivestWidget() {
                 ethAddres = data.icoAddress;
 
                 $('#toPayMethod').text("ETH");
+                $('.eth-payment').removeClass("hidden");
                 $('.drgStep5 .copy-container input').val(ethAddres);
 
-                $('.drgStep5 .qr').attr('src', '').css('display', 'none');
+                $('.drgStep5 .qr').attr('src', '').css('display', 'none') // TODO: Display QR for ethereum
 
-                $('.slick-slider-container').slick('slickNext');
+                // $('.slick-slider-container').slick('slickNext');
             }
         });
     });
@@ -216,11 +218,12 @@ function MultivestWidget() {
                 $('#toPayMethod').text("BTC");
                 $('.drgStep5 .copy-container input').val(btcAddress);
 
-                $('.slick-slider-container').slick('slickNext');
+                // $('.slick-slider-container').slick('slickNext');
 
                 var url = getQRUrl(btcAddress, 0, "Ryfts ICO", "Contribute BTC");
 
                 $('.drgStep5 .qr').attr('src', url).css('display', 'block');
+                $('.qr-container').removeClass("hidden");
             }
         });
     });
