@@ -198,7 +198,7 @@
 							</div>
 							<div class="copy-container">
 								<input class="copy-this" name="" value="" type="text" />
-								<button class="copy" data-clipboard-target=".copy-this"><i class="fa fa-copy"></i></button>
+								<button id="copy-button" class="copy" data-clipboard-target=".copy-this"><i class="fa fa-copy"></i></button>
 							</div>
 
 							<div class="hidden qr-container">

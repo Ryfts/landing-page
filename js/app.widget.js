@@ -13,7 +13,7 @@ function MultivestWidget() {
     });
 
     // format data for needed format
-    function formatDate(date) {
+    function formatDate(date, monthOnly = false) {
         var monthNames = [
             "January", "February", "March",
             "April", "May", "June", "July",
@@ -21,8 +21,12 @@ function MultivestWidget() {
             "November", "December"
         ];
 
-        var day = date.getDate();
         var monthIndex = date.getMonth();
+        if (monthOnly) {
+            return monthNames[monthIndex];
+        }
+
+        var day = date.getDate();
         var year = date.getFullYear();
         var hours = date.getHours();
         var minutes = date.getMinutes();
@@ -31,13 +35,23 @@ function MultivestWidget() {
         return `${monthNames[monthIndex]} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
     }
 
+    function hideAllIcoRelatedEleemnts() {
+        $('#ico').hide();
+        // $('a[href="#ico"]').parent().hide();
+    }
+
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1518342560;
-    var endDate = 1518442560;
+    var startDate = 1523750400;
+    var endDate = 1525132800;
     var targetDate;
 
     if (now < startDate) {
+        // ICO not started yet
+        return hideAllIcoRelatedEleemnts();
+
+        $(".countdown").html(formatDate(new Date(startDate * 1000), true));
+
         targetDate = startDate;
         if (filtered === false) {
             $('.slick-slider-container').slick('slickFilter', '.before');
@@ -89,7 +103,12 @@ function MultivestWidget() {
     }
 
     // Update the timer every 1 second
-    setInterval((function(){updateTimer(targetDate)}), 1000);
+    // if the ICO is running
+    if (startDate <= now && endDate >= now) {
+        setInterval((function () {
+            updateTimer(targetDate)
+        }), 1000);
+    }
 
     var ethAddres;
     var btcAddress;
@@ -279,10 +298,13 @@ function MultivestWidget() {
 
 document.addEventListener("DOMContentLoaded", function (event) {
 // copy to clipboard
-    document.querySelector('.copy').addEventListener('click', function (event) {
-        document.querySelector('.copy-this').select();
-        document.execCommand('copy');
-    })
+    var el = document.getElementById('copy-button');
+    if (el) {
+        document.querySelector('.copy').addEventListener('click', function (event) {
+            document.querySelector('.copy-this').select();
+            document.execCommand('copy');
+        })
+    }
 
     //exec widget script on document ready
     //MultivestWidget();
@@ -291,14 +313,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // animate on visible
 function isElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) &&
-        el.classList.add('animate')
-    );
+    if (el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+            el.classList.add('animate')
+        );
+    }
 }
 
 window.onscroll = window.onload = () => {

@@ -11,7 +11,7 @@
 						<ul class="header-menu menu">
 							<li><a href="#home" title="Ryfts home" class="prevent-default local-link">Home</a></li>
 							<li><a href="#about" title="About us" class="prevent-default local-link">About</a></li>
-							<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>
+							<!--<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>-->
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
 							<li><a href="#contact" title="Ryfts contact" class="prevent-default local-link">Contact</a></li>
 							<li><a href="assets/whitepaper.pdf" title="Ryfts White paper">Whitepaper</a></li>
