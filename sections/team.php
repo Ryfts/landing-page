@@ -19,7 +19,7 @@
 			)
 		),
 		(object) array(
-			'picture' => 'assets/images/team/belma_gutlic.jpg',
+			'picture' => 'assets/images/team/belma.jpg',
 			'name' => 'Belma Gutlic',
 			'position' => 'CTO',
 			'links' => array(
