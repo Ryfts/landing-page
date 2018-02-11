@@ -1,0 +1,17 @@
+#press .logos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10em;
+}
+
+#press .logo {
+    height: 90px;
+    width: 160px;
+    margin: 0 auto;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+#press .logo:hover { opacity: 1; }
