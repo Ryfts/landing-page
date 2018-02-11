@@ -1,19 +1,19 @@
-#about-us {
+#about {
 	color: #717073;
 }
 
-	#about-us p {
+	#about p {
 		font-size: 15px;
 	}
 
-	#about-us .about-us-box {
+	#about .about-us-box {
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
 
 
 /* Video related */
-#about-us .video-player {
+#about .video-player {
 	position: relative;
 	width: 480px;
 	background-color: #000000;
