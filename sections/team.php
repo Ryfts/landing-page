@@ -24,9 +24,9 @@
 			'position' => 'CTO',
 			'links' => array(
 				(object) array(
-					'network' => 'Twitter',
-					'icon_class' => 'fa fa-twitter',
-					'link' => 'https://twitter.com/BelmaDzi'
+					'network' => 'Github',
+					'icon_class' => 'fa fa-github',
+					'link' => 'https://github.com/morrigan'
 				),
 				(object) array(
 					'network' => 'Linkedin',
