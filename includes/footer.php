@@ -13,6 +13,7 @@
 		<script type="text/javascript" src="js/vivus.min.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/chart.min.js?v=TIMESTAMP"></script>
+		<script type="text/javascript" src="js/chart.easypie.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/ajaxChimp.min.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/bodymovin.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/functions-library.js?v=TIMESTAMP"></script>

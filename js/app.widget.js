@@ -1,5 +1,16 @@
 var apiUrl = "https://ryfts.io/multivest";
 
+// Countdown options
+var charts = [];
+var options = {
+    scaleColor: false,
+    trackColor: '#717073',
+    barColor: '#00a4e4',
+    lineWidth: 6,
+    lineCap: 'butt',
+    size: 95
+};
+
 function MultivestWidget() {
     // slick slider - for demo purposes
 
@@ -33,8 +44,9 @@ function MultivestWidget() {
 
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1509100113;
-    var endDate = 1511481600;
+
+    var startDate = 1518301027;
+    var endDate = 1518442027;
     var targetDate;
 
     if (now < startDate) {
@@ -68,23 +80,26 @@ function MultivestWidget() {
         }
     }
 
+
     // timer
     function updateTimer(targetDate) {
 
         var remainingSeconds = ~~(targetDate - new Date().getTime() / 1000);
         var remainingTime = {
-            "D": remainingSeconds / (60 * 60 * 24),
+            "days": remainingSeconds / (60 * 60 * 24),
             "H": (remainingSeconds % (60 * 60 * 24)) / (60 * 60),
             "M": (remainingSeconds % (60 * 60)) / 60,
             "S": remainingSeconds % 60
         };
 
-        var str = "";
+        console.log(charts);
+
         for (var i in remainingTime) {
-            str += ~~remainingTime[i] + i + " : ";
+            var timeRounded = ~~remainingTime[i];
+            $(".countdown-widget span").html(timeRounded);
+            console.log(charts[i]);
+            charts[i].update(~~(timeRounded / 60 * 100));
         }
-        // Store the result in the element
-        $(".countdown").html(str.substring(0, str.length - 2));
     }
 
     // Update the timer every 1 second
@@ -141,7 +156,7 @@ function MultivestWidget() {
         exchange = result1;
         stats = result2;
 
-        $('.progressbar .pbaranim span').text(`${ parseInt(stats.tokensSold).toLocaleString() } RYFTs SOLD`);
+        $('.progressbar .pbaranim span').text(`${ parseInt(stats.tokensSold).toLocaleString() } RFT SOLD`);
         $('.btc span').text(stats.collected.btc);
         $('.ether span').text(stats.collected.eth);
         $('.progress').attr("aria-valuenow", (stats.soldPercentage * 100));
@@ -279,7 +294,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector('.copy').addEventListener('click', function (event) {
         document.querySelector('.copy-this').select();
         document.execCommand('copy');
-    })
+    });
+
+    // Countdown chart init
+    [].forEach.call(document.querySelectorAll('.countdown-widget .chart'),  function(el) {
+        charts.push(new EasyPieChart(el, options));
+    });
 
     //exec widget script on document ready
     //MultivestWidget();

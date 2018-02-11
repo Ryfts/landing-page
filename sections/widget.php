@@ -2,25 +2,40 @@
 			<a name="widget" class="local"></a>
 			<div class="section-content">
 				<div class="container">
-					<h1 class="section-title">RYFTs Widget</h1>
+					<h1 class="section-title">Token sale</h1>
 
 					<div id="widget" class="slick-slider-container">
 
-						<!-- widgetcontainer start-->
+						<!-- widgetcontainer start - ONGOING ICO -->
 						<div id="widget-card-contribution-tracker" class="widget-container during">
 							<div class="time-remain-box">
 								<h2>Contribution Tracker</h2>
 								<div class="countdown-container">
 									<label>Ending in:</label>
-									<div class="countdown"></div>
-								</div>
+                                    <div class="countdown-widget">
+                                        <ul>
+                                            <li class="chart"><span></span>Days</li>
+                                            <li class="chart"><span></span>Hours</li>
+                                            <li class="chart"><span></span>Minutes</li>
+                                            <li class="chart"><span></span>Seconds</li>
+                                        </ul>
+                                    </div>
+                                </div>
 							</div>
 							<div class="contribution-box">
 								<div class="contributions">
-									<div class="c-row progressbar-map">
-										<div class="ether init"><span></span> ETH</div>
-										<div class="btc end"><span></span> BTC</div>
-									</div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-md-offset-2 col-lg-offset-3">
+                                            <div class="ether contribution-amount">
+                                                <p><span>-.--</span> ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                            <div class="btc contribution-amount">
+                                                <p><span>-.--</span> BTC</p>
+                                            </div>
+                                        </div>
+                                    </div>
 								</div>
 								<div class="progressbar">
 									<div class="progress" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
@@ -33,12 +48,12 @@
 									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
 								</div>
 								<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 resume-box-button">
-									<a href="#" title="Buy RYFTs" class="button primary-button prevent-default">Buy RYFTs</a>
+									<a href="#" title="Buy Ryfts token" class="button primary-button prevent-default">Buy RFT</a>
 								</div>
 							</div>
 						</div>
 
-						<!-- widgetcontainer start-->
+						<!-- widgetcontainer start - NOT YET STARTED -->
 						<div id="widget-card-ico-starting" class="widget-container before">
 							<div class="time-remain-box">
 								<h2>RYFTs ICO Starting Soon</h2>
@@ -66,16 +81,10 @@
 								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-6">
 									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
 								</div>
-								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-6">
-									<div class="form">
-										<input id="emailBefore" class="email" name="email" placeholder="Leave your e-mail" type="email" required>
-										<button class="button" disabled>Subscribe to updates</button>
-									</div>
-								</div>
 							</div>
 						</div>
 
-						<!-- widgetcontainer start-->
+						<!-- widgetcontainer start - FINISHED ICO -->
 						<div id="widget-card-ico-finished" class="widget-container after">
 							<div class="time-remain-box">
 								<h2>Our ICO Has Finished</h2>
@@ -85,6 +94,8 @@
 							</div>
 							<div class="contribution-box">
 								<div class="contributions">
+                                    <h2>Total amount raised:</h2>
+
 									<div class="row">
 										<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-md-offset-2 col-lg-offset-3">
 											<div class="ether contribution-amount">
@@ -101,13 +112,7 @@
 							</div>
 							<div class="resume-box row">
 								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-6">
-									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
-								</div>
-								<div class="col-xs-12 col-sm-8 col-md-7 col-lg-6">
-									<div class="form">
-										<input id="emailAfter" class="email" name="email" placeholder="Leave your e-mail" type="email" required />
-										<button class="button" disabled>Subscribe to updates</button>
-									</div>
+									<p class="message">The remaining unsold tokens were burned.</p>
 								</div>
 							</div>
 						</div>
