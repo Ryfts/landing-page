@@ -33,3 +33,15 @@
 	color: #FFF;
 	text-decoration: none;
 }
+
+button.circular {
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: .8px;
+	margin-right: 0;
+	margin-bottom: .6875rem;
+	border-radius: 10em;
+	color: #00a4e4;
+	background-color: transparent;
+	border: 2px solid #00a4e4;
+}

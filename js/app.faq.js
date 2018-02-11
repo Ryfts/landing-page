@@ -5,15 +5,37 @@ function Faq() {
 		$faqElements = $('.faq-element'),
 		unfoldClass = 'unfolded';
 
+	$('#faq-show-more').click(showAllFaqElements);
+
 
 	function faqToggler( $element ) {
 		$($element).parents('.faq-element').toggleClass( unfoldClass );
 		resize();
 	}
 
+	function hideElement($element) {
+		$($element).hide();
+	}
+
+	function showAllFaqElements() {
+		$('.faq-element').show();
+        $('#faq-show-more').hide();
+	}
+
 	function resize() {
 		for ( var n = 0; n < $faqElements.length; n++ ) {
-			if ( !$($faqElements[n]).hasClass(unfoldClass) ) {
+			// Display only first X lines in both columns
+			var numberOfDisplayedFaqs = 4;
+			if (n >= numberOfDisplayedFaqs && n < 8) {
+				hideElement($faqElements[n]);
+			}
+
+            if (n >= 8 + numberOfDisplayedFaqs) {
+                hideElement($faqElements[n]);
+            }
+
+
+                if ( !$($faqElements[n]).hasClass(unfoldClass) ) {
 				$($faqElements[n]).find('.faq-element-content').height(0);
 			} else {
 				$($faqElements[n]).find('.faq-element-content').height( $($faqElements[n]).find('.faq-element-content-inner').outerHeight() );
@@ -26,7 +48,9 @@ function Faq() {
 		faqToggler( $(this) );
 	});
 
-	$(document).ready( resize );
+	$(document).ready(function() {
+		resize();
+    });
 	$(window).resize( resize );
 
 }
