@@ -50,13 +50,14 @@
 		<link type="text/css" rel="stylesheet" href="css/sections.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/section-load.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/buttons.css?v=TIMESTAMP" />
+		<link type="text/css" rel="stylesheet" href="node_modules/modal-video/css/modal-video.min.css" />
 
 		<link type="text/css" rel="stylesheet" href="css/header.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/menu.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/cover.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/advantages.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/about-us.css?v=TIMESTAMP" />
-		<?php /* <link type="text/css" rel="stylesheet" href="css/token-sale.css?v=TIMESTAMP" /> */ ?>
+		<!-- <link type="text/css" rel="stylesheet" href="css/token-sale.css?v=TIMESTAMP" /> -->
 		<link type="text/css" rel="stylesheet" href="css/widget.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/token.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/roadmap.css?v=TIMESTAMP" />

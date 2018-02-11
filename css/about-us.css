@@ -1,19 +1,47 @@
 #about-us {
 	color: #717073;
 }
+
+	#about-us p {
+		font-size: 15px;
+	}
+
 	#about-us .about-us-box {
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
-		#about-us .video-player {
-			position: relative;
-			width: 100%;
-			padding-bottom: 58.82%;
-		}
-			#about-us .video-player>iframe {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			}
+
+
+/* Video related */
+#about-us .video-player {
+	position: relative;
+	width: 480px;
+	background-color: #000000;
+	border-radius: 6px;
+}
+
+.modal-video-movie-wrap button { padding: 0px; }
+
+
+.video-player img {
+	box-shadow: 0 8px 12px 0 rgba(50,49,58,.25);
+	opacity: 0.6;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.video-player::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	background: url("../assets/images/home/play-button.svg") center no-repeat;
+	opacity: .5;
+	transition: .2s ease-out;
+	pointer-events: none;
+}
