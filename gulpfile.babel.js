@@ -48,7 +48,6 @@ var config = {
 					hoist_vars: false,
 					if_return: true,
 					join_vars: true,
-					cascade: true,
 					side_effects: true,
 					warnings: false,
 					global_defs: {}
