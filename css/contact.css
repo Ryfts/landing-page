@@ -47,16 +47,21 @@
 				margin: 5px;
 			}
 				#contact .social-network-link>i {
-					position: relative;
+					line-height: inherit;
 				}
-				#contact .social-network-link.twitter>i {top: 2px;}
-				#contact .social-network-link.facebook>i {left: -1px;top: 1px;}
+				#contact .social-network-link.twitter>i {
+					top: 2px;
+				}
+				#contact .social-network-link.facebook>i {
+					left: -1px;
+					top: 1px;
+				}
 				#contact .social-network-link.instagram>i {
-    top: 1px;
-}
+				    top: 1px;
+				}
 				#contact .social-network-link.linkedin>i {
-    top: -1px;
-}
+				    top: -1px;
+				}
 				#contact .social-network-link.bitcoin-talk>i {}
 		#contact .contact-block {
 			padding-top: 20px;
@@ -88,8 +93,12 @@
 						font-size: 1.4em;
 						color: #00a4e4;
 					}
-					#contact .contact-block-list-icon.phone {}
-					#contact .contact-block-list-icon.email { font-size: 1.2em; }
+					#contact .contact-block-list-icon.phone {
+						
+					}
+					#contact .contact-block-list-icon.email {
+						font-size: 1.2em;
+					}
 					#contact .contact-block-list-icon.location {}
 				#contact .contact-block-list>li>a {
 					

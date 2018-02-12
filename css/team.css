@@ -99,6 +99,7 @@
 					}
 						#team .team-member-social-networks>li>a>i {
 							color: inherit;
+							line-height: inherit;
 						}
 
 @media ( max-width: 768px ) {

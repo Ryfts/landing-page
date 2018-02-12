@@ -19,7 +19,14 @@
 	border-radius: 6px;
 }
 
-.modal-video-movie-wrap button { padding: 0px; }
+.modal-video-movie-wrap button {
+	padding: 0px;
+	margin-top: 0;
+}
+.modal-video-close-btn:before,
+.modal-video-close-btn:after {
+	margin-top: -2px;
+}
 
 
 .video-player img {
