@@ -25,7 +25,7 @@ $press = array(
     <a name="press" class="local"></a>
     <div class="section-content">
         <div class="container">
-            <h1 class="section-title">In the news</h1>
+            <h1 class="section-title">As seen on</h1>
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
