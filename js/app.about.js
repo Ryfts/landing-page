@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+function About() {
     $(".js-modal-btn").modalVideo();
-});
+}

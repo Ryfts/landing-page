@@ -9,6 +9,8 @@ function Home() {
 	$(document).ready(function() {
 		writeYear();
 
+		//app.about
+		About();
 		//app.advantages
 		advantagesAndBlockchain();
 		//app.contact
