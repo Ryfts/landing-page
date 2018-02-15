@@ -1,30 +1,37 @@
 [
   {
     "question": "What kind of token is RFT?",
-    "answer": "It is ERC-20 standard built on Ethereum blockchain."
+    "answer": "It is ERC-20 standard built on Ethereum blockchain.",
+    "visibleByDefault": true
   },
   {
     "question": "Which payment methods will be accepted in the token sale?",
-    "answer": "Ethereum (ETH) and Bitcoin (BTC)"
+    "answer": "Ethereum (ETH) and Bitcoin (BTC)",
+    "visibleByDefault": true
   },
   {
     "question": "How many RFT tokens will be issued during token sale?",
-    "answer": "Totally there is 33 mil. of tokens issued and 30 mil. will go to token sale during ICO and pre-ICO period.\n20% of total token sale (6 mil. tokens) will go through the pre-ICO phase."
+    "answer": "Totally there is 33 mil. of tokens issued and 30 mil. will go to token sale during ICO and pre-ICO period.\n20% of total token sale (6 mil. tokens) will go through the pre-ICO phase.",
+    "visibleByDefault": true
   },
   {
     "question": "What is the minimum and maximum participation stake?",
-    "answer": "There is no minimum and maximum participation stake for the ICO or the pre-ICO."
+    "answer": "There is no minimum and maximum participation stake for the ICO or the pre-ICO.",
+    "visibleByDefault": false
   },
   {
     "question": "Are there any bonuses?",
-    "answer": "Yes. More details about it soon."
+    "answer": "Yes. More details about it soon.",
+    "visibleByDefault": false
   },
   {
     "question": "How can I participate in the the ICO?",
-    "answer": "1. First, you must prepare a ERC-20 token compatible wallet (i.e. MyEtherWallet, Mist) with enough ETH in it to participate. We recommend you to use: https://www.myetherwallet.com\n2. Decide on the amount of ETH or BTC you would like to transfer.\n3. a) If you are using BTC as payment, please take address only from our website https://ryfts.io . You should insert your ETH wallet address (used to send bought RFT tokens) to get BTC address generated. Each ETH address get one unique BTC address. \n\nb) If you are using ETH as payment, just use your wallet to send the desired amount to our ICO smart contract address.\n4. After your contribution is successfully transferred, our smart contract will send the corresponding amount of RFT tokens to your wallet."
+    "answer": "1. First, you must prepare a ERC-20 token compatible wallet (i.e. MyEtherWallet, Mist) with enough ETH in it to participate. We recommend you to use: https://www.myetherwallet.com\n2. Decide on the amount of ETH or BTC you would like to transfer.\n3. a) If you are using BTC as payment, please take address only from our website https://ryfts.io . You should insert your ETH wallet address (used to send bought RFT tokens) to get BTC address generated. Each ETH address get one unique BTC address. \n\nb) If you are using ETH as payment, just use your wallet to send the desired amount to our ICO smart contract address.\n4. After your contribution is successfully transferred, our smart contract will send the corresponding amount of RFT tokens to your wallet.",
+    "visibleByDefault": false
   },
   {
     "question": "Do you have any bounty campaign?",
-    "answer": "Yes, please check out bitcointalk thread. More details about it soon."
+    "answer": "Yes, please check out bitcointalk thread. More details about it soon.",
+    "visibleByDefault": false
   }
 ]

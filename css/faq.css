@@ -97,3 +97,13 @@
 				-moz-transform: rotate(180deg);
 				-o-transform: rotate(180deg);
 			}
+
+	#faq .faq-button-box {
+		height: 40px;
+		margin-top: 30px;
+		text-align: center;
+	}
+		#faq-show-more,
+		#faq-show-less {
+			margin-top: 0;
+		}
