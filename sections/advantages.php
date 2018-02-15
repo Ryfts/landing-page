@@ -45,25 +45,31 @@
 						<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
 							<div class="row">
 								<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 advantage-box">
-									<div class="advantage-icon-box">
-										<object data="assets/images/home/advantages/icon-cubes.svg" class="advantage-icon" id="advantage-icon-cubes" type="image/svg+xml"></object>
+									<div class="equal-height-inner">
+										<div class="advantage-icon-box">
+											<object data="assets/images/home/advantages/icon-cubes.svg" class="advantage-icon" id="advantage-icon-cubes" type="image/svg+xml"></object>
+										</div>
+										<h6 class="advantage-title">Decentralized</h6>
+										<p class="advantage-description">There is no one in control of the database. You can play from anywhere too.</p>
 									</div>
-									<h6 class="advantage-title">Decentralized</h6>
-									<p class="advantage-description">There is no one in control of the database. You can play from anywhere too.</p>
 								</div>
 								<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 advantage-box">
-									<div class="advantage-icon-box">
-										<object data="assets/images/home/advantages/icon-eye.svg" class="advantage-icon" id="advantage-icon-eye" type="image/svg+xml"></object>
+									<div class="equal-height-inner">
+										<div class="advantage-icon-box">
+											<object data="assets/images/home/advantages/icon-eye.svg" class="advantage-icon" id="advantage-icon-eye" type="image/svg+xml"></object>
+										</div>
+										<h6 class="advantage-title">Transparent</h6>
+										<p class="advantage-description">Anyone can verify the correctness of the state of the system (bets and winnings). All code is publicly accessible.</p>
 									</div>
-									<h6 class="advantage-title">Transparent</h6>
-									<p class="advantage-description">Anyone can verify the correctness of the state of the system (bets and winnings). All code is publicly accessible.</p>
 								</div>
-								<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 advantage-box">
-									<div class="advantage-icon-box">
-										<object data="assets/images/home/advantages/icon-shield.svg" class="advantage-icon" id="advantage-icon-shield" type="image/svg+xml"></object>
+								<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 advantage-box">
+									<div class="equal-height-inner">
+										<div class="advantage-icon-box">
+											<object data="assets/images/home/advantages/icon-shield.svg" class="advantage-icon" id="advantage-icon-shield" type="image/svg+xml"></object>
+										</div>
+										<h6 class="advantage-title">Secure</h6>
+										<p class="advantage-description">You are always in control of your funds. They can't be counterfeited by any party since no one owns the database.</p>
 									</div>
-									<h6 class="advantage-title">Secure</h6>
-									<p class="advantage-description">You are always in control of your funds. They can't be counterfeited by any party since no one owns the database.</p>
 								</div>
 							</div>
 						</div>

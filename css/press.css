@@ -1,18 +1,26 @@
 #press .logos {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10em;
+    text-align: center;
+}
+
+#press a {
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 110px;
+    margin: 0 10px;
 }
 
 #press .logo {
-    height: 90px;
-    width: 160px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: contain;
-    display: inline-block;
-    flex-wrap: wrap;
+    background-position: center;
+    display: block;
+    transition: all ease .3s;
 }
 
-#press .logo:hover { opacity: 1; }
+#press .logo:hover {
+    opacity: 1;
+}

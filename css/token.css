@@ -81,8 +81,8 @@
 			#token .token-chart-legend-box {
 				position: absolute;
 				top: 45%;
-				left: 55%;
-				width: 45%;
+				left: 53%;
+				width: 47%;
 				transform: translateY(-50%);
 				-webkit-transform: translateY(-50%);
 				-moz-transform: translateY(-50%);
@@ -117,7 +117,7 @@
 							width: 15px;
 							height: 15px;
 							border-radius: 50%;
-							margin-right: 10px;
+							margin-right: 5px;
 						}
 						#token .token-chart-legend .legend-label {
 							color: #717073;
