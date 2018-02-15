@@ -18,12 +18,12 @@
 				include('sections/cover.php');
 				include('sections/advantages.php');
 				include('sections/about-us.php');
-                include('sections/press.php');
             //include('sections/token-sale.php');
 				include('sections/widget.php');
 				include('sections/token.php');
 				include('sections/roadmap.php');
 				include('sections/team.php');
+                include('sections/press.php');
 				include('sections/faq.php');
 				include('sections/contact.php');
 			?>
