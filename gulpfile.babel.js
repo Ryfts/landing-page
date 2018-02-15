@@ -123,6 +123,7 @@ plugin_gulp.task('default', function() {
 			'js/**/*',
 			'json/**/*',
 			'sections/**/*',
+			'node_modules/**/*',
 			'index.php',
 			'terms-and-conditions.php',
 			'privacy.php'
@@ -151,6 +152,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.display.js',
 			settings.path.dist + 'js/jquery.sectionLoader.js',
 			settings.path.dist + 'js/jquery.preventDefault.js',
+			settings.path.dist + 'node_modules/modal-video/js/jquery-modal-video.min.js',
 			settings.path.dist + 'js/app.cover.js',
 			settings.path.dist + 'js/app.home.js',
 			settings.path.dist + 'js/app.header.js',
@@ -183,6 +185,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.display.js',
 			settings.path.dist + 'js/jquery.sectionLoader.js',
 			settings.path.dist + 'js/jquery.preventDefault.js',
+			settings.path.dist + 'node_modules/modal-video/js/jquery-modal-video.min.js',
 			settings.path.dist + 'js/app.cover.js',
 			settings.path.dist + 'js/app.home.js',
 			settings.path.dist + 'js/app.header.js',
@@ -388,7 +391,8 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/app.token.js',
 			settings.path.dist + 'js/app.faq.js',
 			settings.path.dist + 'js/app.contact.js',
-			settings.path.dist + 'js/app.widget.js'
+			settings.path.dist + 'js/app.widget.js',
+			settings.path.dist + 'node_modules/**/*'
 		], {read:false} )
 		.pipe( plugin_clean( {force:true} ) );
 	});
