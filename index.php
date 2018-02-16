@@ -7,6 +7,8 @@
 	$bodyID = 'home-page';
 
 
+	$whitepaperLink = 'assets/pdf/whitepaper/Ryfts-WhitePaper-v1.1.pdf';
+
 	include('includes/head.php');
 	include('includes/menu.php');
 ?>

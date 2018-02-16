@@ -13,7 +13,7 @@
 							<li><a href="#about" title="About us" class="prevent-default local-link">About</a></li>
 							<!--<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>-->
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
-							<li><a href="assets/whitepaper.pdf" title="Ryfts White paper">Whitepaper</a></li>
+							<li><a href="<?php echo $whitepaperLink; ?>" title="Ryfts Whitepaper" target="_blank">Whitepaper</a></li>
 							<li><a href="#contact" title="Ryfts contact" class="prevent-default local-link">Contact</a></li>
 						</ul>
 					</div>
