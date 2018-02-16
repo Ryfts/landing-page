@@ -125,8 +125,7 @@ plugin_gulp.task('default', function() {
 			'sections/**/*',
 			'node_modules/modal-video/**/*',
 			'index.php',
-			'terms-and-conditions.php',
-			'privacy.php'
+			'terms-and-conditions.php'
 		])
 		.pipe( plugin_copy( settings.path.dist ) );
 	});
