@@ -402,7 +402,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/app.contact.js',
 			settings.path.dist + 'js/app.widget.js',
 			settings.path.dist + 'js/coming-soon.js',
-			settings.path.dist + 'node_modules/**/*' //remove everything within node_modules
+			settings.path.dist + 'node_modules' //remove node_modules and everything within
 		], {read:false} )
 		.pipe( plugin_clean( {force:true} ) );
 	});
