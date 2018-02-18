@@ -14,7 +14,7 @@ function Vision() {
                 $('.vision-type-2').css('color', '#00a4e4');
             }
         });
-    }, 2000);
+    }, 2900);
 
     setTimeout(function() {
         $('.vision-type-3').typewrite({
@@ -23,7 +23,7 @@ function Vision() {
                 $('.vision-type-3').css('color', '#00a4e4');
             }
         });
-    }, 3000);
+    }, 3900);
 
     setTimeout(function() {
         $('.vision-type-4').typewrite({
@@ -32,5 +32,5 @@ function Vision() {
                 $('.vision-type-4').css('color', '#00a4e4');
             }
         });
-}, 5000);
+}, 5800);
 }

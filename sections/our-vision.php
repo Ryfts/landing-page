@@ -24,6 +24,9 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-4">
                     <div class="vision-right-container">
+                        <img src="assets/images/home/dices.png" width="200" title="Ryfts dices" class="img-responsive" />
+
+                        <br />
 
                         <p>
                             We believe that centralized gambling systems are thing of the past and we are one of the pioneers in a new wave.
