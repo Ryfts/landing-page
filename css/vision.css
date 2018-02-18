@@ -49,3 +49,9 @@ h4.vision span {
     display: -ms-flexbox;
     display:         flex;
 }
+
+/** Video playback **/
+.modal-video-movie-wrap button {
+    padding: 0px;
+    margin-top: 0;
+}

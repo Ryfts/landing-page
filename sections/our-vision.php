@@ -34,10 +34,10 @@
 
                         <br />
 
-                        <a href="#"
-                            class="js-modal-btn button primary-button prevent-default"
+                        <button
+                            class="js-modal-btn button primary-button"
                             data-video-id="sTLiAcSKrD0"
-                        >Watch&nbsppromo</a>
+                        >Watch&nbsppromo</button>
                     </div>
                 </div>
             </div>

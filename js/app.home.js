@@ -21,7 +21,7 @@ function Home() {
 		writeYear();
 
 		//app.about
-		// About();
+		About();
         if (!animatedVisionSection && isElementInViewport(document.querySelector('.vision'))) {
             Vision();
             animatedVisionSection = true;
