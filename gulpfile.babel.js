@@ -151,8 +151,10 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.display.js',
 			settings.path.dist + 'js/jquery.sectionLoader.js',
 			settings.path.dist + 'js/jquery.preventDefault.js',
+			settings.path.dist + 'js/jquery.typewrite.js',
 			settings.path.dist + 'node_modules/modal-video/js/jquery-modal-video.min.js',
 			settings.path.dist + 'js/app.about.js',
+			settings.path.dist + 'js/app.vision.js',
 			settings.path.dist + 'js/app.cover.js',
 			settings.path.dist + 'js/app.home.js',
 			settings.path.dist + 'js/app.header.js',
@@ -187,6 +189,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.preventDefault.js',
 			settings.path.dist + 'js/jquery-modal-video.min.js', //after minification, file is here
 			settings.path.dist + 'js/app.about.js',
+			settings.path.dist + 'js/app.vision.js',
 			settings.path.dist + 'js/app.cover.js',
 			settings.path.dist + 'js/app.home.js',
 			settings.path.dist + 'js/app.header.js',
