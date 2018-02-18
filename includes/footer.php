@@ -21,9 +21,11 @@
 		<script type="text/javascript" src="js/jquery.display.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/jquery.sectionLoader.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/jquery.preventDefault.js?v=TIMESTAMP"></script>
+		<script type="text/javascript" src="js/jquery.typewrite.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="node_modules/modal-video/js/jquery-modal-video.min.js?v=TIMESTAMP"></script>
 
-		<script type="text/javascript" src="js/app.about.js?v=TIMESTAMP"></script>
+		<!--<script type="text/javascript" src="js/app.about.js?v=TIMESTAMP"></script> -->
+		<script type="text/javascript" src="js/app.vision.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/app.cover.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/app.home.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/app.header.js?v=TIMESTAMP"></script>

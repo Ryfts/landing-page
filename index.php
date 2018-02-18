@@ -19,7 +19,8 @@
 			<?php
 				include('sections/cover.php');
 				include('sections/advantages.php');
-				include('sections/about-us.php');
+				include('sections/our-vision.php');
+//				include('sections/about-us.php');
             //include('sections/token-sale.php');
 				include('sections/widget.php');
 				include('sections/token.php');

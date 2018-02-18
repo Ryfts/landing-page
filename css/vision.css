@@ -1,0 +1,51 @@
+h4.vision {
+    line-height: 2em;
+}
+
+h4.vision span {
+    font-weight: 300;
+}
+
+.vision > span {
+    font-size: 21px;
+    line-height: 28px;
+
+    /* Underline style */
+    position:relative;
+    display:inline-block;
+    font-size:24px;
+    font-weight:400;
+    text-align:center;
+}
+
+/* Underline style */
+.vision > span::after{
+    background-color:rgba(0,164,228,.6);
+    transition:.8s ease all;
+    content:"";
+    position:absolute;
+
+    height:1.1px;
+    width:90%;
+    top:100%;
+    left:5%;
+}
+
+.vision-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+/*
+ * Row with equal height columns
+ */
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}

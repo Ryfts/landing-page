@@ -56,7 +56,7 @@
 		<link type="text/css" rel="stylesheet" href="css/menu.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/cover.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/advantages.css?v=TIMESTAMP" />
-		<link type="text/css" rel="stylesheet" href="css/about-us.css?v=TIMESTAMP" />
+		<link type="text/css" rel="stylesheet" href="css/vision.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/press.css?v=TIMESTAMP" />
 		<!-- <link type="text/css" rel="stylesheet" href="css/token-sale.css?v=TIMESTAMP" /> -->
 		<link type="text/css" rel="stylesheet" href="css/widget.css?v=TIMESTAMP" />

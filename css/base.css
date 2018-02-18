@@ -79,3 +79,10 @@ p + p {
 .align-right {
 	text-align: right;
 }
+.align-bottom {
+	vertical-align: bottom;
+}
+
+.normal-font {
+	font-weight: 300;
+}
