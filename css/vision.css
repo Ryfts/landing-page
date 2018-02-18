@@ -7,7 +7,7 @@ h4.vision span {
 }
 
 .vision > span {
-    font-size: 21px;
+    font-size: 21px !important;
     line-height: 28px;
 
     /* Underline style */
@@ -43,11 +43,23 @@ h4.vision span {
 /*
  * Row with equal height columns
  */
-.row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
+@media only screen and (min-width: @screen-md-min) {
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .vision-right-container {
+        padding-top: 3em;
+    }
+
+    .vision-right-container p {
+        max-width: 60%;
+    }
 }
 
 /** Video playback **/
