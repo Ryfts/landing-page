@@ -26,8 +26,8 @@
 				include('sections/token.php');
 				include('sections/roadmap.php');
 				include('sections/team.php');
-//                include('sections/press.php');
 				include('sections/faq.php');
+//                include('sections/press.php');
 				include('sections/contact.php');
 			?>
 		</div>
