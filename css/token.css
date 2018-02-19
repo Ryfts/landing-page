@@ -46,13 +46,16 @@
 					text-transform: uppercase;
 					margin: 0;
 				}
+					#token .token-benefits-title>a {
+						font-weight: inherit;
+						color: inherit;
+						text-transform: inherit;
+						text-decoration: underline;
+					}
 				#token .token-benefits-text {
 					font-weight: 500;
 					margin: 0;
 				}
-
-				#token .token-benefits a { color: #717073; }
-				#token .token-benefits a:hover { text-decoration: none !important; }
 
 		#token-distribution-column {
 			position: relative;
