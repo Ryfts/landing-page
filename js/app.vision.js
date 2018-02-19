@@ -32,5 +32,5 @@ function Vision() {
                 $('.vision-type-4').css('color', '#00a4e4');
             }
         });
-}, 5800);
+    }, 5800);
 }
