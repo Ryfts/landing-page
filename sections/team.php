@@ -118,7 +118,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/janica_san_juan.jpg',
 			'name' => 'Janica San Juan',
-			'position' => 'Community manager',
+			'position' => 'Marketing manager',
 			'links' => array(
 				(object) array(
 					'network' => 'Linkedin',
@@ -126,7 +126,37 @@
 					'link' => 'https://www.linkedin.com/in/janica-san-juan-9726ba101/'
 				)
 			)
+		),
+		(object) array(
+			'picture' => 'assets/images/team/majid.jpg',
+			'name' => 'Majid Albunni',
+			'position' => 'Communication advisor',
+			'links' => array(
+				(object) array(
+					'network' => 'Linkedin',
+					'icon_class' => 'fa fa-linkedin',
+					'link' => 'https://www.linkedin.com/in/majid-albunni/'
+				)
+			)
+		),
+		(object) array(
+			'picture' => 'assets/images/team/applicature.jpg',
+			'name' => 'Applicature',
+			'position' => 'Blockchain consulting',
+			'links' => array(
+				(object) array(
+					'network' => 'Twitter',
+					'icon_class' => 'fa fa-twitter',
+					'link' => 'https://www.twitter.com/applicature'
+				),
+				(object) array(
+					'network' => 'Link',
+					'icon_class' => 'fa fa-link',
+					'link' => 'https://applicature.com'
+				)
+			)
 		)
+			
 	);
 
 ?>
