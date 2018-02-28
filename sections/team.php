@@ -133,6 +133,11 @@
 			'position' => 'Communication advisor',
 			'links' => array(
 				(object) array(
+					'network' => 'Twitter',
+					'icon_class' => 'fa fa-twitter',
+					'link' => 'https://www.twitter.com/Majid_Albunni'
+				),
+				(object) array(
 					'network' => 'Linkedin',
 					'icon_class' => 'fa fa-linkedin',
 					'link' => 'https://www.linkedin.com/in/majid-albunni/'
