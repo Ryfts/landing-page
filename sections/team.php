@@ -154,7 +154,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/applicature.jpg',
 			'name' => 'Applicature',
-			'position' => 'Blockchain consulting',
+			'position' => 'Blockchain Development Agency',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
@@ -171,7 +171,7 @@
 		(object) array(
 			'picture' => 'assets/images/team/crowdcreate.jpg',
 			'name' => 'Crowdcreate',
-			'position' => 'Crowdfunding consulting',
+			'position' => 'Crowdfunding Marketing Agency',
 			'links' => array(
 				(object) array(
 					'network' => 'Twitter',
