@@ -50,8 +50,8 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 faq-button-box">
-                            <button id="faq-show-more" class="faq-visibility-button">Show more</button>
-                            <button id="faq-show-less" class="faq-visibility-button">Show less</button>
+                            <button id="faq-show-more" class="faq-visibility-button primary-button">Show more</button>
+                            <button id="faq-show-less" class="faq-visibility-button primary-button">Show less</button>
                         </div>
                     </div>
 
