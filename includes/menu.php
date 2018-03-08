@@ -10,7 +10,7 @@
 						<div id="menu-close-button" class="close-button menu-visibility-switch"></div>
 						<ul class="header-menu menu">
 							<li><a href="#home" title="Ryfts home" class="prevent-default local-link">Home</a></li>
-							<li><a href="#about" title="About us" class="prevent-default local-link">About</a></li>
+							<li><a href="#token" title="Token" class="prevent-default local-link">Token</a></li>
 							<!--<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>-->
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
 							<li><a href="<?php echo $whitepaperLink; ?>" title="Ryfts Whitepaper" target="_blank">Whitepaper</a></li>
