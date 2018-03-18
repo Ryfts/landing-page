@@ -116,18 +116,6 @@
 			)
 		),
 		(object) array(
-			'picture' => 'assets/images/team/janica_san_juan.jpg',
-			'name' => 'Janica San Juan',
-			'position' => 'Marketing Specialist',
-			'links' => array(
-				(object) array(
-					'network' => 'Linkedin',
-					'icon_class' => 'fa fa-linkedin',
-					'link' => 'https://www.linkedin.com/in/janica-san-juan-9726ba101/'
-				)
-			)
-		),
-		(object) array(
 			'picture' => 'assets/images/team/majid.jpg',
 			'name' => 'Majid Albunni',
 			'position' => 'Strategic Communications',
