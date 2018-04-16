@@ -13,10 +13,17 @@
 							<li><a href="#token" title="Token" class="prevent-default local-link">Token</a></li>
 							<!--<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>-->
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
-							<li><a href="<?php echo $whitepaperLink; ?>" title="Ryfts Whitepaper" target="_blank">Whitepaper</a></li>
+							<li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Whitepaper <span class="caret"></span></a>
+                              <ul class="dropdown-menu" role="menu">
+                                <li><a class="local-link" target="_blank" href="<?php echo $whitepaperLinkEn; ?>">English</a></li>
+                                <li><a class="local-link" target="_blank" href="<?php echo $whitepaperLinkCn; ?>">Chinese</a></li>
+                              </ul>
+                            </li>
 							<li><a href="#contact" title="Ryfts contact" class="prevent-default local-link">Contact</a></li>
 						</ul>
 					</div>
+
 					<div id="menu-button-box" class="col-xs-4 col-sm-4 hidden-md hidden-lg menu-visibility-switch">
 						<a href="#menu" title="open-menu" class="menu-button-box prevent-default">
 							<div class="bar top"></div>

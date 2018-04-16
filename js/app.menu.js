@@ -18,11 +18,26 @@
 //functions
 
 	(function build() {
+        dropdownMenuHandle();
+
 		//adding incrementing transition delay to $menuElements
 		for ( var n = 0; n < $menuElements.length; n++ ) {
 			$($menuElements[n]).css('transition-delay', startingDelay + (delayIncrement * n) + 's' );
 		}
 	}());
+
+	function dropdownMenuHandle() {
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+	}
 
 	function toggleMenuVisiblityURL() {
 		if ( window.location.hash == '#menu' ) {
