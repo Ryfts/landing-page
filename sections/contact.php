@@ -5,7 +5,7 @@
 					<h1 class="section-title">Contact us</h1>
 
 					<div class="contact-box clearfix">
-						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-6">
 							<div class="form-box">
 								<form id="subscription-form" action="//ryfts.us17.list-manage.com/subscribe/post?u=31472f3376a01e1d0f17c8cb2&amp;id=912266792d" method="POST">
 									<label>Sign up to receive news and updates</label>
@@ -17,12 +17,12 @@
 								</form>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-1">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1">
 							<div class="social-networks-box">
 								<a class="social-network-link" href="https://medium.com/@ryfts" title="Ryfts on Medium" target="_blank" rel="nofollow"><i class="fa fa-medium"></i></a>
 								<a class="social-network-link" href="https://twitter.com/ryfts_io" title="Ryfts on Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
-								<a class="social-network-link" href="https://t.me/joinchat/Eg0OHBJvPE8eg-BowfkU6g" title="Ryfts on Telegram" target="_blank" rel="nofollow"><i class="fa fa-telegram"></i></a>
 								<a class="social-network-link" href="https://www.facebook.com/ryfts/" title="Ryfts on Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+								<a class="social-network-link" href="https://t.me/joinchat/Eg0OHBJvPE8eg-BowfkU6g" title="Ryfts on Telegram" target="_blank" rel="nofollow"><i class="fa fa-telegram"></i></a>
 								<a class="social-network-link" href="mailto:team@ryfts.io" title="Email" target="_blank" rel="nofollow"><i class="fa fa-envelope"></i></a>
 							</div>
 							<?php /*
