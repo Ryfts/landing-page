@@ -131,6 +131,18 @@
 					'link' => 'https://www.linkedin.com/in/majid-albunni/'
 				)
 			)
+		),
+		(object) array(
+			'picture' => 'assets/images/team/anna_krol.jpg',
+			'name' => 'Anna Krol',
+			'position' => 'Marketing Manager',
+			'links' => array(
+				(object) array(
+					'network' => 'Linkedin',
+					'icon_class' => 'fa fa-linkedin',
+					'link' => 'https://www.linkedin.com/in/annamkrol/'
+				)
+			)
 		)
 	);
 
