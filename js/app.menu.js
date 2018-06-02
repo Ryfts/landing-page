@@ -8,7 +8,7 @@
 		$menuBox = $('#menu-box'),
 		$menu = $menuBox.find('.header-menu.menu'),
 		$menuElements = $menu.find('li'),
-		$menuLinks = $('#menu-box .local-link, #footer-menu-box .local-link');
+		$menuLinks = $('.local-link');
 
 	var visibleClass = 'unfolded';
 	var startingDelay = 0; //ms
