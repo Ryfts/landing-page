@@ -31,7 +31,7 @@ function Home() {
 		//app.contact
 		SubscribeToNewsletter();
 		//app.cover
-		Cover();
+		//Cover();
 		//app.faq
 		Faq();
 		//app.token-sale

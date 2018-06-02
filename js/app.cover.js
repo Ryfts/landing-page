@@ -8,6 +8,10 @@ var animation = bodymovin.loadAnimation ({
 
 function Cover() {
 
+	//this code is not being called in app.home.js because we want the cover to be smaller
+	//i'm keeping the code so just in case we decide to make it full screen again
+	//we just have to call Cover() ;)
+
 	var $cover = $('#cover'),
 		$svg = $('#ryfts-anim');
 
@@ -18,13 +22,13 @@ function Cover() {
 
 	function resize() {
 		getContainerRatio();
-		coverResize();
+		//coverResize();
 		svgBackgroundCover();
 	}
 
 	function init() {
 		getContainerRatio();
-		coverResize();
+		//coverResize();
 		svgBackgroundCover();
 	}
 
