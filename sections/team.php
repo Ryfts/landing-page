@@ -115,23 +115,7 @@
 				)
 			)
 		),
-		(object) array(
-			'picture' => 'assets/images/team/majid.jpg',
-			'name' => 'Majid Albunni',
-			'position' => 'Strategic Communications',
-			'links' => array(
-				(object) array(
-					'network' => 'Twitter',
-					'icon_class' => 'fa fa-twitter',
-					'link' => 'https://www.twitter.com/Majid_Albunni'
-				),
-				(object) array(
-					'network' => 'Linkedin',
-					'icon_class' => 'fa fa-linkedin',
-					'link' => 'https://www.linkedin.com/in/majid-albunni/'
-				)
-			)
-		),
+
 		(object) array(
 			'picture' => 'assets/images/team/anna_krol.jpg',
 			'name' => 'Anna Krol',
@@ -185,6 +169,23 @@
 				)
 			)
 		),
+		(object) array(
+        			'picture' => 'assets/images/team/iosiro.png',
+        			'name' => 'iosiro',
+        			'position' => 'Smart contracts audit',
+        			'links' => array(
+        				(object) array(
+        					'network' => 'Twitter',
+        					'icon_class' => 'fa fa-twitter',
+        					'link' => 'https://twitter.com/iosiro_security'
+        				),
+        				(object) array(
+        					'network' => 'Link',
+        					'icon_class' => 'fa fa-link',
+        					'link' => 'https://www.iosiro.com/'
+        				)
+        			)
+        		),
 	);
 
 ?>
