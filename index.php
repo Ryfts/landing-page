@@ -7,7 +7,7 @@
 	$bodyID = 'home-page';
 
 
-	$whitepaperLinkEn = 'assets/pdf/whitepaper/Ryfts-WhitePaper-v1.1.pdf';
+	$whitepaperLinkEn = 'assets/pdf/whitepaper/Ryfts-WhitePaper-v1.2.pdf';
 	$whitepaperLinkCn = 'assets/pdf/whitepaper/Ryfts-WhitePaper-v1.1-Chinese.pdf';
 
 	include('includes/head.php');
