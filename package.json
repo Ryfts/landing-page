@@ -4,6 +4,7 @@
   "description": "ryfts",
   "main": "gulpfile.js",
   "dependencies": {
+    "fg-loadcss": "^2.0.1",
     "modal-video": "^2.2.0"
   },
   "devDependencies": {

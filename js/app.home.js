@@ -39,7 +39,9 @@ function Home() {
 		//app.token
 		Token();
 		//app.widget
-		MultivestWidget();
+    if (typeof MultivestWidget === 'function') {
+      MultivestWidget();
+    }
 
         $(window).on('resize scroll', function() {
             //app.vision

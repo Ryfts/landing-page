@@ -55,7 +55,7 @@
 									</div>
 
 									<div class="token-benefits">
-										<p class="token-benefits-title"><a href="<?php echo $whitepaperLink; ?>" title="Ryfts Whitepaper" target="_blank">Whitepaper</a></p>
+										<p class="token-benefits-title"><a href="<?php echo $whitepaperLinkEn; ?>" title="Ryfts Whitepaper" target="_blank">Whitepaper</a></p>
                                         <p class="token-benefits-text">&nbsp;</p>
 									</div>
 

@@ -1,6 +1,6 @@
 <?php
 
-	if ( $_SERVER['HTTP_HOST'] != 'localhost' && $_SERVER['HTTP_HOST'] != 'ryfts.guillerming.es' && $_SERVER['HTTP_HOST'] != 'guillerming.es' ) {
+	if ( $_SERVER['HTTP_HOST'] != 'localhost') {
 		$dev = false;
 	} else {
 		$dev = true;
@@ -36,9 +36,15 @@
 		<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png?v=TIMESTAMP" />
 		<meta name="theme-color" content="#00a4e4" />
 
-		<link type="text/css" rel="stylesheet" href="assets/fonts/gotham/stylesheet.css?v=TIMESTAMP" />
-		<link type="text/css" rel="stylesheet" href="assets/fonts/ryfts-iconic-font/style.css?v=TIMESTAMP" />
-		<link type="text/css" rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css?v=TIMESTAMP" />
+		<link rel="preload" as="style" href="assets/fonts/gotham/stylesheet.css?v=TIMESTAMP"
+		    onload="this.onload=null;this.rel='stylesheet'" />
+		<link rel="preload" as="style" href="assets/fonts/ryfts-iconic-font/style.css?v=TIMESTAMP"
+		    onload="this.onload=null;this.rel='stylesheet'"/>
+		<link rel="preload" as="style" href="assets/fonts/fontawesome/css/font-awesome.min.css?v=TIMESTAMP"
+		    onload="this.onload=null;this.rel='stylesheet'"/>
+        <noscript><link rel="stylesheet" href="assets/fonts/gotham/stylesheet.css?v=TIMESTAMP"></noscript>
+        <noscript><link rel="stylesheet" href="assets/fonts/ryfts-iconic-font/style.css?v=TIMESTAMP"></noscript>
+        <noscript><link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css?v=TIMESTAMP"></noscript>
 
 		<!-- inject:css -->
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css?v=TIMESTAMP" />
@@ -67,6 +73,9 @@
 		<link type="text/css" rel="stylesheet" href="css/contact.css?v=TIMESTAMP" />
 		<link type="text/css" rel="stylesheet" href="css/footer.css?v=TIMESTAMP" />
 		<!-- endinject -->
+
+        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+        <script type="text/javascript" src="js/cssrelpreload.js"></script>
 
 		<?php if ( !$dev ) { ?>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111245250-1"></script>

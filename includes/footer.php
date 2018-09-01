@@ -35,7 +35,7 @@
 		<script type="text/javascript" src="js/app.token.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/app.faq.js?v=TIMESTAMP"></script>
 		<script type="text/javascript" src="js/app.contact.js?v=TIMESTAMP"></script>
-		<script type="text/javascript" src="js/app.widget.js?v=TIMESTAMP"></script>
+		<?php /* <script type="text/javascript" src="js/app.widget.js?v=TIMESTAMP"></script> */ ?>
 		<!-- endinject -->
 
 		<?php if ( !$dev ) { ?>
