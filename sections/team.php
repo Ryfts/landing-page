@@ -127,7 +127,20 @@
 					'link' => 'https://www.linkedin.com/in/annamkrol/'
 				)
 			)
-		)
+		),
+
+		(object) array(
+                'picture' => 'assets/images/team/katherin_yarza.jpg',
+                'name' => 'Katherin Yarza',
+                'position' => 'PR',
+                'links' => array(
+                    (object) array(
+                        'network' => 'Linkedin',
+                        'icon_class' => 'fa fa-linkedin',
+                        'link' => 'https://www.linkedin.com/in/katherinyarza'
+                    )
+                )
+            )
 	);
 
 
@@ -170,22 +183,22 @@
 			)
 		),
 		(object) array(
-        			'picture' => 'assets/images/team/iosiro.png',
-        			'name' => 'iosiro',
-        			'position' => 'Smart contracts audit',
-        			'links' => array(
-        				(object) array(
-        					'network' => 'Twitter',
-        					'icon_class' => 'fa fa-twitter',
-        					'link' => 'https://twitter.com/iosiro_security'
-        				),
-        				(object) array(
-        					'network' => 'Link',
-        					'icon_class' => 'fa fa-link',
-        					'link' => 'https://www.iosiro.com/'
-        				)
-        			)
-        		),
+                'picture' => 'assets/images/team/iosiro.png',
+                'name' => 'iosiro',
+                'position' => 'Smart contracts audit',
+                'links' => array(
+                    (object) array(
+                        'network' => 'Twitter',
+                        'icon_class' => 'fa fa-twitter',
+                        'link' => 'https://twitter.com/iosiro_security'
+                    ),
+                    (object) array(
+                        'network' => 'Link',
+                        'icon_class' => 'fa fa-link',
+                        'link' => 'https://www.iosiro.com/'
+                    )
+                )
+            ),
 	);
 
 ?>
