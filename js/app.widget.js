@@ -8,12 +8,13 @@ function MultivestWidget() {
         arrows: false
     });
 
-    $('.widget-container .button').click(function() {
+    // .button?
+    $('.widget-container .button-next').click(function() {
         $('.slick-slider-container').slick('slickNext');
     });
 
     // format data for needed format
-    function formatDate(date, monthOnly = false) {
+    function formatDate(date, dayOnly = false) {
         var monthNames = [
             "January", "February", "March",
             "April", "May", "June", "July",
@@ -22,17 +23,18 @@ function MultivestWidget() {
         ];
 
         var monthIndex = date.getMonth();
-        if (monthOnly) {
-            return monthNames[monthIndex];
-        }
-
         var day = date.getDate();
         var year = date.getFullYear();
         var hours = date.getHours();
         var minutes = date.getMinutes();
         var seconds = date.getSeconds();
 
-        return `${monthNames[monthIndex]} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+       var dateStr = `${day}. ${monthNames[monthIndex]}, ${year}.`;
+        if (!dayOnly) {
+          dateStr += `${hours}:${minutes}:${seconds}`
+        }
+
+        return  dateStr;
     }
 
     function hideAllIcoRelatedEleemnts() {
@@ -42,13 +44,13 @@ function MultivestWidget() {
 
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1523750400;
-    var endDate = 1525132800;
+    var startDate = 1538698320;
+    var endDate = 1549698320;
     var targetDate;
 
     if (now < startDate) {
         // ICO not started yet
-        return hideAllIcoRelatedEleemnts();
+        // return hideAllIcoRelatedEleemnts();
 
         $(".countdown").html(formatDate(new Date(startDate * 1000), true));
 

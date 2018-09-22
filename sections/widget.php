@@ -49,31 +49,31 @@
 						<!-- widgetcontainer start - ICO STARTING -->
 						<div id="widget-card-ico-starting" class="widget-container before">
 							<div class="time-remain-box">
-								<h2>RYFTs ICO Starting Soon</h2>
-								<div class="countdown-container"><label>Starts in:</label>
-									<div class="countdown"></div>
-								</div>
+							    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-7 resume-box-text">
+                                    <h2>RYFTs ICO IS Soon</h2>
+                                    <br />
+                                    <div class="countdown-container"><label>Starts:</label>
+                                        <div class="countdown"></div>
+                                    </div>
+
+                                    <div class="visible-xs-block">
+                                        <br /><br />
+                                    </div>
+                                </div>
+
+								<div class="col-xs-9 col-sm-5 col-md-5 col-lg-4 resume-box-button">
+								    <img src="assets/images/home/clock.png" width="140" title="Ryfts ICO start" class="img-responsive" />
+                                </div>
 							</div>
-							<div class="contribution-box">
-								<div class="contributions">
-									<div class="row">
-										<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-md-offset-2 col-lg-offset-3">
-											<div class="ether contribution-amount">
-												<p><span>-.--</span> ETH</p>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-											<div class="btc contribution-amount">
-												<p><span>-.--</span> BTC</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+
 							<div class="resume-box row">
-								<div class="col-xs-12 col-sm-4 col-md-5 col-lg-6">
-									<p class="message">At the end of the token sale, the remaining unsold tokens will be burned.</p>
-								</div>
+								<div class="col-xs-10 col-sm-7 col-md-7 col-lg-7 resume-box-text">
+                                    <p class="message"></p>
+                                </div>
+                                <div class="col-xs-9 col-sm-5 col-md-5 col-lg-4 resume-box-button">
+                                    <a href="https://www.kickico.com/campaigns/30595/ryfts-decentralized-raffle-platform-based-on-etherum-smart-contracts"
+                                      target="_blank" class="button primary-button">Buy RYFTs</a>
+                                </div>
 							</div>
 						</div>
 

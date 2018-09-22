@@ -49,6 +49,13 @@
 #widget .resume-box-button {
     text-align: right;
 }
+#widget .time-remain-box .resume-box-button {
+    padding-right: 10px;
+    margin-top: -25px;
+}
+#widget .time-remain-box .resume-box-button img {
+    display: inline;
+}
 #widget .resume-box-button.left {
     text-align: left;
 }
