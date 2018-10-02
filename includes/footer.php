@@ -1,7 +1,9 @@
 		<footer>
 			<div class="container">
 				<span class="footer-block">Copyright © <span class="year"></span>. Ryfts</span>
-				<span class="footer-block"><a href="terms-and-conditions.php" target="_blank" title="Terms and conditions">Terms and conditions</a></span>
+				<span class="footer-block"><a href="terms-and-conditions.php" target="_blank" title="Terms and conditions">Sale Terms</a></span>
+				<span class="footer-block"><a href="terms-of-use.php" target="_blank" title="Terms of Use">Terms of Use</a></span>
+				<span class="footer-block"><a href="privacy-policy.php" target="_blank" title="Privacy policy">Privacy Policy</a></span>
 			</div>
 		</footer>
 
