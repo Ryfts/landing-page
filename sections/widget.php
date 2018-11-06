@@ -11,8 +11,9 @@
 							<div class="time-remain-box">
 								<h2>Contribution Tracker</h2>
 								<div class="countdown-container">
+									<!--
 									<label>Ending in:</label>
-									<div class="countdown"></div>
+									<div class="countdown"></div> -->
 								</div>
 							</div>
 							<div class="contribution-box">

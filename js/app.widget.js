@@ -44,7 +44,7 @@ function MultivestWidget() {
 
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1542672305;
+    var startDate = 1541533288;
     var endDate = 1548028799;
     var targetDate;
 
