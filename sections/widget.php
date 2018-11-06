@@ -31,7 +31,7 @@
 									</div>
 								</div>
 								<div class="progressbar">
-									<div class="progress" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
 										<div class="pbaranim"><span></span></div>
 									</div>
 								</div>
@@ -120,11 +120,11 @@
 						<div id="widget-card-consent-step-1" class="widget-container during drgStep1 widget-consent-step">
 							<h2>Step 1: Consent</h2>
 							<div class="message">
-								<p>By continuing you confirm that you are eligible to lawfully participate in Ryfts token distribution event and that you fulfill all requirements defined in the <a href="/terms-and-conditions.php">Terms and Conditions</a>.</p>
+								<p>By continuing you confirm that you are eligible to lawfully participate in Ryfts token distribution event and that you fulfill all requirements defined in the <a href="/ico-terms-and-conditions.php">Terms and Conditions</a>.</p>
 
                                 <br />
 
-                                <p>I am of age allowing for duly entering legal relationship, as well as I am not a citizen or a resident of the U.S., Singapore, China, or any other jurisdiction that would or might result in an unlawful character of my participation in Ryfts token  distribution event or be otherwise contrary to binding laws or the <a href="/terms-and-conditions.php">Terms and Conditions</a>.</p>
+                                <p>I am of age allowing for duly entering legal relationship, as well as I am not a citizen or a resident of the U.S., Singapore, China, or any other jurisdiction that would or might result in an unlawful character of my participation in Ryfts token  distribution event or be otherwise contrary to binding laws or the <a href="/ico-terms-and-conditions.php">Terms and Conditions</a>.</p>
 							</div>
 
                             <br />

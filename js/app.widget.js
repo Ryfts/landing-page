@@ -44,8 +44,8 @@ function MultivestWidget() {
 
     var filtered = false;
     var now = new Date().getTime() / 1000;
-    var startDate = 1538698320;
-    var endDate = 1549698320;
+    var startDate = 1542672305;
+    var endDate = 1548028799;
     var targetDate;
 
     if (now < startDate) {
@@ -170,6 +170,14 @@ function MultivestWidget() {
         // run progressbar animation
         runProgress();
     });
+
+  $('.resume-box .button').on('click', function () {
+    $('.slick-slider-container').slick('slickNext');
+  });
+
+  $('.drgStep1 .button, .drgStep5 .button').on('click', function () {
+    $('.slick-slider-container').slick('slickNext');
+  });
 
     // get wallet address
     $('.drgStep3 .button-next').on('click', function () {
