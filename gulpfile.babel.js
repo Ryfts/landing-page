@@ -195,6 +195,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.preventDefault.js',
 			settings.path.dist + 'js/jquery.typewrite.js',
 			settings.path.dist + 'js/jquery-modal-video.min.js', //after minification, file is here
+			settings.path.dist + 'js/bignumber.min.js', //after minification, file is here
 			settings.path.dist + 'js/app.about.js',
 			settings.path.dist + 'js/app.vision.js',
 			settings.path.dist + 'js/app.vision.js',
