@@ -183,7 +183,7 @@
 							<div class="form">
 								<div>
 									<label>Amount of RFT you wish to buy:</label>
-									<input id="amount" type="text" value="100" />
+									<input id="amount" type="text" value="" />
 								</div>
 								<div>
 									<label><span id="toPayMethod"></span> amount to be sent:</label>
@@ -195,7 +195,7 @@
 
 							<div class="message">
 								<p>Please send respective amount to this address:</p>
-                                <p class="hidden eth-payment">Gas price <em>recommended:</em> <span>2000000000</span> Wei</p>
+                                <p class="hidden eth-payment">Gas price <em>recommended:</em> <span>4</span> Gwei</p>
 							</div>
 							<div class="copy-container">
 								<input class="copy-this" name="" value="" type="text" />

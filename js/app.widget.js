@@ -247,7 +247,7 @@ function MultivestWidget() {
                 $('#toPayMethod').text("BTC");
                 $('.drgStep5 .copy-container input').val(btcAddress);
 
-                $('.slick-slider-container').slick('slickNext');
+                // $('.slick-slider-container').slick('slickNext');
 
                 var url = getQRUrl(btcAddress, 0, "Ryfts ICO", "Contribute BTC");
 
