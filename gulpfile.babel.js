@@ -198,7 +198,6 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/bignumber.min.js', //after minification, file is here
 			settings.path.dist + 'js/app.about.js',
 			settings.path.dist + 'js/app.vision.js',
-			settings.path.dist + 'js/app.vision.js',
 			settings.path.dist + 'js/app.cover.js',
 			settings.path.dist + 'js/app.home.js',
 			settings.path.dist + 'js/app.header.js',
@@ -406,6 +405,7 @@ plugin_gulp.task('default', function() {
 			settings.path.dist + 'js/jquery.preventDefault.js',
 			settings.path.dist + 'js/jquery.typewrite.js',
 			settings.path.dist + 'js/jquery-modal-video.min.js', //after minification, this file ends up in js directory instead of mode_nodules/modal-video...
+			settings.path.dist + 'js/bignumber.min.js',
 			settings.path.dist + 'js/app.about.js',
 			settings.path.dist + 'js/app.vision.js',
 			settings.path.dist + 'js/app.cover.js',
