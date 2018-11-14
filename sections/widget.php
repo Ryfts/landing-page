@@ -215,8 +215,15 @@
 						<div id="widget-card-consent-step-6" class="widget-container during drgStep6 widget-consent-step">
 							<h2>Step 5: Thank you!</h2>
 							<div class="message">
-                                <p>Your RFT is being prepared.</p>
+                                <p>You'll receive your RFT tokens shortly.</p>
 								<p>Normally, it can take between 3-15 minutes for transactions to get processed but it depends on network congestion.</p>
+
+								<br /><br />
+
+								<p>While waiting, you can add custom token in your Ethereum Wallet or MetaMask. Use the following information:</p>
+								<p><b>Token address:</b> 0x96f6749c1891cb78c88ac0ac218336375ba60f48</p>
+								<p><b>Symbol:</b> RFT</p>
+								<p><b>Decimals:</b> 18</p>
 							</div>
 						</div>
 
