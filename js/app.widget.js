@@ -164,7 +164,8 @@ function MultivestWidget() {
         stats = result2;
 
         $('.progressbar .pbaranim span').text(`${ parseInt(stats.tokensSold).toLocaleString() } RFT SOLD`);
-        $('.btc span').text(stats.collected.btc);
+        var sold = Math.round(30000000 - stats.tokensForSale);
+        $('.btc span').text(sold);
         $('.ether span').text(stats.collected.eth);
         $('.progress').attr("aria-valuenow", (stats.soldPercentage * 100));
         // run progressbar animation

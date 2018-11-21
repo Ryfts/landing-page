@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                                             <div class="btc contribution-amount">
-                                                <p><span>-.--</span> BTC</p>
+                                                <p><span>-.--</span> RFT</p>
                                             </div>
                                         </div>
 									</div>

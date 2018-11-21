@@ -11,7 +11,7 @@
 						<ul class="header-menu menu">
 							<li><a href="#home" title="Ryfts home" class="prevent-default local-link">Home</a></li>
 							<li><a href="#token" title="Token" class="prevent-default local-link">Token</a></li>
-							<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">ICO</a></li>
+							<li><a href="#ico" title="Ryfts ICO" class="prevent-default local-link">Buy Ryfts</a></li>
 							<li><a href="#roadmap" title="Ryfts roadmap" class="prevent-default local-link">Roadmap</a></li>
 							<li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Whitepaper <span class="caret"></span></a>
